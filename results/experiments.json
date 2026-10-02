@@ -1,0 +1,8256 @@
+{
+ "presets": [
+  {
+   "key": "backhand",
+   "label": "Backhand corner / side-on",
+   "legal": true,
+   "clearance": 0.06021284647781015,
+   "exit": 0.2,
+   "hidden": false,
+   "hiddenBy": [],
+   "hiddenFrames": 0,
+   "delta": -0.017670464472641978,
+   "issues": []
+  },
+  {
+   "key": "middle",
+   "label": "Middle",
+   "legal": true,
+   "clearance": 0.1018404148258543,
+   "exit": 0.016666666666666666,
+   "hidden": false,
+   "hiddenBy": [],
+   "hiddenFrames": 0,
+   "delta": -0.19040213733832045,
+   "issues": []
+  },
+  {
+   "key": "forehand",
+   "label": "Forehand side",
+   "legal": true,
+   "clearance": 0.1253852787218983,
+   "exit": 0.18333333333333332,
+   "hidden": false,
+   "hiddenBy": [],
+   "hiddenFrames": 0,
+   "delta": -0.01794444625489877,
+   "issues": []
+  },
+  {
+   "key": "hookVertical",
+   "label": "Hook — vertical toss",
+   "legal": true,
+   "clearance": 0.1275939854681103,
+   "exit": 0.016666666666666666,
+   "hidden": false,
+   "hiddenBy": [],
+   "hiddenFrames": 0,
+   "delta": -0.03359585538512366,
+   "issues": []
+  },
+  {
+   "key": "hookBackward",
+   "label": "Hook — backward toss",
+   "legal": false,
+   "clearance": -0.032054043757888936,
+   "exit": 1.0001,
+   "hidden": false,
+   "hiddenBy": [],
+   "hiddenFrames": 16,
+   "delta": -0.013558324697822144,
+   "issues": [
+    "server cannot watch the ball (70° off the face direction)"
+   ]
+  }
+ ],
+ "cases": {
+  "typical:A": {
+   "found": true,
+   "margin": 0.11052719902290715,
+   "occ": 0.11055298158196403,
+   "clr": 0.11052719902290715,
+   "pose": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.7437,
+     -1.6506,
+     0.8
+    ],
+    "ball": [
+     0.9477,
+     -1.9161,
+     1.0399
+    ],
+    "releasePoint": [
+     1.0486,
+     -1.9241,
+     0.9344
+    ],
+    "freeHand": [
+     1.2876,
+     -1.8335,
+     0.6785
+    ],
+    "freeElbow": [
+     1.3017,
+     -1.602,
+     0.944
+    ],
+    "freeShoulder": [
+     1.1185,
+     -1.6344,
+     1.1919
+    ],
+    "head": [
+     1.1641,
+     -1.9145,
+     1.2837
+    ],
+    "torsoYaw": -98.16,
+    "torsoLean": 33.35,
+    "headLean": 41.49,
+    "headLateral": 5.18,
+    "backwardToss": 0.1012,
+    "tossLaunchAngleDeg": 5.34,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1305,
+    "deltaBallMinusFreeHand_m": -0.0387,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.74373,
+     "py": -1.65055,
+     "hipH": 0.8,
+     "yaw": -98.16209,
+     "lean": 33.34744,
+     "sideLean": 10,
+     "twist": -30,
+     "headFlex": 41.48789,
+     "headLat": 5.18049,
+     "fhX": -0.06572,
+     "fhY": 0.42772,
+     "fhZ": -0.24232,
+     "freeSwivel": 89.6429,
+     "racketAz": -44.66995,
+     "racketEl": 22.39332,
+     "racketRoll": 21.60326,
+     "racketSwivel": 104.36768,
+     "relFwd": 0.34064,
+     "relLat": 0.2275,
+     "relZ": 0.93442,
+     "backToss": 0.10119,
+     "tossAz": 3.62798,
+     "apex": 0.3,
+     "contactZ": 1.03994
+    }
+   }
+  },
+  "typical:B": {
+   "found": true,
+   "margin": 0.019368471429784363,
+   "occ": 0.019372209260148127,
+   "clr": 0.019368471429784363,
+   "pose": {
+    "preset": "backhand:search-shoulder",
+    "serverPosition": [
+     -0.5465,
+     -1.6463,
+     0.8055
+    ],
+    "ball": [
+     -0.9497,
+     -1.5996,
+     1.0448
+    ],
+    "releasePoint": [
+     -1.0201,
+     -1.5987,
+     0.9741
+    ],
+    "freeHand": [
+     -0.9707,
+     -2.2842,
+     1.0314
+    ],
+    "freeElbow": [
+     -0.9108,
+     -1.9484,
+     1.1206
+    ],
+    "freeShoulder": [
+     -0.8882,
+     -1.6581,
+     1.2267
+    ],
+    "head": [
+     -1.0851,
+     -1.4753,
+     1.1986
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 44.97,
+    "headLean": 43.59,
+    "headLateral": -7.49,
+    "backwardToss": 0.0704,
+    "tossLaunchAngleDeg": 3.58,
+    "leftEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "rightEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "hiddenBy": [
+     "shoulder",
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0394,
+    "deltaBallMinusFreeHand_m": -0.6638,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulder",
+     "px": -0.5465,
+     "py": -1.6463,
+     "hipH": 0.80552,
+     "yaw": 60,
+     "lean": 44.97218,
+     "sideLean": -2.35489,
+     "twist": 30,
+     "headFlex": 43.5939,
+     "headLat": -7.49343,
+     "fhX": -0.45566,
+     "fhY": 0.23083,
+     "fhZ": -0.25014,
+     "freeSwivel": 45.34799,
+     "racketAz": 45.1821,
+     "racketEl": 56.92485,
+     "racketRoll": 129.89562,
+     "racketSwivel": -18.83356,
+     "relFwd": 0.43392,
+     "relLat": -0.19559,
+     "relZ": 0.97409,
+     "backToss": 0.07039,
+     "tossAz": 29.25405,
+     "apex": 0.3,
+     "contactZ": 1.04482
+    }
+   }
+  },
+  "typical:B1": {
+   "found": false,
+   "margin": -0.017492441620909002,
+   "occ": -0.017492441620909002,
+   "clr": -0.017463770322117492,
+   "pose": {
+    "preset": "backhand:search-shoulderFree",
+    "serverPosition": [
+     0.5465,
+     -1.7259,
+     0.8
+    ],
+    "ball": [
+     0.9493,
+     -1.9278,
+     1.1
+    ],
+    "releasePoint": [
+     1.0792,
+     -2.0014,
+     0.9851
+    ],
+    "freeHand": [
+     0.8923,
+     -1.9781,
+     1.0469
+    ],
+    "freeElbow": [
+     1.1735,
+     -1.8038,
+     0.9252
+    ],
+    "freeShoulder": [
+     0.9912,
+     -1.615,
+     1.0903
+    ],
+    "head": [
+     1.0791,
+     -1.8645,
+     1.235
+    ],
+    "torsoYaw": -105,
+    "torsoLean": 43.32,
+    "headLean": 36.85,
+    "headLateral": 6.08,
+    "backwardToss": 0.1494,
+    "tossLaunchAngleDeg": 7.94,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": 0.0025,
+    "deltaBallMinusFreeHand_m": -0.0397,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderFree",
+     "px": 0.54653,
+     "py": -1.72592,
+     "hipH": 0.80001,
+     "yaw": -105,
+     "lean": 43.3189,
+     "sideLean": -7.12606,
+     "twist": -30,
+     "headFlex": 36.84993,
+     "headLat": 6.08365,
+     "fhX": 0.22054,
+     "fhY": 0.2356,
+     "fhZ": -0.05382,
+     "freeSwivel": 58.47551,
+     "racketAz": -44.01885,
+     "racketEl": -12.93535,
+     "racketRoll": 178.10266,
+     "racketSwivel": 46.11044,
+     "relFwd": 0.58586,
+     "relLat": 0.12824,
+     "relZ": 0.98515,
+     "backToss": 0.14936,
+     "tossAz": -14.51463,
+     "apex": 0.3,
+     "contactZ": 1.1
+    }
+   }
+  },
+  "typical:B2": {
+   "found": true,
+   "margin": 0.0017089114657674528,
+   "occ": 0.0017089114657674528,
+   "clr": 0.03324571931972596,
+   "pose": {
+    "preset": "backhand:search-shoulderRacket",
+    "serverPosition": [
+     -0.5007,
+     -1.9095,
+     0.8237
+    ],
+    "ball": [
+     -0.9411,
+     -1.9429,
+     1.0931
+    ],
+    "releasePoint": [
+     -1.0032,
+     -1.9104,
+     0.8785
+    ],
+    "freeHand": [
+     -0.6657,
+     -1.8271,
+     0.6784
+    ],
+    "freeElbow": [
+     -0.8353,
+     -1.9956,
+     0.9374
+    ],
+    "freeShoulder": [
+     -0.8344,
+     -1.9735,
+     1.2466
+    ],
+    "head": [
+     -1.0376,
+     -1.8039,
+     1.2681
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 42.06,
+    "headLean": 34,
+    "headLateral": -10.89,
+    "backwardToss": 0.0701,
+    "tossLaunchAngleDeg": 4.36,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "shoulder",
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0532,
+    "deltaBallMinusFreeHand_m": 0.14,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderRacket",
+     "px": -0.50071,
+     "py": -1.90946,
+     "hipH": 0.82374,
+     "yaw": 60,
+     "lean": 42.05953,
+     "sideLean": -7.13821,
+     "twist": 30,
+     "headFlex": 33.99608,
+     "headLat": -10.89406,
+     "fhX": 0.23202,
+     "fhY": 0.20464,
+     "fhZ": -0.42478,
+     "freeSwivel": 8.60757,
+     "racketAz": 12.12198,
+     "racketEl": 23.23695,
+     "racketRoll": 141.22916,
+     "racketSwivel": 54.51137,
+     "relFwd": 0.4347,
+     "relLat": -0.25211,
+     "relZ": 0.87853,
+     "backToss": 0.07012,
+     "tossAz": 2.39407,
+     "apex": 0.3,
+     "contactZ": 1.09307
+    }
+   }
+  },
+  "typical:C": {
+   "found": true,
+   "margin": 0.05528843949204927,
+   "occ": 0.05528843949204927,
+   "clr": 0.055289895230409655,
+   "pose": {
+    "preset": "backhand:search-head",
+    "serverPosition": [
+     -0.4008,
+     -1.593,
+     0.8015
+    ],
+    "ball": [
+     -0.9486,
+     -1.5452,
+     1.0998
+    ],
+    "releasePoint": [
+     -0.9489,
+     -1.545,
+     0.9559
+    ],
+    "freeHand": [
+     -0.5804,
+     -1.7613,
+     1.1054
+    ],
+    "freeElbow": [
+     -0.924,
+     -1.693,
+     1.1444
+    ],
+    "freeShoulder": [
+     -0.7034,
+     -1.4982,
+     1.2417
+    ],
+    "head": [
+     -0.845,
+     -1.2182,
+     1.1577
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 45,
+    "headLean": 44.16,
+    "headLateral": 20,
+    "backwardToss": 0.0004,
+    "tossLaunchAngleDeg": 0.02,
+    "leftEyeVisibility": "BLOCKED BY head",
+    "rightEyeVisibility": "BLOCKED BY head",
+    "hiddenBy": [
+     "head"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0753,
+    "deltaBallMinusFreeHand_m": -0.1101,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-head",
+     "px": -0.40083,
+     "py": -1.59297,
+     "hipH": 0.80151,
+     "yaw": 60,
+     "lean": 45,
+     "sideLean": 10,
+     "twist": 30,
+     "headFlex": 44.15787,
+     "headLat": 20,
+     "fhX": -0.14643,
+     "fhY": 0.06416,
+     "fhZ": -0.22701,
+     "freeSwivel": 87.10358,
+     "racketAz": 47.32869,
+     "racketEl": 57.59932,
+     "racketRoll": 99.56305,
+     "racketSwivel": 3.96719,
+     "relFwd": 0.4986,
+     "relLat": -0.23248,
+     "relZ": 0.9559,
+     "backToss": 0.00039,
+     "tossAz": -6.27285,
+     "apex": 0.3,
+     "contactZ": 1.09975
+    }
+   }
+  },
+  "typical:D": {
+   "found": true,
+   "margin": 0.04340211632720678,
+   "occ": 0.04340211632720678,
+   "clr": 0.14027077857147954,
+   "pose": {
+    "preset": "backhand:search-racketArm",
+    "serverPosition": [
+     -0.1587,
+     -1.9987,
+     0.92
+    ],
+    "ball": [
+     -0.6451,
+     -1.8405,
+     1.0226
+    ],
+    "releasePoint": [
+     -0.7218,
+     -1.7089,
+     1.1195
+    ],
+    "freeHand": [
+     -0.3977,
+     -2.5477,
+     1.2316
+    ],
+    "freeElbow": [
+     -0.495,
+     -2.2172,
+     1.1569
+    ],
+    "freeShoulder": [
+     -0.4894,
+     -1.9743,
+     1.3494
+    ],
+    "head": [
+     -0.6727,
+     -1.8173,
+     1.3429
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 45,
+    "headLean": 39.79,
+    "headLateral": -19.97,
+    "backwardToss": 0.1524,
+    "tossLaunchAngleDeg": 6.74,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1603,
+    "deltaBallMinusFreeHand_m": -0.6278,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-racketArm",
+     "px": -0.15872,
+     "py": -1.99871,
+     "hipH": 0.92,
+     "yaw": 60,
+     "lean": 45,
+     "sideLean": 1.79218,
+     "twist": 30,
+     "headFlex": 39.79358,
+     "headLat": -19.97451,
+     "fhX": -0.38549,
+     "fhY": 0.08933,
+     "fhZ": -0.32172,
+     "freeSwivel": 17.59476,
+     "racketAz": 52.26801,
+     "racketEl": 35.62564,
+     "racketRoll": 180,
+     "racketSwivel": 94.36964,
+     "relFwd": 0.63261,
+     "relLat": -0.03055,
+     "relZ": 1.11953,
+     "backToss": 0.15238,
+     "tossAz": -29.74174,
+     "apex": 0.3,
+     "contactZ": 1.02261
+    }
+   }
+  },
+  "common:A": {
+   "found": true,
+   "margin": 0.10833522366939353,
+   "occ": 0.10833522366939353,
+   "clr": 0.20985811747652924,
+   "pose": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.8321,
+     -1.6149,
+     0.8023
+    ],
+    "ball": [
+     0.9186,
+     -1.8789,
+     0.8001
+    ],
+    "releasePoint": [
+     1.1436,
+     -1.8281,
+     0.9936
+    ],
+    "freeHand": [
+     1.1989,
+     -2.0678,
+     0.9864
+    ],
+    "freeElbow": [
+     1.2928,
+     -1.7303,
+     0.9473
+    ],
+    "freeShoulder": [
+     1.193,
+     -1.5932,
+     1.2068
+    ],
+    "head": [
+     1.3008,
+     -1.797,
+     1.2873
+    ],
+    "torsoYaw": -105,
+    "torsoLean": 35,
+    "headLean": 34.82,
+    "headLateral": -19.57,
+    "backwardToss": 0.2306,
+    "tossLaunchAngleDeg": 9.56,
+    "leftEyeVisibility": "BLOCKED BY torso (pelvis)",
+    "rightEyeVisibility": "BLOCKED BY torso (pelvis)",
+    "hiddenBy": [
+     "torso",
+     "leg"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.2299,
+    "deltaBallMinusFreeHand_m": -0.2155,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.83213,
+     "py": -1.6149,
+     "hipH": 0.80225,
+     "yaw": -105,
+     "lean": 35,
+     "sideLean": 7.06798,
+     "twist": -15.31574,
+     "headFlex": 34.81544,
+     "headLat": -19.56707,
+     "fhX": 0.3,
+     "fhY": 0.32927,
+     "fhZ": -0.0689,
+     "freeSwivel": 30.78539,
+     "racketAz": -128.78944,
+     "racketEl": 54.91529,
+     "racketRoll": -51.05859,
+     "racketSwivel": 75.88706,
+     "relFwd": 0.35603,
+     "relLat": 0.12532,
+     "relZ": 0.99361,
+     "backToss": 0.23062,
+     "tossAz": 27.73695,
+     "apex": 0.3,
+     "contactZ": 0.80005
+    }
+   }
+  },
+  "common:B": {
+   "found": false,
+   "margin": -0.03636348412653318,
+   "occ": -0.03636348412653318,
+   "clr": -0.03633168411991491,
+   "pose": {
+    "preset": "backhand:search-shoulder",
+    "serverPosition": [
+     -0.6649,
+     -1.5688,
+     0.8
+    ],
+    "ball": [
+     -0.9481,
+     -1.5191,
+     1
+    ],
+    "releasePoint": [
+     -1.0478,
+     -1.5191,
+     0.8782
+    ],
+    "freeHand": [
+     -1.2969,
+     -1.4125,
+     1.0178
+    ],
+    "freeElbow": [
+     -1.051,
+     -1.6613,
+     1.0616
+    ],
+    "freeShoulder": [
+     -0.8972,
+     -1.5147,
+     1.2873
+    ],
+    "head": [
+     -1.0519,
+     -1.268,
+     1.3151
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 35,
+    "headLean": 31.52,
+    "headLateral": 0.91,
+    "backwardToss": 0.0997,
+    "tossLaunchAngleDeg": 5.36,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.0163,
+    "deltaBallMinusFreeHand_m": 0.0122,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulder",
+     "px": -0.66492,
+     "py": -1.56884,
+     "hipH": 0.8,
+     "yaw": 60,
+     "lean": 35,
+     "sideLean": 10,
+     "twist": 30,
+     "headFlex": 31.51961,
+     "headLat": 0.90761,
+     "fhX": 0.08986,
+     "fhY": 0.41094,
+     "fhZ": -0.05728,
+     "freeSwivel": 59.4063,
+     "racketAz": 125.95176,
+     "racketEl": 46.7457,
+     "racketRoll": 163.17963,
+     "racketSwivel": 11.65963,
+     "relFwd": 0.35645,
+     "relLat": -0.14838,
+     "relZ": 0.87824,
+     "backToss": 0.09974,
+     "tossAz": 29.99426,
+     "apex": 0.3,
+     "contactZ": 1
+    }
+   }
+  },
+  "common:B1": {
+   "found": false,
+   "margin": -0.06604264291538081,
+   "occ": -0.06603808906308975,
+   "clr": -0.06604264291538081,
+   "pose": {
+    "preset": "backhand:search-shoulderFree",
+    "serverPosition": [
+     0.5557,
+     -1.7085,
+     0.8
+    ],
+    "ball": [
+     0.9492,
+     -1.7569,
+     1
+    ],
+    "releasePoint": [
+     1.1048,
+     -1.8423,
+     0.9595
+    ],
+    "freeHand": [
+     0.9084,
+     -1.9337,
+     1.1379
+    ],
+    "freeElbow": [
+     1.1339,
+     -1.7172,
+     0.9752
+    ],
+    "freeShoulder": [
+     0.9438,
+     -1.5322,
+     1.1356
+    ],
+    "head": [
+     1.0225,
+     -1.7713,
+     1.3228
+    ],
+    "torsoYaw": -100.87,
+    "torsoLean": 35,
+    "headLean": 34.44,
+    "headLateral": 12.1,
+    "backwardToss": 0.1775,
+    "tossLaunchAngleDeg": 8.72,
+    "leftEyeVisibility": "VISIBLE",
+    "rightEyeVisibility": "VISIBLE",
+    "hiddenBy": [],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.046,
+    "deltaBallMinusFreeHand_m": -0.1437,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderFree",
+     "px": 0.5557,
+     "py": -1.70845,
+     "hipH": 0.8,
+     "yaw": -100.87308,
+     "lean": 35,
+     "sideLean": -10,
+     "twist": -30,
+     "headFlex": 34.43764,
+     "headLat": 12.10112,
+     "fhX": 0.23981,
+     "fhY": 0.24875,
+     "fhZ": -0.04069,
+     "freeSwivel": 52.37502,
+     "racketAz": -32.06839,
+     "racketEl": -24.15343,
+     "racketRoll": 53.79129,
+     "racketSwivel": 91.938,
+     "relFwd": 0.56454,
+     "relLat": 0.02789,
+     "relZ": 0.95955,
+     "backToss": 0.17753,
+     "tossAz": -17.90456,
+     "apex": 0.3,
+     "contactZ": 1
+    }
+   }
+  },
+  "common:B2": {
+   "found": false,
+   "margin": -0.03709549245162564,
+   "occ": -0.03709549245162564,
+   "clr": -0.03709454358563931,
+   "pose": {
+    "preset": "backhand:search-shoulderRacket",
+    "serverPosition": [
+     -0.6507,
+     -1.618,
+     0.8
+    ],
+    "ball": [
+     -0.9365,
+     -1.5726,
+     1
+    ],
+    "releasePoint": [
+     -1.0203,
+     -1.5003,
+     1.1385
+    ],
+    "freeHand": [
+     -0.6391,
+     -1.7628,
+     0.8094
+    ],
+    "freeElbow": [
+     -0.8939,
+     -1.7666,
+     1.053
+    ],
+    "freeShoulder": [
+     -0.883,
+     -1.5638,
+     1.2873
+    ],
+    "head": [
+     -1.0344,
+     -1.3762,
+     1.3444
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 35,
+    "headLean": 28.64,
+    "headLateral": -18.94,
+    "backwardToss": 0.1107,
+    "tossLaunchAngleDeg": 4.77,
+    "leftEyeVisibility": "VISIBLE",
+    "rightEyeVisibility": "VISIBLE",
+    "hiddenBy": [],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.0171,
+    "deltaBallMinusFreeHand_m": -0.1293,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderRacket",
+     "px": -0.65073,
+     "py": -1.61802,
+     "hipH": 0.8,
+     "yaw": 60,
+     "lean": 35,
+     "sideLean": 10,
+     "twist": 30,
+     "headFlex": 28.63766,
+     "headLat": -18.94136,
+     "fhX": 0.01562,
+     "fhY": 0.02551,
+     "fhZ": -0.49169,
+     "freeSwivel": 87.78641,
+     "racketAz": -6.49134,
+     "racketEl": -34.86411,
+     "racketRoll": 46.11777,
+     "racketSwivel": 45.29739,
+     "relFwd": 0.37891,
+     "relLat": -0.08281,
+     "relZ": 1.13846,
+     "backToss": 0.1107,
+     "tossAz": -10.82083,
+     "apex": 0.3,
+     "contactZ": 1
+    }
+   }
+  },
+  "common:C": {
+   "found": false,
+   "margin": -0.08427401470904902,
+   "occ": -0.08427401470904902,
+   "clr": -0.08424109512839434,
+   "pose": {
+    "preset": "backhand:search-head",
+    "serverPosition": [
+     -0.968,
+     -1.4,
+     0.8
+    ],
+    "ball": [
+     -0.5992,
+     -1.7943,
+     1
+    ],
+    "releasePoint": [
+     -0.3647,
+     -1.6072,
+     1.0442
+    ],
+    "freeHand": [
+     -0.436,
+     -1.4653,
+     0.9001
+    ],
+    "freeElbow": [
+     -0.6872,
+     -1.219,
+     0.8774
+    ],
+    "freeShoulder": [
+     -0.7033,
+     -1.092,
+     1.1597
+    ],
+    "head": [
+     -0.5052,
+     -1.1765,
+     1.2724
+    ],
+    "torsoYaw": -81.42,
+    "torsoLean": 35,
+    "headLean": 35,
+    "headLateral": -20,
+    "backwardToss": 0.3,
+    "tossLaunchAngleDeg": 13.57,
+    "leftEyeVisibility": "VISIBLE",
+    "rightEyeVisibility": "VISIBLE",
+    "hiddenBy": [],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.0642,
+    "deltaBallMinusFreeHand_m": 0.3365,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-head",
+     "px": -0.96798,
+     "py": -1.4,
+     "hipH": 0.8,
+     "yaw": -81.4179,
+     "lean": 35,
+     "sideLean": -10,
+     "twist": -14.31567,
+     "headFlex": 35,
+     "headLat": -20,
+     "fhX": 0.22945,
+     "fhY": 0.34514,
+     "fhZ": -0.18599,
+     "freeSwivel": -19.08781,
+     "racketAz": -73.4229,
+     "racketEl": -16.64981,
+     "racketRoll": -33.30391,
+     "racketSwivel": 106.74386,
+     "relFwd": 0.5656,
+     "relLat": 0.29493,
+     "relZ": 1.04418,
+     "backToss": 0.3,
+     "tossAz": 30,
+     "apex": 0.3,
+     "contactZ": 1
+    }
+   }
+  },
+  "common:D": {
+   "found": true,
+   "margin": 0.04316270839322752,
+   "occ": 0.04316270839322752,
+   "clr": 0.052965032790240424,
+   "pose": {
+    "preset": "backhand:search-racketArm",
+    "serverPosition": [
+     -0.4805,
+     -2,
+     0.9188
+    ],
+    "ball": [
+     -0.897,
+     -1.8253,
+     0.9766
+    ],
+    "releasePoint": [
+     -1.036,
+     -1.6621,
+     1.1056
+    ],
+    "freeHand": [
+     -0.6531,
+     -2.1586,
+     1.2036
+    ],
+    "freeElbow": [
+     -0.7298,
+     -1.8244,
+     1.1221
+    ],
+    "freeShoulder": [
+     -0.712,
+     -1.9462,
+     1.4066
+    ],
+    "head": [
+     -0.8737,
+     -1.7484,
+     1.4434
+    ],
+    "torsoYaw": 59.96,
+    "torsoLean": 34.89,
+    "headLean": 34.78,
+    "headLateral": -13.92,
+    "backwardToss": 0.2144,
+    "tossLaunchAngleDeg": 9.24,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.073,
+    "deltaBallMinusFreeHand_m": -0.2376,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-racketArm",
+     "px": -0.48054,
+     "py": -2,
+     "hipH": 0.91885,
+     "yaw": 59.96332,
+     "lean": 34.88553,
+     "sideLean": 10,
+     "twist": 30,
+     "headFlex": 34.77838,
+     "headLat": -13.918,
+     "fhX": -0.01486,
+     "fhY": 0.06587,
+     "fhZ": -0.25067,
+     "freeSwivel": -4.37422,
+     "racketAz": 38.53774,
+     "racketEl": 28.62255,
+     "racketRoll": 141.48376,
+     "racketSwivel": 88.41435,
+     "relFwd": 0.65,
+     "relLat": 0.01451,
+     "relZ": 1.10565,
+     "backToss": 0.21439,
+     "tossAz": -19.5488,
+     "apex": 0.3,
+     "contactZ": 0.97657
+    }
+   }
+  },
+  "extended:A": {
+   "found": true,
+   "margin": 0.11400383052751668,
+   "occ": 0.11400383052751668,
+   "clr": 0.11484225533112853,
+   "pose": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.7911,
+     -1.6607,
+     0.7986
+    ],
+    "ball": [
+     0.9939,
+     -1.9252,
+     1.0446
+    ],
+    "releasePoint": [
+     1.0939,
+     -1.9414,
+     0.9454
+    ],
+    "freeHand": [
+     1.338,
+     -1.8748,
+     0.6761
+    ],
+    "freeElbow": [
+     1.3467,
+     -1.646,
+     0.9442
+    ],
+    "freeShoulder": [
+     1.1632,
+     -1.6648,
+     1.1933
+    ],
+    "head": [
+     1.1924,
+     -1.9474,
+     1.2875
+    ],
+    "torsoYaw": -100.58,
+    "torsoLean": 32.88,
+    "headLean": 40.72,
+    "headLateral": 5.59,
+    "backwardToss": 0.1013,
+    "tossLaunchAngleDeg": 5.31,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1348,
+    "deltaBallMinusFreeHand_m": -0.0745,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.79105,
+     "py": -1.66075,
+     "hipH": 0.79861,
+     "yaw": -100.58453,
+     "lean": 32.8814,
+     "sideLean": 10.45967,
+     "twist": -30.37189,
+     "headFlex": 40.71999,
+     "headLat": 5.59119,
+     "fhX": -0.0692,
+     "fhY": 0.43688,
+     "fhZ": -0.24055,
+     "freeSwivel": 89.43383,
+     "racketAz": -49.45886,
+     "racketEl": 23.01992,
+     "racketRoll": 34.26908,
+     "racketSwivel": 106.79602,
+     "relFwd": 0.34926,
+     "relLat": 0.22027,
+     "relZ": 0.94542,
+     "backToss": 0.10134,
+     "tossAz": 1.35831,
+     "apex": 0.3,
+     "contactZ": 1.0446
+    }
+   }
+  },
+  "extended:B": {
+   "found": true,
+   "margin": 0.05278303591724688,
+   "occ": 0.05278303591724688,
+   "clr": 0.056151631330645935,
+   "pose": {
+    "preset": "backhand:search-shoulder",
+    "serverPosition": [
+     -0.9885,
+     -1.6332,
+     0.7852
+    ],
+    "ball": [
+     -1.3913,
+     -1.5548,
+     1.0552
+    ],
+    "releasePoint": [
+     -1.47,
+     -1.5586,
+     1.1514
+    ],
+    "freeHand": [
+     -1.5479,
+     -1.8416,
+     0.7067
+    ],
+    "freeElbow": [
+     -1.3162,
+     -1.737,
+     0.9509
+    ],
+    "freeShoulder": [
+     -1.2846,
+     -1.6291,
+     1.2398
+    ],
+    "head": [
+     -1.4981,
+     -1.432,
+     1.1712
+    ],
+    "torsoYaw": 64.54,
+    "torsoLean": 42.22,
+    "headLean": 52.07,
+    "headLateral": 7.17,
+    "backwardToss": 0.0788,
+    "tossLaunchAngleDeg": 3.5,
+    "leftEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "rightEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "hiddenBy": [
+     "shoulder",
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0762,
+    "deltaBallMinusFreeHand_m": -0.3592,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulder",
+     "px": -0.98848,
+     "py": -1.63322,
+     "hipH": 0.78524,
+     "yaw": 64.54004,
+     "lean": 42.22242,
+     "sideLean": 3.11863,
+     "twist": 35,
+     "headFlex": 52.06602,
+     "headLat": 7.16911,
+     "fhX": 0.02918,
+     "fhY": 0.45768,
+     "fhZ": -0.29137,
+     "freeSwivel": 42.83979,
+     "racketAz": 62.92827,
+     "racketEl": 35.79959,
+     "racketRoll": 178.23365,
+     "racketSwivel": 31.12905,
+     "relFwd": 0.46683,
+     "relLat": -0.13966,
+     "relZ": 1.15145,
+     "backToss": 0.07884,
+     "tossAz": 28.21083,
+     "apex": 0.3,
+     "contactZ": 1.05524
+    }
+   }
+  },
+  "extended:B1": {
+   "found": true,
+   "margin": 0.03620573297317031,
+   "occ": 0.03620573297317031,
+   "clr": 0.03713279199018167,
+   "pose": {
+    "preset": "backhand:search-shoulderFree",
+    "serverPosition": [
+     0.6175,
+     -1.8975,
+     0.8617
+    ],
+    "ball": [
+     0.8845,
+     -2.3354,
+     1.2902
+    ],
+    "releasePoint": [
+     0.9365,
+     -2.3877,
+     1.0212
+    ],
+    "freeHand": [
+     1.1952,
+     -1.9294,
+     1.2229
+    ],
+    "freeElbow": [
+     1.0078,
+     -1.9827,
+     0.9291
+    ],
+    "freeShoulder": [
+     0.9908,
+     -2.0169,
+     1.2368
+    ],
+    "head": [
+     0.8592,
+     -2.2717,
+     1.4301
+    ],
+    "torsoYaw": -110,
+    "torsoLean": 34.95,
+    "headLean": 0.73,
+    "headLateral": 28.94,
+    "backwardToss": 0.0738,
+    "tossLaunchAngleDeg": 5.32,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "neck",
+     "shoulder",
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0571,
+    "deltaBallMinusFreeHand_m": 0.3316,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderFree",
+     "px": 0.61748,
+     "py": -1.89746,
+     "hipH": 0.86167,
+     "yaw": -110,
+     "lean": 34.95435,
+     "sideLean": 14.88506,
+     "twist": -35,
+     "headFlex": 0.73463,
+     "headLat": 28.9352,
+     "fhX": -0.18225,
+     "fhY": 0.05684,
+     "fhZ": -0.03657,
+     "freeSwivel": 5.22657,
+     "racketAz": -114.52698,
+     "racketEl": 46.39205,
+     "racketRoll": -100.49214,
+     "racketSwivel": -15.11436,
+     "relFwd": 0.4675,
+     "relLat": 0.35158,
+     "relZ": 1.02121,
+     "backToss": 0.07377,
+     "tossAz": -25.13688,
+     "apex": 0.3,
+     "contactZ": 1.29024
+    }
+   }
+  },
+  "extended:B2": {
+   "found": true,
+   "margin": 0.052665260006896884,
+   "occ": 0.052665260006896884,
+   "clr": 0.08468870659257241,
+   "pose": {
+    "preset": "backhand:search-shoulderRacket",
+    "serverPosition": [
+     -0.6222,
+     -1.8855,
+     0.8245
+    ],
+    "ball": [
+     -1.0939,
+     -1.987,
+     1.1226
+    ],
+    "releasePoint": [
+     -1.1631,
+     -1.9613,
+     0.9611
+    ],
+    "freeHand": [
+     -0.8904,
+     -1.8603,
+     0.8376
+    ],
+    "freeElbow": [
+     -0.8086,
+     -2.1656,
+     0.9936
+    ],
+    "freeShoulder": [
+     -0.9282,
+     -2.0336,
+     1.2472
+    ],
+    "head": [
+     -1.1594,
+     -1.9431,
+     1.2784
+    ],
+    "torsoYaw": 70,
+    "torsoLean": 41.9,
+    "headLean": 31.21,
+    "headLateral": -17.62,
+    "backwardToss": 0.0738,
+    "tossLaunchAngleDeg": 4.19,
+    "leftEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "rightEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "hiddenBy": [
+     "shoulder",
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1047,
+    "deltaBallMinusFreeHand_m": 0.1534,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderRacket",
+     "px": -0.62216,
+     "py": -1.8855,
+     "hipH": 0.82446,
+     "yaw": 70,
+     "lean": 41.8973,
+     "sideLean": -10.71208,
+     "twist": 34.94241,
+     "headFlex": 31.21021,
+     "headLat": -17.62096,
+     "fhX": 0.17347,
+     "fhY": 0.15754,
+     "fhZ": -0.30538,
+     "freeSwivel": 55.52322,
+     "racketAz": 46.56081,
+     "racketEl": 19.01938,
+     "racketRoll": 177.83074,
+     "racketSwivel": 74.36366,
+     "relFwd": 0.48239,
+     "relLat": -0.25619,
+     "relZ": 0.96109,
+     "backToss": 0.07376,
+     "tossAz": -0.39185,
+     "apex": 0.3,
+     "contactZ": 1.12259
+    }
+   }
+  },
+  "extended:C": {
+   "found": true,
+   "margin": 0.0714416900459024,
+   "occ": 0.07147021675566796,
+   "clr": 0.0714416900459024,
+   "pose": {
+    "preset": "backhand:search-head",
+    "serverPosition": [
+     -0.2274,
+     -1.7987,
+     0.7944
+    ],
+    "ball": [
+     -0.7704,
+     -1.7871,
+     1.0984
+    ],
+    "releasePoint": [
+     -0.8085,
+     -1.779,
+     0.836
+    ],
+    "freeHand": [
+     -0.266,
+     -2.018,
+     0.9018
+    ],
+    "freeElbow": [
+     -0.5817,
+     -1.8857,
+     0.9859
+    ],
+    "freeShoulder": [
+     -0.5226,
+     -1.7232,
+     1.2433
+    ],
+    "head": [
+     -0.7031,
+     -1.4702,
+     1.1358
+    ],
+    "torsoYaw": 65.3,
+    "torsoLean": 45.08,
+    "headLean": 48.15,
+    "headLateral": 23.18,
+    "backwardToss": 0.039,
+    "tossLaunchAngleDeg": 2.75,
+    "leftEyeVisibility": "BLOCKED BY head",
+    "rightEyeVisibility": "BLOCKED BY head",
+    "hiddenBy": [
+     "head"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0914,
+    "deltaBallMinusFreeHand_m": -0.1411,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-head",
+     "px": -0.22736,
+     "py": -1.79867,
+     "hipH": 0.79444,
+     "yaw": 65.30126,
+     "lean": 45.07792,
+     "sideLean": 10.63431,
+     "twist": 34.99749,
+     "headFlex": 48.15375,
+     "headLat": 23.17688,
+     "fhX": -0.04738,
+     "fhY": 0.07943,
+     "fhZ": -0.43738,
+     "freeSwivel": 52.48158,
+     "racketAz": 25.37728,
+     "racketEl": 54.84267,
+     "racketRoll": 108.85587,
+     "racketSwivel": 95.19293,
+     "relFwd": 0.53622,
+     "relLat": -0.22497,
+     "relZ": 0.83596,
+     "backToss": 0.03895,
+     "tossAz": 12.71242,
+     "apex": 0.3,
+     "contactZ": 1.0984
+    }
+   }
+  },
+  "extended:D": {
+   "found": true,
+   "margin": 0.04358414188937193,
+   "occ": 0.04358414188937193,
+   "clr": 0.23329004880639678,
+   "pose": {
+    "preset": "backhand:search-racketArm",
+    "serverPosition": [
+     -0.8565,
+     -1.8245,
+     0.899
+    ],
+    "ball": [
+     -1.2389,
+     -1.867,
+     1.2497
+    ],
+    "releasePoint": [
+     -1.2685,
+     -1.8694,
+     1.1246
+    ],
+    "freeHand": [
+     -1.4241,
+     -2.2001,
+     0.9991
+    ],
+    "freeElbow": [
+     -1.1003,
+     -2.1908,
+     1.1382
+    ],
+    "freeShoulder": [
+     -0.982,
+     -2.0391,
+     1.3812
+    ],
+    "head": [
+     -1.172,
+     -1.8489,
+     1.5463
+    ],
+    "torsoYaw": 69.16,
+    "torsoLean": 15.93,
+    "headLean": 22.84,
+    "headLateral": 11.56,
+    "backwardToss": 0.0297,
+    "tossLaunchAngleDeg": 1.61,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.2533,
+    "deltaBallMinusFreeHand_m": -0.3862,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-racketArm",
+     "px": -0.85646,
+     "py": -1.82446,
+     "hipH": 0.89901,
+     "yaw": 69.15655,
+     "lean": 15.92742,
+     "sideLean": -9.89513,
+     "twist": 30.1686,
+     "headFlex": 22.83783,
+     "headLat": 11.56159,
+     "fhX": -0.09082,
+     "fhY": 0.47098,
+     "fhZ": -0.20511,
+     "freeSwivel": 52.48809,
+     "racketAz": 19.96551,
+     "racketEl": -40,
+     "racketRoll": 42.9448,
+     "racketSwivel": 32.05622,
+     "relFwd": 0.36908,
+     "relLat": -0.18861,
+     "relZ": 1.12456,
+     "backToss": 0.02967,
+     "tossAz": 25.41186,
+     "apex": 0.3,
+     "contactZ": 1.24965
+    }
+   }
+  },
+  "AB:A": {
+   "found": true,
+   "margin": 0.1072669777754688,
+   "occ": 0.1072669777754688,
+   "clr": 0.11519220515583324,
+   "pose": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.7482,
+     -1.5278,
+     0.8289
+    ],
+    "ball": [
+     0.8572,
+     -1.9303,
+     0.8081
+    ],
+    "releasePoint": [
+     1.0812,
+     -1.932,
+     1.017
+    ],
+    "freeHand": [
+     1.2454,
+     -1.5886,
+     1.19
+    ],
+    "freeElbow": [
+     1.1299,
+     -1.3272,
+     0.9836
+    ],
+    "freeShoulder": [
+     1.0525,
+     -1.4271,
+     1.2666
+    ],
+    "head": [
+     1.1473,
+     -1.6342,
+     1.3944
+    ],
+    "torsoYaw": -105,
+    "torsoLean": 25.24,
+    "headLean": 36.34,
+    "headLateral": -12.45,
+    "backwardToss": 0.224,
+    "tossLaunchAngleDeg": 9.21,
+    "leftEyeVisibility": "BLOCKED BY torso (pelvis)",
+    "rightEyeVisibility": "BLOCKED BY torso (pelvis)",
+    "hiddenBy": [
+     "torso",
+     "leg"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1352,
+    "deltaBallMinusFreeHand_m": 0.3073,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.74825,
+     "py": -1.52778,
+     "hipH": 0.82891,
+     "yaw": -105,
+     "lean": 25.23583,
+     "sideLean": 0.04976,
+     "twist": -17.51647,
+     "headFlex": 36.33527,
+     "headLat": -12.4491,
+     "fhX": -0.0206,
+     "fhY": 0.22374,
+     "fhZ": -0.04112,
+     "freeSwivel": 29.40876,
+     "racketAz": -74.32186,
+     "racketEl": 40.31215,
+     "racketRoll": 11.67468,
+     "racketSwivel": 71.95193,
+     "relFwd": 0.42625,
+     "relLat": 0.30424,
+     "relZ": 1.01704,
+     "backToss": 0.22405,
+     "tossAz": 14.56952,
+     "apex": 0.3,
+     "contactZ": 0.8081
+    }
+   }
+  },
+  "AB:B": {
+   "found": false,
+   "margin": -0.031067200611989695,
+   "occ": -0.03105700945503808,
+   "clr": -0.031067200611989695,
+   "pose": {
+    "preset": "backhand:search-shoulder",
+    "serverPosition": [
+     -0.2845,
+     -1.5693,
+     0.8
+    ],
+    "ball": [
+     -0.5663,
+     -1.5498,
+     1.046
+    ],
+    "releasePoint": [
+     -0.6824,
+     -1.5494,
+     0.85
+    ],
+    "freeHand": [
+     -0.8213,
+     -1.4772,
+     0.9973
+    ],
+    "freeElbow": [
+     -0.599,
+     -1.7362,
+     1.0857
+    ],
+    "freeShoulder": [
+     -0.501,
+     -1.5306,
+     1.296
+    ],
+    "head": [
+     -0.6709,
+     -1.2898,
+     1.2946
+    ],
+    "torsoYaw": 59.82,
+    "torsoLean": 32.52,
+    "headLean": 44.6,
+    "headLateral": 3.94,
+    "backwardToss": 0.1161,
+    "tossLaunchAngleDeg": 6.94,
+    "leftEyeVisibility": "VISIBLE",
+    "rightEyeVisibility": "VISIBLE",
+    "hiddenBy": [],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.0111,
+    "deltaBallMinusFreeHand_m": 0.0248,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulder",
+     "px": -0.28452,
+     "py": -1.56925,
+     "hipH": 0.8,
+     "yaw": 59.816,
+     "lean": 32.52476,
+     "sideLean": 9.33361,
+     "twist": 30,
+     "headFlex": 44.59598,
+     "headLat": 3.93701,
+     "fhX": 0.05914,
+     "fhY": 0.35022,
+     "fhZ": -0.13635,
+     "freeSwivel": 71.76373,
+     "racketAz": 16.04852,
+     "racketEl": 51.61078,
+     "racketRoll": 135.36413,
+     "racketSwivel": 2.43407,
+     "relFwd": 0.35388,
+     "relLat": -0.18289,
+     "relZ": 0.85,
+     "backToss": 0.11608,
+     "tossAz": 30,
+     "apex": 0.3,
+     "contactZ": 1.04602
+    }
+   }
+  },
+  "AB:B1": {
+   "found": false,
+   "margin": -0.046963028576381696,
+   "occ": -0.04654327352343882,
+   "clr": -0.046963028576381696,
+   "pose": {
+    "preset": "backhand:search-shoulderFree",
+    "serverPosition": [
+     0.5542,
+     -1.7809,
+     0.8
+    ],
+    "ball": [
+     0.9494,
+     -1.8513,
+     1.028
+    ],
+    "releasePoint": [
+     1.0977,
+     -1.9519,
+     1.0231
+    ],
+    "freeHand": [
+     0.7969,
+     -1.9456,
+     1.1129
+    ],
+    "freeElbow": [
+     1.125,
+     -1.8741,
+     1.0059
+    ],
+    "freeShoulder": [
+     0.9635,
+     -1.6386,
+     1.1265
+    ],
+    "head": [
+     1.0366,
+     -1.8653,
+     1.3201
+    ],
+    "torsoYaw": -105,
+    "torsoLean": 36.68,
+    "headLean": 28.61,
+    "headLateral": 7.7,
+    "backwardToss": 0.1793,
+    "tossLaunchAngleDeg": 8.53,
+    "leftEyeVisibility": "VISIBLE",
+    "rightEyeVisibility": "VISIBLE",
+    "hiddenBy": [],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.027,
+    "deltaBallMinusFreeHand_m": -0.0448,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderFree",
+     "px": 0.55421,
+     "py": -1.7809,
+     "hipH": 0.8,
+     "yaw": -105,
+     "lean": 36.67679,
+     "sideLean": -9.63713,
+     "twist": -30,
+     "headFlex": 28.61064,
+     "headLat": 7.70097,
+     "fhX": 0.23919,
+     "fhY": 0.16393,
+     "fhZ": -0.08486,
+     "freeSwivel": 66.72821,
+     "racketAz": -56.41286,
+     "racketEl": -34.91519,
+     "racketRoll": 75.92523,
+     "racketSwivel": 110,
+     "relFwd": 0.56926,
+     "relLat": 0.02453,
+     "relZ": 1.02309,
+     "backToss": 0.17926,
+     "tossAz": -19.14931,
+     "apex": 0.3,
+     "contactZ": 1.02799
+    }
+   }
+  },
+  "AB:B2": {
+   "found": false,
+   "margin": -0.030543170124631737,
+   "occ": -0.030543170124631737,
+   "clr": 0.10301510579231399,
+   "pose": {
+    "preset": "backhand:search-shoulderRacket",
+    "serverPosition": [
+     -0.4808,
+     -1.9435,
+     0.83
+    ],
+    "ball": [
+     -0.9487,
+     -1.9251,
+     1.0947
+    ],
+    "releasePoint": [
+     -0.9947,
+     -1.8995,
+     0.8627
+    ],
+    "freeHand": [
+     -0.5716,
+     -1.891,
+     0.6705
+    ],
+    "freeElbow": [
+     -0.7599,
+     -2.0157,
+     0.9411
+    ],
+    "freeShoulder": [
+     -0.8186,
+     -2.0324,
+     1.2451
+    ],
+    "head": [
+     -1.0187,
+     -1.8577,
+     1.3038
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 41.9,
+    "headLean": 22.42,
+    "headLateral": -9.49,
+    "backwardToss": 0.0527,
+    "tossLaunchAngleDeg": 3.4,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.123,
+    "deltaBallMinusFreeHand_m": 0.0851,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderRacket",
+     "px": -0.48081,
+     "py": -1.94346,
+     "hipH": 0.82999,
+     "yaw": 60,
+     "lean": 41.8973,
+     "sideLean": -9.95017,
+     "twist": 30,
+     "headFlex": 22.42463,
+     "headLat": -9.48706,
+     "fhX": 0.22148,
+     "fhY": 0.16,
+     "fhZ": -0.47935,
+     "freeSwivel": 11.08606,
+     "racketAz": -12.1411,
+     "racketEl": 21.80105,
+     "racketRoll": 142.41573,
+     "racketSwivel": 95.83822,
+     "relFwd": 0.46703,
+     "relLat": -0.21888,
+     "relZ": 0.86273,
+     "backToss": 0.05269,
+     "tossAz": 0.88802,
+     "apex": 0.3,
+     "contactZ": 1.0947
+    }
+   }
+  },
+  "AB:C": {
+   "found": true,
+   "margin": 0.02010794410293664,
+   "occ": 0.02010794410293664,
+   "clr": 0.020340474728072534,
+   "pose": {
+    "preset": "backhand:search-head",
+    "serverPosition": [
+     0.0866,
+     -1.7343,
+     0.8
+    ],
+    "ball": [
+     -0.3933,
+     -1.7928,
+     1.1
+    ],
+    "releasePoint": [
+     -0.4243,
+     -1.7861,
+     0.8539
+    ],
+    "freeHand": [
+     -0.0111,
+     -1.5148,
+     0.7273
+    ],
+    "freeElbow": [
+     -0.1558,
+     -1.736,
+     0.9605
+    ],
+    "freeShoulder": [
+     -0.1928,
+     -1.6628,
+     1.2595
+    ],
+    "head": [
+     -0.3271,
+     -1.377,
+     1.2069
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 39.73,
+    "headLean": 45,
+    "headLateral": 17.39,
+    "backwardToss": 0.0317,
+    "tossLaunchAngleDeg": 2.12,
+    "leftEyeVisibility": "BLOCKED BY head",
+    "rightEyeVisibility": "BLOCKED BY head",
+    "hiddenBy": [
+     "head"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0403,
+    "deltaBallMinusFreeHand_m": 0.2805,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-head",
+     "px": 0.08665,
+     "py": -1.73432,
+     "hipH": 0.8,
+     "yaw": 60,
+     "lean": 39.7268,
+     "sideLean": 9.77835,
+     "twist": 25.6267,
+     "headFlex": 45,
+     "headLat": 17.39151,
+     "fhX": 0.3,
+     "fhY": 0.12212,
+     "fhZ": -0.3816,
+     "freeSwivel": 37.03018,
+     "racketAz": -17.6677,
+     "racketEl": -2.60841,
+     "racketRoll": 150.07775,
+     "racketSwivel": 108.94924,
+     "relFwd": 0.41662,
+     "relLat": -0.30032,
+     "relZ": 0.85393,
+     "backToss": 0.03169,
+     "tossAz": 17.77776,
+     "apex": 0.3,
+     "contactZ": 1.1
+    }
+   }
+  },
+  "AB:D": {
+   "found": true,
+   "margin": 0.04194971029125579,
+   "occ": 0.04194971029125579,
+   "clr": 0.048125281517684734,
+   "pose": {
+    "preset": "backhand:search-racketArm",
+    "serverPosition": [
+     0.5895,
+     -1.8389,
+     0.8998
+    ],
+    "ball": [
+     0.2322,
+     -1.8353,
+     0.9937
+    ],
+    "releasePoint": [
+     0.0754,
+     -1.8068,
+     1.0911
+    ],
+    "freeHand": [
+     0.5769,
+     -1.5438,
+     1.2926
+    ],
+    "freeElbow": [
+     0.6141,
+     -1.8934,
+     1.2658
+    ],
+    "freeShoulder": [
+     0.3211,
+     -1.9052,
+     1.3666
+    ],
+    "head": [
+     0.172,
+     -1.6227,
+     1.4473
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 33.14,
+    "headLean": 17.51,
+    "headLateral": 19.07,
+    "backwardToss": 0.1594,
+    "tossLaunchAngleDeg": 7.04,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0681,
+    "deltaBallMinusFreeHand_m": 0.3037,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-racketArm",
+     "px": 0.58947,
+     "py": -1.8389,
+     "hipH": 0.89977,
+     "yaw": 60,
+     "lean": 33.14102,
+     "sideLean": -3.2931,
+     "twist": 28.5358,
+     "headFlex": 17.51474,
+     "headLat": 19.07389,
+     "fhX": 0.29826,
+     "fhY": -0.20244,
+     "fhZ": -0.14065,
+     "freeSwivel": 74.99083,
+     "racketAz": -10.81976,
+     "racketEl": 12.14309,
+     "racketRoll": 84.53782,
+     "racketSwivel": 42.15032,
+     "relFwd": 0.46127,
+     "relLat": -0.22929,
+     "relZ": 1.09111,
+     "backToss": 0.15937,
+     "tossAz": 19.71461,
+     "apex": 0.3,
+     "contactZ": 0.99371
+    }
+   }
+  }
+ },
+ "casesAB": [
+  {
+   "id": "A",
+   "target": "torso",
+   "found": true,
+   "margin": 0.11270059300135767,
+   "occ": 0.11290357568523306,
+   "clr": 0.11270059300135767,
+   "delta": 0.11618765515792573,
+   "pose": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.6936,
+     -1.6431,
+     0.8004
+    ],
+    "ball": [
+     0.9167,
+     -1.9734,
+     1.0239
+    ],
+    "releasePoint": [
+     0.9167,
+     -1.9734,
+     1.0615
+    ],
+    "freeHand": [
+     1.5112,
+     -1.6955,
+     0.8598
+    ],
+    "freeElbow": [
+     1.2228,
+     -1.5087,
+     0.9388
+    ],
+    "freeShoulder": [
+     1.0942,
+     -1.6776,
+     1.1646
+    ],
+    "head": [
+     1.0938,
+     -1.9575,
+     1.3093
+    ],
+    "torsoYaw": -105,
+    "torsoLean": 37.49,
+    "headLean": 23.59,
+    "headLateral": 11.41,
+    "backwardToss": 0,
+    "tossLaunchAngleDeg": 0,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1327,
+    "deltaBallMinusFreeHand_m": 0.1162,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.69357,
+     "py": -1.64306,
+     "hipH": 0.80043,
+     "yaw": -105,
+     "lean": 37.48766,
+     "sideLean": 9.88346,
+     "twist": -30,
+     "headFlex": 23.58604,
+     "headLat": 11.41183,
+     "fhX": -0.31069,
+     "fhY": 0.31496,
+     "fhZ": -0.04955,
+     "freeSwivel": 62.24746,
+     "racketAz": -179.50742,
+     "racketEl": -31.04102,
+     "racketRoll": -105.14936,
+     "racketSwivel": 107.17929,
+     "relFwd": 0.30108,
+     "relLat": 0.26137,
+     "relZ": 1.06153,
+     "backToss": 0,
+     "tossAz": 27.65249,
+     "apex": 0.3,
+     "contactZ": 1.0239
+    }
+   }
+  },
+  {
+   "id": "B",
+   "target": "shoulder",
+   "found": true,
+   "margin": 0.00600742328428671,
+   "occ": 0.00600742328428671,
+   "clr": 0.0060647877858449085,
+   "delta": 0.07993348659931598,
+   "pose": {
+    "preset": "backhand:search-shoulder",
+    "serverPosition": [
+     -0.6164,
+     -1.5787,
+     0.8
+    ],
+    "ball": [
+     -0.9362,
+     -1.5415,
+     1.1
+    ],
+    "releasePoint": [
+     -1.0115,
+     -1.5382,
+     0.8664
+    ],
+    "freeHand": [
+     -1.1412,
+     -1.3967,
+     1.0392
+    ],
+    "freeElbow": [
+     -1.0257,
+     -1.7255,
+     1.0928
+    ],
+    "freeShoulder": [
+     -0.8501,
+     -1.5623,
+     1.2893
+    ],
+    "head": [
+     -1.0253,
+     -1.3187,
+     1.2883
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 33.28,
+    "headLean": 43.98,
+    "headLateral": 6.48,
+    "backwardToss": 0.0753,
+    "tossLaunchAngleDeg": 4.88,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "shoulder",
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0261,
+    "deltaBallMinusFreeHand_m": 0.0799,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulder",
+     "px": -0.61643,
+     "py": -1.57872,
+     "hipH": 0.8,
+     "yaw": 60,
+     "lean": 33.2832,
+     "sideLean": 6.37418,
+     "twist": 30,
+     "headFlex": 43.98028,
+     "headLat": 6.47519,
+     "fhX": 0.12758,
+     "fhY": 0.33219,
+     "fhZ": -0.05819,
+     "freeSwivel": 71.42904,
+     "racketAz": 15.60791,
+     "racketEl": 59.77218,
+     "racketRoll": 133.48688,
+     "racketSwivel": 16.19636,
+     "relFwd": 0.36238,
+     "relLat": -0.16239,
+     "relZ": 0.86639,
+     "backToss": 0.07532,
+     "tossAz": 27.45049,
+     "apex": 0.3,
+     "contactZ": 1.1
+    }
+   }
+  },
+  {
+   "id": "B1",
+   "target": "shoulderFree",
+   "found": false,
+   "margin": -0.014798702650723024,
+   "occ": -0.014706678976650123,
+   "clr": -0.014798702650723024,
+   "delta": 0.03468153421864795,
+   "pose": {
+    "preset": "backhand:search-shoulderFree",
+    "serverPosition": [
+     0.5409,
+     -1.7413,
+     0.8
+    ],
+    "ball": [
+     0.9497,
+     -1.9719,
+     1.1
+    ],
+    "releasePoint": [
+     1.078,
+     -2.0518,
+     0.9553
+    ],
+    "freeHand": [
+     0.7464,
+     -1.9788,
+     1.0231
+    ],
+    "freeElbow": [
+     1.0959,
+     -1.9332,
+     1.0307
+    ],
+    "freeShoulder": [
+     0.9942,
+     -1.6449,
+     1.0821
+    ],
+    "head": [
+     1.0645,
+     -1.9208,
+     1.2104
+    ],
+    "torsoYaw": -105,
+    "torsoLean": 45,
+    "headLean": 42.39,
+    "headLateral": 12.6,
+    "backwardToss": 0.1512,
+    "tossLaunchAngleDeg": 8.34,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": 0.0052,
+    "deltaBallMinusFreeHand_m": 0.0347,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderFree",
+     "px": 0.54087,
+     "py": -1.74129,
+     "hipH": 0.8,
+     "yaw": -105,
+     "lean": 45,
+     "sideLean": -5.73954,
+     "twist": -30,
+     "headFlex": 42.38898,
+     "headLat": 12.60172,
+     "fhX": 0.2988,
+     "fhY": 0.16401,
+     "fhZ": -0.12266,
+     "freeSwivel": 85.56117,
+     "racketAz": -30.91842,
+     "racketEl": -15.50798,
+     "racketRoll": 179.48443,
+     "racketSwivel": 47.63743,
+     "relFwd": 0.59924,
+     "relLat": 0.16093,
+     "relZ": 0.95533,
+     "backToss": 0.15118,
+     "tossAz": -16.90664,
+     "apex": 0.3,
+     "contactZ": 1.1
+    }
+   }
+  },
+  {
+   "id": "B2",
+   "target": "shoulderRacket",
+   "found": true,
+   "margin": 0.015928701792688005,
+   "occ": 0.01597269702373194,
+   "clr": 0.015928701792688005,
+   "delta": 0.04931061352192634,
+   "pose": {
+    "preset": "backhand:search-shoulderRacket",
+    "serverPosition": [
+     -0.5337,
+     -1.8748,
+     0.822
+    ],
+    "ball": [
+     -0.9457,
+     -1.8984,
+     1.0902
+    ],
+    "releasePoint": [
+     -1.0151,
+     -1.86,
+     0.8893
+    ],
+    "freeHand": [
+     -0.7384,
+     -1.8544,
+     0.62
+    ],
+    "freeElbow": [
+     -0.8643,
+     -1.9323,
+     0.9399
+    ],
+    "freeShoulder": [
+     -0.8628,
+     -1.9293,
+     1.2499
+    ],
+    "head": [
+     -1.0663,
+     -1.7689,
+     1.2384
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 41.74,
+    "headLean": 44.96,
+    "headLateral": -11.86,
+    "backwardToss": 0.0793,
+    "tossLaunchAngleDeg": 4.8,
+    "leftEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "shoulder",
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0359,
+    "deltaBallMinusFreeHand_m": 0.0493,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulderRacket",
+     "px": -0.53365,
+     "py": -1.87478,
+     "hipH": 0.82205,
+     "yaw": 60,
+     "lean": 41.73758,
+     "sideLean": -5.9,
+     "twist": 30,
+     "headFlex": 44.96076,
+     "headLat": -11.85513,
+     "fhX": 0.20302,
+     "fhY": 0.25782,
+     "fhZ": -0.44906,
+     "freeSwivel": 1.62346,
+     "racketAz": -5.46162,
+     "racketEl": 27.57083,
+     "racketRoll": 158.55224,
+     "racketSwivel": 53.2494,
+     "relFwd": 0.42431,
+     "relLat": -0.22792,
+     "relZ": 0.88927,
+     "backToss": 0.07926,
+     "tossAz": 1.05172,
+     "apex": 0.3,
+     "contactZ": 1.09025
+    }
+   }
+  },
+  {
+   "id": "C",
+   "target": "head",
+   "found": true,
+   "margin": 0.05261695750828004,
+   "occ": 0.05261695750828004,
+   "clr": 0.05261743746503263,
+   "delta": 0.10651260041903043,
+   "pose": {
+    "preset": "backhand:search-head",
+    "serverPosition": [
+     -0.1911,
+     -1.8178,
+     0.8
+    ],
+    "ball": [
+     -0.7171,
+     -1.7939,
+     1.095
+    ],
+    "releasePoint": [
+     -0.7916,
+     -1.7564,
+     0.9021
+    ],
+    "freeHand": [
+     -0.0035,
+     -1.8004,
+     0.8617
+    ],
+    "freeElbow": [
+     -0.2865,
+     -1.8678,
+     1.0607
+    ],
+    "freeShoulder": [
+     -0.4937,
+     -1.7231,
+     1.2402
+    ],
+    "head": [
+     -0.639,
+     -1.4491,
+     1.157
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 45,
+    "headLean": 45,
+    "headLateral": 17.96,
+    "backwardToss": 0.0834,
+    "tossLaunchAngleDeg": 4.97,
+    "leftEyeVisibility": "BLOCKED BY head",
+    "rightEyeVisibility": "BLOCKED BY head",
+    "hiddenBy": [
+     "head"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0726,
+    "deltaBallMinusFreeHand_m": 0.1065,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-head",
+     "px": -0.19111,
+     "py": -1.81784,
+     "hipH": 0.8,
+     "yaw": 60,
+     "lean": 45,
+     "sideLean": 10,
+     "twist": 30,
+     "headFlex": 45,
+     "headLat": 17.96389,
+     "fhX": 0.15648,
+     "fhY": -0.15677,
+     "fhZ": -0.48934,
+     "freeSwivel": 89.80766,
+     "racketAz": 47.02804,
+     "racketEl": 52.57605,
+     "racketRoll": 146.4919,
+     "racketSwivel": 103.35431,
+     "relFwd": 0.55076,
+     "relLat": -0.24701,
+     "relZ": 0.90205,
+     "backToss": 0.08339,
+     "tossAz": 3.27848,
+     "apex": 0.3,
+     "contactZ": 1.09496
+    }
+   }
+  },
+  {
+   "id": "D",
+   "target": "racketArm",
+   "found": true,
+   "margin": 0.0434459528903591,
+   "occ": 0.0434459528903591,
+   "clr": 0.0438184172608508,
+   "delta": 0.05011792024814632,
+   "pose": {
+    "preset": "backhand:search-racketArm",
+    "serverPosition": [
+     -0.3906,
+     -1.9999,
+     0.8953
+    ],
+    "ball": [
+     -0.8335,
+     -1.9223,
+     1.0833
+    ],
+    "releasePoint": [
+     -0.9055,
+     -1.7916,
+     1.0206
+    ],
+    "freeHand": [
+     -0.9517,
+     -1.854,
+     1.1765
+    ],
+    "freeElbow": [
+     -0.8793,
+     -2.1979,
+     1.2041
+    ],
+    "freeShoulder": [
+     -0.7207,
+     -1.96,
+     1.324
+    ],
+    "head": [
+     -0.7965,
+     -1.7399,
+     1.4338
+    ],
+    "torsoYaw": 58.85,
+    "torsoLean": 35.8,
+    "headLean": 18.62,
+    "headLateral": -16.01,
+    "backwardToss": 0.1492,
+    "tossLaunchAngleDeg": 7.5,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0638,
+    "deltaBallMinusFreeHand_m": 0.0501,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-racketArm",
+     "px": -0.3906,
+     "py": -1.9999,
+     "hipH": 0.89533,
+     "yaw": 58.8525,
+     "lean": 35.79809,
+     "sideLean": 5.34444,
+     "twist": 1.50514,
+     "headFlex": 18.61896,
+     "headLat": -16.0148,
+     "fhX": -0.08922,
+     "fhY": 0.23828,
+     "fhZ": -0.0118,
+     "freeSwivel": 84.77934,
+     "racketAz": 29.64604,
+     "racketEl": 47.70549,
+     "racketRoll": 158.29588,
+     "racketSwivel": 102.40045,
+     "relFwd": 0.54842,
+     "relLat": -0.088,
+     "relZ": 1.02058,
+     "backToss": 0.14923,
+     "tossAz": -30,
+     "apex": 0.3,
+     "contactZ": 1.08331
+    }
+   }
+  }
+ ],
+ "variants": [
+  {
+   "label": "default: both eyes, ball-centre ray, hull floor, net ±0.915, margin 2 cm",
+   "v": {},
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.055294223234491,
+     "occ": 0.055294223234491,
+     "clr": 0.05533686978390168
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.019752736589660248,
+     "occ": 0.01984335178318042,
+     "clr": 0.019752736589660248
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.01409769167576803,
+     "occ": -0.014052175077665693,
+     "clr": -0.01409769167576803
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.1136702998359561,
+     "occ": 0.1136702998359561,
+     "clr": 0.11368548963297932
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.04344985667473256,
+     "occ": 0.04344985667473256,
+     "clr": 0.0438184172608508
+    }
+   ]
+  },
+  {
+   "label": "whole ball hidden from both eyes",
+   "v": {
+    "wholeBall": true
+   },
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.04378887840410292,
+     "occ": 0.04378887840410292,
+     "clr": 0.04394370812886057
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.00789137492299715,
+     "occ": 0.00789137492299715,
+     "clr": 0.007915882477804757
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.023846854837633834,
+     "occ": -0.02382719746310963,
+     "clr": -0.023846854837633834
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.10018033190363383,
+     "occ": 0.10018033190363383,
+     "clr": 0.11431095927329817
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.029473929414825642,
+     "occ": 0.029473929414825642,
+     "clr": 0.03691769348650119
+    }
+   ]
+  },
+  {
+   "label": "strict 2.6.5 volume: vertical prism above playing surface",
+   "v": {
+    "floor": "prism"
+   },
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.05530866925081649,
+     "occ": 0.05530866925081649,
+     "clr": 0.05532750301137762
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.020078037881087144,
+     "occ": 0.02038143471972343,
+     "clr": 0.020078037881087144
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.014573770064114911,
+     "occ": -0.014536446346490331,
+     "clr": -0.014573770064114911
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.11382484500877167,
+     "occ": 0.11382484500877167,
+     "clr": 0.11420205597977086
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.043450001486565346,
+     "occ": 0.043450001486565346,
+     "clr": 0.044274844602791116
+    }
+   ]
+  },
+  {
+   "label": "either eye blocked",
+   "v": {
+    "criterion": "either"
+   },
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.05643166265446577,
+     "occ": 0.05643166265446577,
+     "clr": 0.05655245387816776
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.02285801372115891,
+     "occ": 0.0229847253023339,
+     "clr": 0.02285801372115891
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.011911764867625997,
+     "occ": -0.011911764867625997,
+     "clr": -0.011904416180152987
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.11498288740039517,
+     "occ": 0.11498288740039517,
+     "clr": 0.11616759680441015
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.04499997878355495,
+     "occ": 0.04499997878355495,
+     "clr": 0.15718581410614338
+    }
+   ]
+  },
+  {
+   "label": "margin 0 (ball as a point)",
+   "v": {
+    "margin": 0
+   },
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.05846703095685406,
+     "occ": 0.05846703095685406,
+     "clr": 0.0585334477709883
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.027642037477821388,
+     "occ": 0.028620568697437884,
+     "clr": 0.027642037477821388
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.0040218464320084316,
+     "occ": -0.0040159666072435984,
+     "clr": -0.0040218464320084316
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.11399734134975667,
+     "occ": 0.11399734134975667,
+     "clr": 0.12398599063181169
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.04345226763914548,
+     "occ": 0.04345226763914548,
+     "clr": 0.06434383837499771
+    }
+   ]
+  },
+  {
+   "label": "net span = table sidelines ±0.7625",
+   "v": {
+    "halfSpan": 0.7625
+   },
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.05683507984628354,
+     "occ": 0.05683507984628354,
+     "clr": 0.05686008748586102
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.021731372611647322,
+     "occ": 0.021731372611647322,
+     "clr": 0.021807372317866783
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.0019870058786745463,
+     "occ": -0.001985637665570479,
+     "clr": -0.0019870058786745463
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.11399756984285753,
+     "occ": 0.11399756984285753,
+     "clr": 0.12515475447772237
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.04346100543178203,
+     "occ": 0.04346100543178203,
+     "clr": 0.046819440956326105
+    }
+   ]
+  }
+ ],
+ "receiver": [
+  {
+   "x": -0.4,
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.04715636832881362,
+     "occ": 0.04715636832881362,
+     "clr": 0.047436146073207494
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.005933313795740212,
+     "occ": 0.005933313795740212,
+     "clr": 0.005975388916898184
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.019564903805344477,
+     "occ": -0.019562312129268192,
+     "clr": -0.019564903805344477
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.11061030638406018,
+     "occ": 0.11062366843336918,
+     "clr": 0.11061030638406018
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.043731374805868646,
+     "occ": 0.043731374805868646,
+     "clr": 0.11761284614073382
+    }
+   ]
+  },
+  {
+   "x": 0,
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.055346879568624746,
+     "occ": 0.055346879568624746,
+     "clr": 0.05539279841358877
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.021837004727372728,
+     "occ": 0.02185826417949746,
+     "clr": 0.021837004727372728
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.010927409005917533,
+     "occ": -0.010862469957155702,
+     "clr": -0.010927409005917533
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.11383304633844678,
+     "occ": 0.11383304633844678,
+     "clr": 0.11512692230350792
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.04347305710736633,
+     "occ": 0.04347305710736633,
+     "clr": 0.044989758438769525
+    }
+   ]
+  },
+  {
+   "x": 0.4,
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.062041064304357026,
+     "occ": 0.062041064304357026,
+     "clr": 0.06217366478675776
+    },
+    {
+     "target": "shoulder",
+     "found": true,
+     "margin": 0.03755895291436416,
+     "occ": 0.03759504456859927,
+     "clr": 0.03755895291436416
+    },
+    {
+     "target": "shoulderFree",
+     "found": false,
+     "margin": -0.002352491127007191,
+     "occ": -0.002343357753145023,
+     "clr": -0.002352491127007191
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.11396458990015301,
+     "occ": 0.11396458990015301,
+     "clr": 0.14228520857561164
+    },
+    {
+     "target": "racketArm",
+     "found": true,
+     "margin": 0.04400532218564945,
+     "occ": 0.04400532218564945,
+     "clr": 0.07180728318256122
+    }
+   ]
+  }
+ ],
+ "contactCap": [
+  {
+   "target": "head",
+   "res": [
+    {
+     "zmax": 0.9,
+     "found": false,
+     "margin": -0.040593072473732804,
+     "occ": -0.040593072473732804,
+     "clr": -0.03593205547979214
+    },
+    {
+     "zmax": 0.95,
+     "found": false,
+     "margin": -0.01276348839688435,
+     "occ": -0.01276348839688435,
+     "clr": -0.012753590304475756
+    },
+    {
+     "zmax": 1,
+     "found": true,
+     "margin": 0.0015554306532194174,
+     "occ": 0.0015554306532194174,
+     "clr": 0.004895312910777532
+    },
+    {
+     "zmax": 1.05,
+     "found": true,
+     "margin": 0.028877799039813527,
+     "occ": 0.028877799039813527,
+     "clr": 0.028892051663164015
+    },
+    {
+     "zmax": 1.1,
+     "found": true,
+     "margin": 0.05536135422499188,
+     "occ": 0.05536135422499188,
+     "clr": 0.0553835349917005
+    },
+    {
+     "zmax": 1.2,
+     "found": true,
+     "margin": 0.0553649902500464,
+     "occ": 0.0553649902500464,
+     "clr": 0.05537323137982769
+    }
+   ]
+  },
+  {
+   "target": "shoulder",
+   "res": [
+    {
+     "zmax": 0.9,
+     "found": false,
+     "margin": -0.0386910303024977,
+     "occ": -0.0386910303024977,
+     "clr": -0.03869091296117037
+    },
+    {
+     "zmax": 0.95,
+     "found": false,
+     "margin": -0.005762488674120995,
+     "occ": -0.005716308716235435,
+     "clr": -0.005762488674120995
+    },
+    {
+     "zmax": 1,
+     "found": true,
+     "margin": 0.003407382974126006,
+     "occ": 0.0034947455179155304,
+     "clr": 0.003407382974126006
+    },
+    {
+     "zmax": 1.05,
+     "found": true,
+     "margin": 0.02259333560526071,
+     "occ": 0.02259333560526071,
+     "clr": 0.022594646989862386
+    },
+    {
+     "zmax": 1.1,
+     "found": true,
+     "margin": 0.02369422929083923,
+     "occ": 0.023763404953630766,
+     "clr": 0.02369422929083923
+    },
+    {
+     "zmax": 1.2,
+     "found": true,
+     "margin": 0.023982674398175387,
+     "occ": 0.023982674398175387,
+     "clr": 0.02408996030559245
+    }
+   ]
+  },
+  {
+   "target": "shoulderFree",
+   "res": [
+    {
+     "zmax": 0.9,
+     "found": false,
+     "margin": -0.08235111344852292,
+     "occ": -0.08235111344852292,
+     "clr": -0.08224155323569932
+    },
+    {
+     "zmax": 0.95,
+     "found": false,
+     "margin": -0.05513031652137979,
+     "occ": -0.05513031652137979,
+     "clr": -0.055129275375960546
+    },
+    {
+     "zmax": 1,
+     "found": false,
+     "margin": -0.03691104466342018,
+     "occ": -0.03691104466342018,
+     "clr": -0.036889637168204245
+    },
+    {
+     "zmax": 1.05,
+     "found": false,
+     "margin": -0.028045619971536335,
+     "occ": -0.028045319285855658,
+     "clr": -0.028045619971536335
+    },
+    {
+     "zmax": 1.1,
+     "found": false,
+     "margin": -0.010261000486051372,
+     "occ": -0.010261000486051372,
+     "clr": -0.010258863399792994
+    },
+    {
+     "zmax": 1.2,
+     "found": true,
+     "margin": 0.008741420256496647,
+     "occ": 0.009087890937610192,
+     "clr": 0.008741420256496647
+    }
+   ]
+  },
+  {
+   "target": "torso",
+   "res": [
+    {
+     "zmax": 0.9,
+     "found": true,
+     "margin": 0.10846658279476634,
+     "occ": 0.10846658279476634,
+     "clr": 0.28430081001074026
+    },
+    {
+     "zmax": 0.95,
+     "found": true,
+     "margin": 0.10846856981227873,
+     "occ": 0.10846856981227873,
+     "clr": 0.2795654089345391
+    },
+    {
+     "zmax": 1,
+     "found": true,
+     "margin": 0.10846870416237245,
+     "occ": 0.10846870416237245,
+     "clr": 0.2891774142787017
+    },
+    {
+     "zmax": 1.05,
+     "found": true,
+     "margin": 0.11383334647880235,
+     "occ": 0.11383334647880235,
+     "clr": 0.1152228285578797
+    },
+    {
+     "zmax": 1.1,
+     "found": true,
+     "margin": 0.11383334647880235,
+     "occ": 0.11383334647880235,
+     "clr": 0.1152228285578797
+    },
+    {
+     "zmax": 1.2,
+     "found": true,
+     "margin": 0.11383880185743644,
+     "occ": 0.11383880185743644,
+     "clr": 0.1156859303324529
+    }
+   ]
+  },
+  {
+   "target": "racketArm",
+   "res": [
+    {
+     "zmax": 0.9,
+     "found": true,
+     "margin": 0.042764847319427285,
+     "occ": 0.042764847319427285,
+     "clr": 0.14873414479177235
+    },
+    {
+     "zmax": 0.95,
+     "found": true,
+     "margin": 0.043382714675080765,
+     "occ": 0.043382714675080765,
+     "clr": 0.08293781708819814
+    },
+    {
+     "zmax": 1,
+     "found": true,
+     "margin": 0.04338344260022757,
+     "occ": 0.04338344260022757,
+     "clr": 0.08293781708819806
+    },
+    {
+     "zmax": 1.05,
+     "found": true,
+     "margin": 0.043429257231647304,
+     "occ": 0.043429257231647304,
+     "clr": 0.1451672439288871
+    },
+    {
+     "zmax": 1.1,
+     "found": true,
+     "margin": 0.04347356422771373,
+     "occ": 0.04347356422771373,
+     "clr": 0.04505871920220736
+    },
+    {
+     "zmax": 1.2,
+     "found": true,
+     "margin": 0.04348638479809544,
+     "occ": 0.04348638479809544,
+     "clr": 0.044695805385449136
+    }
+   ]
+  }
+ ],
+ "leanCap": [
+  {
+   "target": "head",
+   "res": [
+    {
+     "leanMax": 20,
+     "found": false,
+     "margin": -0.08777594021731744,
+     "occ": -0.08777594021731744,
+     "clr": -0.08542203275434951
+    },
+    {
+     "leanMax": 25,
+     "found": false,
+     "margin": -0.0608127434751331,
+     "occ": -0.0608127434751331,
+     "clr": -0.060361583023882184
+    },
+    {
+     "leanMax": 30,
+     "found": false,
+     "margin": -0.033896070036247755,
+     "occ": -0.03388540653149047,
+     "clr": -0.033896070036247755
+    },
+    {
+     "leanMax": 35,
+     "found": false,
+     "margin": -0.005321768193350093,
+     "occ": -0.005321768193350093,
+     "clr": -0.005274280713699914
+    },
+    {
+     "leanMax": 40,
+     "found": true,
+     "margin": 0.026356977118295412,
+     "occ": 0.026356977118295412,
+     "clr": 0.02635727488298004
+    },
+    {
+     "leanMax": 45,
+     "found": true,
+     "margin": 0.055365549456238734,
+     "occ": 0.055365549456238734,
+     "clr": 0.05537041956148751
+    }
+   ]
+  },
+  {
+   "target": "shoulder",
+   "res": [
+    {
+     "leanMax": 20,
+     "found": false,
+     "margin": -0.02285268773609287,
+     "occ": -0.02285268773609287,
+     "clr": -0.022819478251693125
+    },
+    {
+     "leanMax": 25,
+     "found": false,
+     "margin": -0.004101392922687564,
+     "occ": -0.004093658957172591,
+     "clr": -0.004101392922687564
+    },
+    {
+     "leanMax": 30,
+     "found": true,
+     "margin": 0.009705705505121162,
+     "occ": 0.009705705505121162,
+     "clr": 0.010217726900228461
+    },
+    {
+     "leanMax": 35,
+     "found": true,
+     "margin": 0.01489866197513847,
+     "occ": 0.01489866197513847,
+     "clr": 0.014910773345627851
+    },
+    {
+     "leanMax": 40,
+     "found": true,
+     "margin": 0.02235463675147959,
+     "occ": 0.02235463675147959,
+     "clr": 0.022406297123169192
+    },
+    {
+     "leanMax": 45,
+     "found": true,
+     "margin": 0.024077871051488762,
+     "occ": 0.024077871051488762,
+     "clr": 0.02411307445817547
+    }
+   ]
+  },
+  {
+   "target": "torso",
+   "res": [
+    {
+     "leanMax": 20,
+     "found": true,
+     "margin": 0.10814904047618708,
+     "occ": 0.10814904047618708,
+     "clr": 0.1155133966087384
+    },
+    {
+     "leanMax": 25,
+     "found": true,
+     "margin": 0.10820520513015287,
+     "occ": 0.10820520513015287,
+     "clr": 0.17200170520493144
+    },
+    {
+     "leanMax": 30,
+     "found": true,
+     "margin": 0.11287050656091355,
+     "occ": 0.11287050656091355,
+     "clr": 0.11316447962583333
+    },
+    {
+     "leanMax": 35,
+     "found": true,
+     "margin": 0.11406464993562133,
+     "occ": 0.11407185337536897,
+     "clr": 0.11406464993562133
+    },
+    {
+     "leanMax": 40,
+     "found": true,
+     "margin": 0.11411622686501055,
+     "occ": 0.11411622686501055,
+     "clr": 0.11425790384513819
+    },
+    {
+     "leanMax": 45,
+     "found": true,
+     "margin": 0.11411680775211072,
+     "occ": 0.11411680775211072,
+     "clr": 0.11439176497658561
+    }
+   ]
+  },
+  {
+   "target": "racketArm",
+   "res": [
+    {
+     "leanMax": 20,
+     "found": true,
+     "margin": 0.043390842852112116,
+     "occ": 0.043390842852112116,
+     "clr": 0.16838056155185407
+    },
+    {
+     "leanMax": 25,
+     "found": true,
+     "margin": 0.043427534621057806,
+     "occ": 0.043427534621057806,
+     "clr": 0.12491976477959628
+    },
+    {
+     "leanMax": 30,
+     "found": true,
+     "margin": 0.04354463305556081,
+     "occ": 0.04354463305556081,
+     "clr": 0.04620027018973415
+    },
+    {
+     "leanMax": 35,
+     "found": true,
+     "margin": 0.04357770294057896,
+     "occ": 0.04357770294057896,
+     "clr": 0.06152238881511787
+    },
+    {
+     "leanMax": 40,
+     "found": true,
+     "margin": 0.04359717004363505,
+     "occ": 0.04359717004363505,
+     "clr": 0.05781486663931118
+    },
+    {
+     "leanMax": 45,
+     "found": true,
+     "margin": 0.04359717004363505,
+     "occ": 0.04359717004363505,
+     "clr": 0.05781486663931118
+    }
+   ]
+  }
+ ],
+ "neckCap": [
+  {
+   "neckMax": 15,
+   "found": false,
+   "margin": -0.00015098284460521194,
+   "occ": -0.00015098284460521194,
+   "clr": -0.00012261693739610766
+  },
+  {
+   "neckMax": 25,
+   "found": true,
+   "margin": 0.01938657629473847,
+   "occ": 0.01938657629473847,
+   "clr": 0.019391107339156655
+  },
+  {
+   "neckMax": 35,
+   "found": true,
+   "margin": 0.03971492639315997,
+   "occ": 0.03971492639315997,
+   "clr": 0.039777521232361904
+  },
+  {
+   "neckMax": 45,
+   "found": true,
+   "margin": 0.05536610866425015,
+   "occ": 0.05536610866425015,
+   "clr": 0.05536760766393799
+  }
+ ],
+ "sweep_hook_typical": [
+  {
+   "target": "head",
+   "res": [
+    {
+     "d": 0,
+     "found": true,
+     "margin": 0.012560151861633522,
+     "occ": 0.012560151861633522,
+     "clr": 0.012705768342775123,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.9551287555991463,
+      "py": -1.4882205374035593,
+      "hipH": 0.818839762423266,
+      "yaw": -102.70854716239865,
+      "lean": 45,
+      "sideLean": -9.512084514674607,
+      "twist": -10,
+      "headFlex": 41.55380307974611,
+      "headLat": -9.098256961313309,
+      "fhX": -0.031003463608717863,
+      "fhY": 0.1999638003106442,
+      "fhZ": -0.09306319555168652,
+      "freeSwivel": 13.087239628068623,
+      "racketAz": -47.215681082091436,
+      "racketEl": 36.55326512142432,
+      "racketRoll": 42.31089197101804,
+      "racketSwivel": 100.10766070787494,
+      "relFwd": 0.6,
+      "relLat": -0.01758625864267173,
+      "relZ": 0.9586419865546876,
+      "backToss": 0,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "d": 0.05,
+     "found": true,
+     "margin": 0.004031821398159807,
+     "occ": 0.004031821398159807,
+     "clr": 0.013887177431559875,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.9426341855901763,
+      "py": -1.4540118869998282,
+      "hipH": 0.8097296172338847,
+      "yaw": -92.90710070732678,
+      "lean": 40.71614837268683,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -12.11046720353141,
+      "fhX": 0.11276014556299829,
+      "fhY": 0.11157475032833997,
+      "fhZ": -0.27091217532900225,
+      "freeSwivel": 29.46846026497822,
+      "racketAz": -110.1480147827218,
+      "racketEl": 13.725934814283526,
+      "racketRoll": -67.47103172294872,
+      "racketSwivel": 54.98411774806624,
+      "relFwd": 0.5833934984853526,
+      "relLat": 0.04473987261135637,
+      "relZ": 1.118233303274105,
+      "backToss": 0.05,
+      "tossAz": -10.75703788276006,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.0012331712217301435,
+     "occ": -0.0012331712217301435,
+     "clr": -0.0007914838711628701,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.9489951111462991,
+      "py": -1.4234399338781774,
+      "hipH": 0.8,
+      "yaw": -84.68781341370907,
+      "lean": 45,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -20,
+      "fhX": 0.28836881851640783,
+      "fhY": 0.2364840897570949,
+      "fhZ": -0.27525478182516055,
+      "freeSwivel": 1.5631630408596706,
+      "racketAz": -69.41017426649402,
+      "racketEl": -8.982204475349086,
+      "racketRoll": 44.7828694534704,
+      "racketSwivel": 110,
+      "relFwd": 0.6,
+      "relLat": 0.08791408055044213,
+      "relZ": 1.1169766867889954,
+      "backToss": 0.1,
+      "tossAz": 26.729802236945133,
+      "apex": 0.3,
+      "contactZ": 1.015312420425985
+     }
+    },
+    {
+     "d": 0.15,
+     "found": false,
+     "margin": -0.0058729117320812894,
+     "occ": -0.0058729117320812894,
+     "clr": -0.005861595216868885,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.9330902204423462,
+      "py": -1.4046323493848052,
+      "hipH": 0.8,
+      "yaw": -79.3603222718979,
+      "lean": 45,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -20,
+      "fhX": 0.286393642595713,
+      "fhY": 0.07771744766777072,
+      "fhZ": -0.3649965953230427,
+      "freeSwivel": 7.206603987711336,
+      "racketAz": -8.453121245991184,
+      "racketEl": 15.585130230587929,
+      "racketRoll": 72.44889304965031,
+      "racketSwivel": 108.32947913964324,
+      "relFwd": 0.6,
+      "relLat": 0.09927454471027004,
+      "relZ": 1.0948828955037888,
+      "backToss": 0.15,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1.001612723854038
+     }
+    },
+    {
+     "d": 0.2,
+     "found": false,
+     "margin": -0.0123506003097647,
+     "occ": -0.0123506003097647,
+     "clr": 0.004821687598745173,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -1.0180624260005706,
+      "py": -1.4076779881005703,
+      "hipH": 0.8001141665628626,
+      "yaw": -76.7827893061677,
+      "lean": 45,
+      "sideLean": -9.997858864361726,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -14.838527674814179,
+      "fhX": 0.2979917874945375,
+      "fhY": 0.09100739585785272,
+      "fhZ": -0.37900727143310264,
+      "freeSwivel": 28.055334814820412,
+      "racketAz": -34.8220733667882,
+      "racketEl": 23.040211236567323,
+      "racketRoll": 48.420638045061,
+      "racketSwivel": 109.50803006741896,
+      "relFwd": 0.599984290510787,
+      "relLat": 0.13479312843937916,
+      "relZ": 1.0621209285996296,
+      "backToss": 0.2,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 0.9899916079850617
+     }
+    },
+    {
+     "d": 0.3,
+     "found": false,
+     "margin": -0.023889383540448724,
+     "occ": -0.023889383540448724,
+     "clr": -0.023859393673613036,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -1.039096659367158,
+      "py": -1.4011937498110272,
+      "hipH": 0.8002510324793565,
+      "yaw": -74.25846113392609,
+      "lean": 45,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -19.982872077237293,
+      "fhX": -0.10063969267811784,
+      "fhY": -0.010132609711964335,
+      "fhZ": -0.44315305828185303,
+      "freeSwivel": 35.559247286957465,
+      "racketAz": -52.75286003432434,
+      "racketEl": 40.22599977756826,
+      "racketRoll": 30.686435714469127,
+      "racketSwivel": 109.44203069223659,
+      "relFwd": 0.6,
+      "relLat": 0.21886983229444174,
+      "relZ": 0.9885005422823749,
+      "backToss": 0.3,
+      "tossAz": 28.037695391537696,
+      "apex": 0.3,
+      "contactZ": 0.9455429775651016
+     }
+    },
+    {
+     "d": 0.4,
+     "found": false,
+     "margin": -0.03435166639083533,
+     "occ": -0.03435166639083533,
+     "clr": -0.0088414028739339,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -1.1,
+      "py": -1.4,
+      "hipH": 0.8014531799485791,
+      "yaw": -70.2486262338654,
+      "lean": 45,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -17.83656369909648,
+      "fhX": 0.25644193160802,
+      "fhY": 0.2329898911126399,
+      "fhZ": -0.3236974342045587,
+      "freeSwivel": 24.439200807976377,
+      "racketAz": -6.793224418383005,
+      "racketEl": 6.735082375322079,
+      "racketRoll": -12.686269692864954,
+      "racketSwivel": 107.71692389968649,
+      "relFwd": 0.6,
+      "relLat": 0.20529059941231734,
+      "relZ": 0.9703960883760843,
+      "backToss": 0.4,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 0.9227101098573547
+     }
+    }
+   ]
+  },
+  {
+   "target": "shoulder",
+   "res": [
+    {
+     "d": 0,
+     "found": false,
+     "margin": -0.0532321506035275,
+     "occ": -0.053223582946655974,
+     "clr": -0.0532321506035275,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.0989590531863414,
+      "py": -1.505920747186189,
+      "hipH": 0.8086869718473666,
+      "yaw": -105,
+      "lean": 38.38822631958809,
+      "sideLean": -8.16285265502626,
+      "twist": -10,
+      "headFlex": 42.12868290722498,
+      "headLat": 14.04532252715321,
+      "fhX": 0.1061476734481892,
+      "fhY": -0.26585990365508194,
+      "fhZ": -0.46181036326754965,
+      "freeSwivel": 7.922905150016547,
+      "racketAz": -119.10501834978047,
+      "racketEl": 41.76004892383051,
+      "racketRoll": -136.72492738497746,
+      "racketSwivel": 35.320844258699424,
+      "relFwd": 0.438239467704912,
+      "relLat": -0.018211375066781863,
+      "relZ": 1.0584318506513508,
+      "backToss": 0,
+      "tossAz": 18.058809841979496,
+      "apex": 0.3,
+      "contactZ": 1.0994105775376959
+     }
+    },
+    {
+     "d": 0.05,
+     "found": false,
+     "margin": -0.052296001830841585,
+     "occ": -0.052262290393558224,
+     "clr": -0.052296001830841585,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.1,
+      "py": -1.5499999999999998,
+      "hipH": 0.8,
+      "yaw": -105,
+      "lean": 33.050073877769144,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 41.742687913536386,
+      "headLat": 14.223703313017076,
+      "fhX": -0.13190803327135564,
+      "fhY": 0.32199132416442366,
+      "fhZ": -0.14761587087455175,
+      "freeSwivel": 0.47935056795576614,
+      "racketAz": -132.00031737465426,
+      "racketEl": -5.133567446658901,
+      "racketRoll": -159.28195567576063,
+      "racketSwivel": 64.45729971681106,
+      "relFwd": 0.4313585293238957,
+      "relLat": -0.01999999999999999,
+      "relZ": 1.0407157537912288,
+      "backToss": 0.05,
+      "tossAz": -30,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.05104201816095818,
+     "occ": -0.0510258993334354,
+     "clr": -0.05104201816095818,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.090838369604222,
+      "py": -1.5499999999999998,
+      "hipH": 0.8,
+      "yaw": -104.93151298241837,
+      "lean": 34.71301610566661,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 44.76370719084158,
+      "headLat": -10.7151580099317,
+      "fhX": -0.2690771895192149,
+      "fhY": 0.16698438610222543,
+      "fhZ": -0.1325738462589769,
+      "freeSwivel": 7.483141390056794,
+      "racketAz": -86.81572895928457,
+      "racketEl": 54.49087751500865,
+      "racketRoll": 5.51727291618019,
+      "racketSwivel": 53.24386953234834,
+      "relFwd": 0.48513132128687975,
+      "relLat": -0.01999999999999999,
+      "relZ": 1.0435338237983895,
+      "backToss": 0.1,
+      "tossAz": -26.430704679988377,
+      "apex": 0.3,
+      "contactZ": 1.0902273000521998
+     }
+    },
+    {
+     "d": 0.15,
+     "found": false,
+     "margin": -0.05271896164911904,
+     "occ": -0.05271896164911904,
+     "clr": -0.05261589372378356,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.0989279516286774,
+      "py": -1.5440818465432418,
+      "hipH": 0.8,
+      "yaw": -103.66158920500628,
+      "lean": 35.76712188962156,
+      "sideLean": -9.49590193042284,
+      "twist": -10,
+      "headFlex": 43.896195895687335,
+      "headLat": -17.425683187746507,
+      "fhX": 0.011659684468649179,
+      "fhY": 0.17603418651247504,
+      "fhZ": -0.09365032826488284,
+      "freeSwivel": -14.335611380679815,
+      "racketAz": -179.04083309574995,
+      "racketEl": 0.35239980920904657,
+      "racketRoll": -143.35236585602308,
+      "racketSwivel": 91.78468766883319,
+      "relFwd": 0.5250058624445071,
+      "relLat": 0.01344999587286845,
+      "relZ": 0.9264988521949695,
+      "backToss": 0.15,
+      "tossAz": -30,
+      "apex": 0.3,
+      "contactZ": 1.0785024840654471
+     }
+    },
+    {
+     "d": 0.2,
+     "found": false,
+     "margin": -0.05208774681468218,
+     "occ": -0.05208774681468218,
+     "clr": -0.05160082000555953,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.1,
+      "py": -1.5308051534509433,
+      "hipH": 0.8,
+      "yaw": -104.5683604855033,
+      "lean": 34.49185827003663,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": 5.8630681994354426,
+      "fhX": -0.11411854600450627,
+      "fhY": -0.08967948792010144,
+      "fhZ": -0.2731863310900027,
+      "freeSwivel": -16.4672758788509,
+      "racketAz": -180,
+      "racketEl": -25.406361733624312,
+      "racketRoll": -140.25686689278956,
+      "racketSwivel": 106.96470838755681,
+      "relFwd": 0.599532583796065,
+      "relLat": -0.01999999999999999,
+      "relZ": 0.9394194494626878,
+      "backToss": 0.2,
+      "tossAz": -5.630053419054054,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "d": 0.3,
+     "found": false,
+     "margin": -0.06334497843179022,
+     "occ": -0.06298144556221855,
+     "clr": -0.06334497843179022,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.1,
+      "py": -1.5462684400484379,
+      "hipH": 0.8,
+      "yaw": -102.93586633312911,
+      "lean": 28.009065926169825,
+      "sideLean": -8.748746220134432,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -12.151313560864311,
+      "fhX": -0.10450550857911178,
+      "fhY": 0.03302987119033629,
+      "fhZ": -0.542531283486777,
+      "freeSwivel": 53.30287352778208,
+      "racketAz": -121.98657442027604,
+      "racketEl": 34.766271350998124,
+      "racketRoll": 43.02189765327154,
+      "racketSwivel": 99.60368337652807,
+      "relFwd": 0.6,
+      "relLat": 0.1580815024622563,
+      "relZ": 1.1149411925858606,
+      "backToss": 0.3,
+      "tossAz": -30,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "d": 0.4,
+     "found": false,
+     "margin": -0.07096359390428403,
+     "occ": -0.0709380600450642,
+     "clr": -0.07096359390428403,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.086792518155866,
+      "py": -1.5416871714800529,
+      "hipH": 0.8005466031513004,
+      "yaw": -98.24912060999533,
+      "lean": 21.158089330145827,
+      "sideLean": -10,
+      "twist": -9.362577713947767,
+      "headFlex": 45,
+      "headLat": 18.724037037183955,
+      "fhX": -0.358503130307253,
+      "fhY": -0.3505874130367564,
+      "fhZ": -0.23255267097209936,
+      "freeSwivel": 24.1722660382448,
+      "racketAz": -131.64069058159959,
+      "racketEl": 30.161216135731436,
+      "racketRoll": 47.78497372005583,
+      "racketSwivel": 93.47703321356784,
+      "relFwd": 0.5906358172317204,
+      "relLat": 0.20803220993940436,
+      "relZ": 1.1195241880335347,
+      "backToss": 0.4,
+      "tossAz": -30,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    }
+   ]
+  },
+  {
+   "target": "torso",
+   "res": [
+    {
+     "d": 0,
+     "found": false,
+     "margin": -0.01999981617455256,
+     "occ": -0.01999981617455256,
+     "clr": -0.017754158841054638,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.9899209418204187,
+      "py": -1.4692806125638935,
+      "hipH": 0.8159882325840091,
+      "yaw": -88.78006588099723,
+      "lean": 42.482780493389015,
+      "sideLean": -2.697581954891831,
+      "twist": 25.196534858756877,
+      "headFlex": 45,
+      "headLat": 18.343236166293515,
+      "fhX": -0.018719633799493707,
+      "fhY": -0.2642610347862081,
+      "fhZ": -0.48641143890885863,
+      "freeSwivel": -8.85609578192846,
+      "racketAz": -152.43917494994682,
+      "racketEl": 31.268008848190448,
+      "racketRoll": -52.47965433072528,
+      "racketSwivel": 91.86358005783175,
+      "relFwd": 0.36,
+      "relLat": -0.011120306214258285,
+      "relZ": 0.88,
+      "backToss": 0,
+      "tossAz": -3.6760989060483453,
+      "apex": 0.3,
+      "contactZ": 1.0015878404538596
+     }
+    },
+    {
+     "d": 0.05,
+     "found": false,
+     "margin": -0.019770840383087813,
+     "occ": -0.019770840383087813,
+     "clr": -0.01959785575200536,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.535331124156752,
+      "hipH": 0.8,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 44.50690117224791,
+      "headLat": 18.2889593959001,
+      "fhX": 0.21340361325688983,
+      "fhY": 0.4037385892744946,
+      "fhZ": -0.21682742292134582,
+      "freeSwivel": 26.85391293858563,
+      "racketAz": -147.8488530695699,
+      "racketEl": 58.354042189503346,
+      "racketRoll": -125.52707004870749,
+      "racketSwivel": 103.13331289909742,
+      "relFwd": 0.36028287229872036,
+      "relLat": -0.012973253466338881,
+      "relZ": 1.1106865637993988,
+      "backToss": 0.05,
+      "tossAz": 6.434422550848197,
+      "apex": 0.3,
+      "contactZ": 0.9207678161696843
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.0058186589391000555,
+     "occ": -0.0058186589391000555,
+     "clr": -0.005736921988923071,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.5495438262456447,
+      "hipH": 0.8,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -6.3741665225756865,
+      "fhX": 0.26734364151203915,
+      "fhY": 0.23205890463080903,
+      "fhZ": -0.06448246149422865,
+      "freeSwivel": -0.3471719708953458,
+      "racketAz": -165.7251549734372,
+      "racketEl": 51.74555635013934,
+      "racketRoll": 16.609282425232777,
+      "racketSwivel": 59.15711899535545,
+      "relFwd": 0.36,
+      "relLat": 0.06525062520660631,
+      "relZ": 1.0365934342894039,
+      "backToss": 0.1,
+      "tossAz": 0.5490206932865114,
+      "apex": 0.3,
+      "contactZ": 0.8781317741507559
+     }
+    },
+    {
+     "d": 0.15,
+     "found": true,
+     "margin": 0.013473050911589577,
+     "occ": 0.013473050911589577,
+     "clr": 0.013494322497806775,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.5358458319200554,
+      "hipH": 0.8,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 44.184325861707656,
+      "headLat": -7.744176041394212,
+      "fhX": 0.2980544232987581,
+      "fhY": 0.33254381297052793,
+      "fhZ": -0.010889115668613392,
+      "freeSwivel": -5.472173951264994,
+      "racketAz": -79.23987563157084,
+      "racketEl": 52.85342592635742,
+      "racketRoll": 12.43290820266759,
+      "racketSwivel": 37.804353912250036,
+      "relFwd": 0.36,
+      "relLat": 0.10558709716708947,
+      "relZ": 0.8945831563762031,
+      "backToss": 0.15,
+      "tossAz": 4.32345681369803,
+      "apex": 0.3,
+      "contactZ": 0.8619130896138278
+     }
+    },
+    {
+     "d": 0.2,
+     "found": true,
+     "margin": 0.034918101918884614,
+     "occ": 0.0350164691396361,
+     "clr": 0.034918101918884614,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.5467846917638695,
+      "hipH": 0.8,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": 9.925276948705303,
+      "twist": -10,
+      "headFlex": 43.16374808647166,
+      "headLat": -7.0092136965633145,
+      "fhX": -0.07874125716407754,
+      "fhY": 0.42122873096359603,
+      "fhZ": -0.039331316443582454,
+      "freeSwivel": -17.890830911897638,
+      "racketAz": -92.47925885605883,
+      "racketEl": 47.456321343087154,
+      "racketRoll": -30.1995975964783,
+      "racketSwivel": 55.40490940384413,
+      "relFwd": 0.36,
+      "relLat": 0.1441785418765127,
+      "relZ": 1.093766440439834,
+      "backToss": 0.2,
+      "tossAz": 5.306817676338774,
+      "apex": 0.3,
+      "contactZ": 0.8681884169654082
+     }
+    },
+    {
+     "d": 0.3,
+     "found": true,
+     "margin": 0.03543392174715631,
+     "occ": 0.03543392174715631,
+     "clr": 0.04035614287269382,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.5499999999999998,
+      "hipH": 0.8218568219814005,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 43.96017531498936,
+      "headLat": -20,
+      "fhX": -0.0002816374485271611,
+      "fhY": 0.29167236359380333,
+      "fhZ": -0.0836634644320049,
+      "freeSwivel": 82.48883625250296,
+      "racketAz": -158.86845566295074,
+      "racketEl": 33.80116284936739,
+      "racketRoll": -31.743870139621606,
+      "racketSwivel": 73.06389520795553,
+      "relFwd": 0.45146000860247226,
+      "relLat": 0.19591335721531117,
+      "relZ": 1.0097217663595563,
+      "backToss": 0.3,
+      "tossAz": -5.707893507261293,
+      "apex": 0.3,
+      "contactZ": 0.8905315303805297
+     }
+    },
+    {
+     "d": 0.4,
+     "found": true,
+     "margin": 0.009914671249737621,
+     "occ": 0.009914671249737621,
+     "clr": 0.010144807913618551,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.9343500927609714,
+      "py": -1.449096760438754,
+      "hipH": 0.8965303034951371,
+      "yaw": -105,
+      "lean": 42.56942104667807,
+      "sideLean": 9.340491889195949,
+      "twist": -9.962145382085442,
+      "headFlex": 42.23342681939259,
+      "headLat": 7.297721337695489,
+      "fhX": -0.018055372522210233,
+      "fhY": 0.45000000000000007,
+      "fhZ": -0.2228189248548721,
+      "freeSwivel": -18.08020168657109,
+      "racketAz": -131.32631598967328,
+      "racketEl": 45.330789649690516,
+      "racketRoll": -85.48939047801969,
+      "racketSwivel": 96.14923418154149,
+      "relFwd": 0.5358080482601798,
+      "relLat": -0.008583978099741983,
+      "relZ": 0.9165307812338223,
+      "backToss": 0.4,
+      "tossAz": 18.536840875413432,
+      "apex": 0.3,
+      "contactZ": 0.943465571682105
+     }
+    }
+   ]
+  }
+ ],
+ "sweep_hook_common": [
+  {
+   "target": "head",
+   "res": [
+    {
+     "d": 0,
+     "found": false,
+     "margin": -0.10045976784846454,
+     "occ": -0.10045976784846454,
+     "clr": -0.07338522064979408,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.8768108569990833,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -78.90630295778584,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -5.483316016566174,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.30000000000000004,
+      "fhY": 0.14983261633898826,
+      "fhZ": -0.23586364519726655,
+      "freeSwivel": -19.546439443904944,
+      "racketAz": -17.306052205160967,
+      "racketEl": -1.854003406572403,
+      "racketRoll": 7.388717201776558,
+      "racketSwivel": 91.55647605460335,
+      "relFwd": 0.36,
+      "relLat": 0.22,
+      "relZ": 1.0000578477011293,
+      "backToss": 0,
+      "tossAz": -23.037290243994377,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.05,
+     "found": false,
+     "margin": -0.09831777862415007,
+     "occ": -0.09831777862415007,
+     "clr": -0.04501529945832551,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.8783296801405999,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -74.72226206556522,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.20069651271486277,
+      "fhY": 0.1583971850364322,
+      "fhZ": -0.2789619813799807,
+      "freeSwivel": -4.577625505152373,
+      "racketAz": -89.2409910553797,
+      "racketEl": 15.612129473894022,
+      "racketRoll": -1.692635827626134,
+      "racketSwivel": 110,
+      "relFwd": 0.36821611843576024,
+      "relLat": 0.22,
+      "relZ": 1.0733082991715688,
+      "backToss": 0.05,
+      "tossAz": 29.831369593470484,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.0965137420511365,
+     "occ": -0.0965137420511365,
+     "clr": -0.04776854213815267,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.8718112254558037,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -76.55396901141377,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -9.946748553624348,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.20745196927414222,
+      "fhY": 0.22541248181014784,
+      "fhZ": -0.20886785928304635,
+      "freeSwivel": -3.7614092696126633,
+      "racketAz": -99.00314560821967,
+      "racketEl": -8.431923385675113,
+      "racketRoll": -0.7483346178067336,
+      "racketSwivel": 102.5880496262007,
+      "relFwd": 0.41654200443772116,
+      "relLat": 0.22,
+      "relZ": 0.9613642682639564,
+      "backToss": 0.1,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.15,
+     "found": false,
+     "margin": -0.09478442385229544,
+     "occ": -0.09478442385229544,
+     "clr": -0.05531717659370197,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.8777948824467541,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -78.38057981660944,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -9.891621133251073,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.10204795738937023,
+      "fhY": -0.25562458994254167,
+      "fhZ": -0.2555705462562636,
+      "freeSwivel": 63.90734862452372,
+      "racketAz": -99.77035135136772,
+      "racketEl": 44.58348320359235,
+      "racketRoll": -1.1933607193235503,
+      "racketSwivel": 97.34223737536465,
+      "relFwd": 0.46603920216072714,
+      "relLat": 0.22,
+      "relZ": 1.0273465105886526,
+      "backToss": 0.15,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.2,
+     "found": false,
+     "margin": -0.09301943036614899,
+     "occ": -0.09301943036614899,
+     "clr": -0.09286139615599959,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.8794871627316508,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -80.17872439311847,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -9.85747596173231,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.17724392655471521,
+      "fhY": 0.39134480143498207,
+      "fhZ": -0.178223141942632,
+      "freeSwivel": -4.54069607607684,
+      "racketAz": -30.551372507855262,
+      "racketEl": 9.192791643955594,
+      "racketRoll": -2.4758327911877984,
+      "racketSwivel": 87.6749733137666,
+      "relFwd": 0.515203705274957,
+      "relLat": 0.22,
+      "relZ": 1.1060784912626425,
+      "backToss": 0.2,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.3,
+     "found": false,
+     "margin": -0.09303063289912536,
+     "occ": -0.09303063289912536,
+     "clr": -0.0649803948243593,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.8790886163172638,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -79.78954399202408,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.18962128369960274,
+      "fhY": 0.13757770900958988,
+      "fhZ": -0.24586125672607279,
+      "freeSwivel": 10.928669811974572,
+      "racketAz": -153.2952661797589,
+      "racketEl": 12.717354841934196,
+      "racketRoll": -6.550135649882861,
+      "racketSwivel": 85.18731587953687,
+      "relFwd": 0.6,
+      "relLat": 0.1695970687659071,
+      "relZ": 1.095847456345472,
+      "backToss": 0.3,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.4,
+     "found": false,
+     "margin": -0.1217554138172062,
+     "occ": -0.1217554138172062,
+     "clr": -0.08129494251133423,
+     "pose": {
+      "preset": "hook:search-head",
+      "px": -0.8712905838565403,
+      "py": -1.4115204839046098,
+      "hipH": 0.8139939929454093,
+      "yaw": -74.80111712499678,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": 0.1310354499905102,
+      "fhY": 0.17583254436578777,
+      "fhZ": -0.3727390728253946,
+      "freeSwivel": 0.9970570119641629,
+      "racketAz": -65.92966406995282,
+      "racketEl": -39.75414772999974,
+      "racketRoll": -22.047063662653642,
+      "racketSwivel": 78.809792556654,
+      "relFwd": 0.6,
+      "relLat": 0.21897445436062554,
+      "relZ": 0.9722757712695731,
+      "backToss": 0.4,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 0.9979742152778279
+     }
+    }
+   ]
+  },
+  {
+   "target": "shoulder",
+   "res": [
+    {
+     "d": 0,
+     "found": false,
+     "margin": -0.09105177435092524,
+     "occ": -0.09105177435092524,
+     "clr": -0.09079019059578358,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.1,
+      "py": -1.548719813119358,
+      "hipH": 0.8,
+      "yaw": -104.23991349138784,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": -18.68998047265091,
+      "fhX": 0.30000000000000004,
+      "fhY": 0.32006044613039764,
+      "fhZ": -0.12607256285749474,
+      "freeSwivel": -5.793493233518667,
+      "racketAz": -43.31304430084322,
+      "racketEl": -40,
+      "racketRoll": 120.01260621927446,
+      "racketSwivel": 93.5456169536028,
+      "relFwd": 0.36,
+      "relLat": -0.01999999999999999,
+      "relZ": 0.8811091955780493,
+      "backToss": 0,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.05,
+     "found": false,
+     "margin": -0.09054237109683191,
+     "occ": -0.09054237109683191,
+     "clr": -0.09052712060846174,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.1,
+      "py": -1.545440506115575,
+      "hipH": 0.8,
+      "yaw": -97.66267770420252,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 32.354877812817904,
+      "headLat": 17.103332073720033,
+      "fhX": -0.11033966052532057,
+      "fhY": -0.13140601089184606,
+      "fhZ": -0.2886671042838085,
+      "freeSwivel": -7.701107373822719,
+      "racketAz": -166.1467828420006,
+      "racketEl": -7.311225858446342,
+      "racketRoll": -67.1275131122425,
+      "racketSwivel": 80.17858829168865,
+      "relFwd": 0.3794929294054082,
+      "relLat": -0.011983149409967774,
+      "relZ": 1.057278755245467,
+      "backToss": 0.05,
+      "tossAz": 10.753811087846017,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.0903594650718004,
+     "occ": -0.0903594650718004,
+     "clr": -0.09035405810035962,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.088403983408249,
+      "py": -1.5344312433002751,
+      "hipH": 0.8,
+      "yaw": -92.48357894661473,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 34.52437530180644,
+      "headLat": 15.892608958647727,
+      "fhX": -0.4099003409783649,
+      "fhY": 0.055243498464658314,
+      "fhZ": -0.17788399211104977,
+      "freeSwivel": -15.641234337485926,
+      "racketAz": -118.02668739709111,
+      "racketEl": 58.819080299178836,
+      "racketRoll": -30.49240117286456,
+      "racketSwivel": 107.650971528223,
+      "relFwd": 0.40479260957515245,
+      "relLat": -0.008593839593182096,
+      "relZ": 0.887272391534441,
+      "backToss": 0.1,
+      "tossAz": 4.370324901773664,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.15,
+     "found": false,
+     "margin": -0.09006598978448224,
+     "occ": -0.09006598978448224,
+     "clr": -0.09006270871734662,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.1,
+      "py": -1.5499999999999998,
+      "hipH": 0.8,
+      "yaw": -92.56580623852155,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": -1.346671174617068,
+      "fhX": -0.21316428012472238,
+      "fhY": -0.22521907445319178,
+      "fhZ": -0.1568927024762387,
+      "freeSwivel": 8.426625290496364,
+      "racketAz": -113.33265212917385,
+      "racketEl": 41.5733696011189,
+      "racketRoll": 90.43789773830622,
+      "racketSwivel": 107.98646285812862,
+      "relFwd": 0.4543625424048825,
+      "relLat": 0.0007957916896665709,
+      "relZ": 0.880626627984077,
+      "backToss": 0.15,
+      "tossAz": 4.103516312913527,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.2,
+     "found": false,
+     "margin": -0.0907276560415286,
+     "occ": -0.09069934286702391,
+     "clr": -0.0907276560415286,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.0846963101354683,
+      "py": -1.5488285088437805,
+      "hipH": 0.8,
+      "yaw": -90.25189486767793,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": 8.011777562009659,
+      "fhX": -0.2621758146005229,
+      "fhY": -0.1706202653723734,
+      "fhZ": -0.19780124680653705,
+      "freeSwivel": -17.85033294283556,
+      "racketAz": -152.66683243473287,
+      "racketEl": 41.37665931099042,
+      "racketRoll": -62.204491972965144,
+      "racketSwivel": 80.30298593334284,
+      "relFwd": 0.4879453146267011,
+      "relLat": -0.01999999999999999,
+      "relZ": 0.9460388106809126,
+      "backToss": 0.2,
+      "tossAz": 16.25246149517234,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.3,
+     "found": false,
+     "margin": -0.09060277046464724,
+     "occ": -0.09060277046464724,
+     "clr": -0.0905757711429021,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.0937727729653999,
+      "py": -1.5333188616021742,
+      "hipH": 0.8,
+      "yaw": -93.46069925162465,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": 0.23414759240422356,
+      "fhX": -0.10455727699357903,
+      "fhY": -0.16057049075816765,
+      "fhZ": -0.31972590820857594,
+      "freeSwivel": 25.806218854627325,
+      "racketAz": -147.602278522963,
+      "racketEl": 58.49186967846309,
+      "racketRoll": -1.228480921639573,
+      "racketSwivel": 71.19946319499682,
+      "relFwd": 0.5959890129166224,
+      "relLat": 0.116645629375254,
+      "relZ": 1.0411090938326173,
+      "backToss": 0.3,
+      "tossAz": -18.857237468022213,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.4,
+     "found": false,
+     "margin": -0.09790637371838667,
+     "occ": -0.09787190344908644,
+     "clr": -0.09790637371838667,
+     "pose": {
+      "preset": "hook:search-shoulder",
+      "px": -1.095787324955065,
+      "py": -1.5158974724627912,
+      "hipH": 0.8030414358791852,
+      "yaw": -86.479008010457,
+      "lean": 34.32365995051123,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": 0.137395350520633,
+      "fhY": -0.3659060541542947,
+      "fhZ": -0.3975816165949092,
+      "freeSwivel": 37.51755269032579,
+      "racketAz": -93.5361820615046,
+      "racketEl": 26.009841895592345,
+      "racketRoll": 35.74564579116986,
+      "racketSwivel": 105.55862832236613,
+      "relFwd": 0.6,
+      "relLat": -0.010522907523951882,
+      "relZ": 0.906369885543623,
+      "backToss": 0.4,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    }
+   ]
+  },
+  {
+   "target": "torso",
+   "res": [
+    {
+     "d": 0,
+     "found": false,
+     "margin": -0.05046850081035783,
+     "occ": -0.05046850081035783,
+     "clr": 0.07163570141574824,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -1.019109009736621,
+      "py": -1.5319411229572173,
+      "hipH": 0.8,
+      "yaw": -85.28056619086138,
+      "lean": 35,
+      "sideLean": -5.806216385065062,
+      "twist": 30,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": -0.08795357473917154,
+      "fhY": -0.06310518834143974,
+      "fhZ": -0.52550138616081,
+      "freeSwivel": -20,
+      "racketAz": -143.13225717422824,
+      "racketEl": 2.7400668131014214,
+      "racketRoll": -1.6145851028334732,
+      "racketSwivel": 80.60332792058448,
+      "relFwd": 0.36,
+      "relLat": -0.016047468054249628,
+      "relZ": 1.12,
+      "backToss": 0,
+      "tossAz": -30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.05,
+     "found": false,
+     "margin": -0.027190572309486814,
+     "occ": -0.027190572309486814,
+     "clr": 0.0469897467949853,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -1.0603635067405057,
+      "py": -1.533262938494778,
+      "hipH": 0.8063216572432962,
+      "yaw": -70.19737920831886,
+      "lean": 34.98358205539227,
+      "sideLean": -0.9649167671611298,
+      "twist": 21.865610593056527,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": -0.04309940533740597,
+      "fhY": -0.265000271072078,
+      "fhZ": -0.29745079746515324,
+      "freeSwivel": 19.759573933986786,
+      "racketAz": -138.3169544277457,
+      "racketEl": 52.67812894319934,
+      "racketRoll": -15.76362908278847,
+      "racketSwivel": 90.96665766289208,
+      "relFwd": 0.3601277434741727,
+      "relLat": -0.01999999999999999,
+      "relZ": 0.8900147517618485,
+      "backToss": 0.05,
+      "tossAz": -4.576863745930442,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.01999998527955967,
+     "occ": -0.01999998527955967,
+     "clr": -0.019410878485538668,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.8769777853311513,
+      "py": -1.5346441682546312,
+      "hipH": 0.8108008957320831,
+      "yaw": -74.34311356890592,
+      "lean": 35,
+      "sideLean": 1.913179350844274,
+      "twist": 23.832721246046916,
+      "headFlex": 34.98438768411512,
+      "headLat": 15.410445149853189,
+      "fhX": -0.12204428339253531,
+      "fhY": -0.271550100269714,
+      "fhZ": -0.4363483688631083,
+      "freeSwivel": 2.385288153935406,
+      "racketAz": -140.5102236904916,
+      "racketEl": 57.0605502949964,
+      "racketRoll": 22.04985375611261,
+      "racketSwivel": 75.26539117255643,
+      "relFwd": 0.36,
+      "relLat": 0.035183043094652755,
+      "relZ": 0.8819345076572104,
+      "backToss": 0.1,
+      "tossAz": -25.2026463557136,
+      "apex": 0.3,
+      "contactZ": 0.9595864173024867
+     }
+    },
+    {
+     "d": 0.15,
+     "found": false,
+     "margin": -0.013821786743665555,
+     "occ": -0.013821786743665555,
+     "clr": -0.013778609927994647,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.5475865488511171,
+      "hipH": 0.8,
+      "yaw": -105,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 34.53694656493327,
+      "headLat": 19.474874085122778,
+      "fhX": 0.1390257867301492,
+      "fhY": 0.42189499329935554,
+      "fhZ": -0.1446273806012558,
+      "freeSwivel": 45.853823940798264,
+      "racketAz": -153.60250952153353,
+      "racketEl": 43.334995467734615,
+      "racketRoll": 10.614857905070522,
+      "racketSwivel": 96.38966663245166,
+      "relFwd": 0.36,
+      "relLat": 0.039161514017303806,
+      "relZ": 1.0603858535475181,
+      "backToss": 0.15,
+      "tossAz": -0.7640172378838592,
+      "apex": 0.3,
+      "contactZ": 0.8859270308442592
+     }
+    },
+    {
+     "d": 0.2,
+     "found": true,
+     "margin": 0.0016540806988902018,
+     "occ": 0.0016540806988902018,
+     "clr": 0.001666869507681832,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.7505440777650553,
+      "py": -1.5499238229320778,
+      "hipH": 0.8111949738683654,
+      "yaw": -105,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": 19.27272684071623,
+      "fhX": 0.04171561445105254,
+      "fhY": 0.42013043931644334,
+      "fhZ": -0.15528669041912507,
+      "freeSwivel": -12.133839529554098,
+      "racketAz": -173.84943905911118,
+      "racketEl": 18.821398885265232,
+      "racketRoll": -58.34799702431829,
+      "racketSwivel": 103.6660268939447,
+      "relFwd": 0.36,
+      "relLat": 0.07621359327634197,
+      "relZ": 1.0621876622858042,
+      "backToss": 0.2,
+      "tossAz": 5.618283674043695,
+      "apex": 0.3,
+      "contactZ": 0.8717154582924035
+     }
+    },
+    {
+     "d": 0.3,
+     "found": true,
+     "margin": 0.003296494830031449,
+     "occ": 0.003296494830031449,
+     "clr": 0.004632084245502089,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.5499999999999998,
+      "hipH": 0.8267398168770657,
+      "yaw": -105,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": -17.360832493105125,
+      "fhX": 0.2009227862337788,
+      "fhY": 0.27630607854878964,
+      "fhZ": -0.2914394626994314,
+      "freeSwivel": 39.09070627999005,
+      "racketAz": -145.88866030288176,
+      "racketEl": 29.459977701924203,
+      "racketRoll": -115.2787984297108,
+      "racketSwivel": 99.4569635990525,
+      "relFwd": 0.45146000860247226,
+      "relLat": 0.11645162293758196,
+      "relZ": 0.915900390390868,
+      "backToss": 0.3,
+      "tossAz": -1.8610817472090524,
+      "apex": 0.3,
+      "contactZ": 0.8687022517337386
+     }
+    },
+    {
+     "d": 0.4,
+     "found": true,
+     "margin": 0.004804560162449904,
+     "occ": 0.004804560162449904,
+     "clr": 0.0055185041546203135,
+     "pose": {
+      "preset": "hook:search-torso",
+      "px": -0.75,
+      "py": -1.5499999999999998,
+      "hipH": 0.8098899849979184,
+      "yaw": -105,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": -15.99369960238808,
+      "fhX": -0.013912661679566618,
+      "fhY": 0.45000000000000007,
+      "fhZ": -0.06629924119758857,
+      "freeSwivel": 32.98127139005007,
+      "racketAz": -172.01555978459774,
+      "racketEl": 40.069485738932684,
+      "racketRoll": -55.836194873281556,
+      "racketSwivel": 72.78540941693883,
+      "relFwd": 0.5426810366014867,
+      "relLat": 0.18384407555862436,
+      "relZ": 0.9993205681927261,
+      "backToss": 0.4,
+      "tossAz": -10.981717176438778,
+      "apex": 0.3,
+      "contactZ": 0.85
+     }
+    }
+   ]
+  }
+ ],
+ "sweep_all_typical": [
+  {
+   "target": "head",
+   "res": [
+    {
+     "d": 0,
+     "found": true,
+     "margin": 0.05536610866425015,
+     "occ": 0.05536610866425015,
+     "clr": 0.05536760766393799,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -0.4021814152812617,
+      "py": -1.5722001526320146,
+      "hipH": 0.8020461434847818,
+      "yaw": 60,
+      "lean": 45,
+      "sideLean": 10,
+      "twist": 30,
+      "headFlex": 44.45657834479708,
+      "headLat": 20,
+      "fhX": -0.18587414534349062,
+      "fhY": 0.044455862886493724,
+      "fhZ": -0.24484327577642423,
+      "freeSwivel": 68.39399275466965,
+      "racketAz": 126.59370635382834,
+      "racketEl": 59.173495803705634,
+      "racketRoll": 134.37574044808042,
+      "racketSwivel": 2.2251447698883666,
+      "relFwd": 0.4993044699562883,
+      "relLat": -0.23039237749412472,
+      "relZ": 1.000221659981947,
+      "backToss": 0,
+      "tossAz": -11.1807630485829,
+      "apex": 0.3,
+      "contactZ": 1.0994985197300151
+     }
+    },
+    {
+     "d": 0.1,
+     "found": true,
+     "margin": 0.0505916879034701,
+     "occ": 0.0505916879034701,
+     "clr": 0.05166375293898659,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -0.20092572102054662,
+      "py": -1.6169513017327177,
+      "hipH": 0.8078588076055866,
+      "yaw": 60,
+      "lean": 45,
+      "sideLean": 8.856943442100693,
+      "twist": 30,
+      "headFlex": 45,
+      "headLat": 18.749670149895046,
+      "fhX": -0.08929632494122941,
+      "fhY": -0.010897886756558728,
+      "fhZ": -0.5299947579757437,
+      "freeSwivel": 86.38053381159038,
+      "racketAz": 69.41389312079494,
+      "racketEl": 50.01776507687859,
+      "racketRoll": 141.78332226322948,
+      "racketSwivel": 89.73408083129884,
+      "relFwd": 0.5749747883503119,
+      "relLat": -0.2689015268182091,
+      "relZ": 1.044006702828284,
+      "backToss": 0.1,
+      "tossAz": 13.326764801384662,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "d": 0.2,
+     "found": true,
+     "margin": 0.03742976413999975,
+     "occ": 0.03743867475375337,
+     "clr": 0.03742976413999975,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": 0.4565914236171771,
+      "py": -1.669099220063997,
+      "hipH": 0.810456833080066,
+      "yaw": 60,
+      "lean": 43.299363269890264,
+      "sideLean": 9.853479725879602,
+      "twist": 30,
+      "headFlex": 45,
+      "headLat": 20,
+      "fhX": -0.265166890554364,
+      "fhY": 0.39568939888497523,
+      "fhZ": -0.23980579770207333,
+      "freeSwivel": 28.223466545095526,
+      "racketAz": 26.587841506853266,
+      "racketEl": 36.05441995670512,
+      "racketRoll": 160.74625211298235,
+      "racketSwivel": 11.854674389451734,
+      "relFwd": 0.5821332249786728,
+      "relLat": -0.30692454267715114,
+      "relZ": 0.957217751356343,
+      "backToss": 0.2,
+      "tossAz": 20.52271241233359,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "d": 0.3,
+     "found": true,
+     "margin": 0.023434250280129396,
+     "occ": 0.023434250280129396,
+     "clr": 0.023535622148969208,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -1.1,
+      "py": -1.5484110698242697,
+      "hipH": 0.8363302546719884,
+      "yaw": -71.32976473418964,
+      "lean": 45,
+      "sideLean": -10,
+      "twist": -23.700101602779238,
+      "headFlex": 45,
+      "headLat": -19.981662102823396,
+      "fhX": 0.029656603626371014,
+      "fhY": 0.3013940765991564,
+      "fhZ": -0.11853407411563333,
+      "freeSwivel": -13.002378414882978,
+      "racketAz": -137.2694837684358,
+      "racketEl": 22.808425825989232,
+      "racketRoll": -38.154440562323686,
+      "racketSwivel": 88.30699459948033,
+      "relFwd": 0.6461265773550096,
+      "relLat": 0.13088628651917533,
+      "relZ": 0.9483523462707663,
+      "backToss": 0.3,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1.0818038569325314
+     }
+    }
+   ]
+  },
+  {
+   "target": "shoulder",
+   "res": [
+    {
+     "d": 0,
+     "found": true,
+     "margin": 0.01713554302086987,
+     "occ": 0.01713554302086987,
+     "clr": 0.017170946312183816,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.5898031275171401,
+      "py": -1.5695827330832168,
+      "hipH": 0.8,
+      "yaw": 60,
+      "lean": 44.760720692893756,
+      "sideLean": 2.6206206103130825,
+      "twist": 30,
+      "headFlex": 45,
+      "headLat": -4.800455091362302,
+      "fhX": -0.3357455697317515,
+      "fhY": 0.18377479053392376,
+      "fhZ": -0.2527404101373672,
+      "freeSwivel": 89.60098158484651,
+      "racketAz": 133.1253373824656,
+      "racketEl": 37.97054153299085,
+      "racketRoll": 180,
+      "racketSwivel": -0.4000987088000656,
+      "relFwd": 0.36279384980852886,
+      "relLat": -0.08591514570660302,
+      "relZ": 0.9991269419476358,
+      "backToss": 0,
+      "tossAz": 12.630977560350836,
+      "apex": 0.3,
+      "contactZ": 1.0226544513286617
+     }
+    },
+    {
+     "d": 0.1,
+     "found": true,
+     "margin": 0.020530005349520895,
+     "occ": 0.020530005349520895,
+     "clr": 0.02058806855720666,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.529390678483795,
+      "py": -1.722714716342956,
+      "hipH": 0.8180675884803523,
+      "yaw": 60,
+      "lean": 44.98614550120393,
+      "sideLean": -3.154601411520485,
+      "twist": 30,
+      "headFlex": 45,
+      "headLat": -17.89828932572329,
+      "fhX": -0.5082156776942314,
+      "fhY": 0.08258032449649427,
+      "fhZ": -0.22784220047055043,
+      "freeSwivel": 86.15158417934083,
+      "racketAz": 131.28249291991352,
+      "racketEl": 8.311472310741031,
+      "racketRoll": 153.29398480639878,
+      "racketSwivel": -11.1577362432584,
+      "relFwd": 0.4560333954238325,
+      "relLat": -0.20974580374352098,
+      "relZ": 0.9851692938869846,
+      "backToss": 0.1,
+      "tossAz": 29.771433538624017,
+      "apex": 0.3,
+      "contactZ": 1.0597934568613852
+     }
+    },
+    {
+     "d": 0.2,
+     "found": true,
+     "margin": 0.010273103073477632,
+     "occ": 0.010273103073477632,
+     "clr": 0.011242886772920405,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.6065837943451707,
+      "py": -1.7685517154588561,
+      "hipH": 0.8023951681167903,
+      "yaw": 60,
+      "lean": 34.928524914616716,
+      "sideLean": 8.651554845397989,
+      "twist": 30,
+      "headFlex": 43.93712615721785,
+      "headLat": -17.861333177767314,
+      "fhX": -0.10682064214464759,
+      "fhY": 0.3685510816268005,
+      "fhZ": -0.3107251189055703,
+      "freeSwivel": -9.682099654369003,
+      "racketAz": 123.704993838257,
+      "racketEl": 42.00335003193429,
+      "racketRoll": 180,
+      "racketSwivel": 0.7465416512915475,
+      "relFwd": 0.47399604507850845,
+      "relLat": -0.14717962556315609,
+      "relZ": 0.9446440690525134,
+      "backToss": 0.2,
+      "tossAz": 28.178562052338712,
+      "apex": 0.3,
+      "contactZ": 1.081597409753746
+     }
+    },
+    {
+     "d": 0.3,
+     "found": true,
+     "margin": 0.0064813898944440125,
+     "occ": 0.007618173752795193,
+     "clr": 0.0064813898944440125,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.5233564734387471,
+      "py": -1.753330444713299,
+      "hipH": 0.8177972403629648,
+      "yaw": 60,
+      "lean": 44.71576357362457,
+      "sideLean": -1.9032910291559695,
+      "twist": 30,
+      "headFlex": 35.22698878244937,
+      "headLat": -4.465544832472343,
+      "fhX": 0.25166572142113885,
+      "fhY": 0.38381119120979945,
+      "fhZ": -0.2671950161721894,
+      "freeSwivel": -9.131659611761947,
+      "racketAz": 106.7830020948362,
+      "racketEl": 20.306102796003536,
+      "racketRoll": 180,
+      "racketSwivel": 27.140540328827377,
+      "relFwd": 0.65,
+      "relLat": -0.08689002138879715,
+      "relZ": 1.0232863365448253,
+      "backToss": 0.3,
+      "tossAz": -16.608440394999413,
+      "apex": 0.3,
+      "contactZ": 1.0435616022206684
+     }
+    }
+   ]
+  },
+  {
+   "target": "torso",
+   "res": [
+    {
+     "d": 0,
+     "found": true,
+     "margin": 0.11386375126057538,
+     "occ": 0.11386375126057538,
+     "clr": 0.11408387879689404,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.6444490619945089,
+      "py": -1.555701673660456,
+      "hipH": 0.8000910817678373,
+      "yaw": -105,
+      "lean": 39.38977300108713,
+      "sideLean": 6.45777942309568,
+      "twist": -30,
+      "headFlex": 33.42996663499339,
+      "headLat": 10.315744727122098,
+      "fhX": -0.27888397813322996,
+      "fhY": 0.2835441152929087,
+      "fhZ": -0.20651625602345858,
+      "freeSwivel": 71.88287602344083,
+      "racketAz": -167.10996076805264,
+      "racketEl": -32.07282707019398,
+      "racketRoll": -27.865267490822134,
+      "racketSwivel": 105.18331899397381,
+      "relFwd": 0.29858128203153833,
+      "relLat": 0.21755844575470673,
+      "relZ": 1.036088968268867,
+      "backToss": 0,
+      "tossAz": 18.325010369036946,
+      "apex": 0.3,
+      "contactZ": 1.0225546515656392
+     }
+    },
+    {
+     "d": 0.1,
+     "found": true,
+     "margin": 0.11404541042758215,
+     "occ": 0.11404541042758215,
+     "clr": 0.11822505645622085,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.6884732464615575,
+      "py": -1.7007844798226692,
+      "hipH": 0.8033630177819382,
+      "yaw": -105,
+      "lean": 35.7153842383446,
+      "sideLean": 9.796373654385132,
+      "twist": -30,
+      "headFlex": 45,
+      "headLat": 0.3287686307637294,
+      "fhX": 0.04535983657561782,
+      "fhY": 0.45000000000000007,
+      "fhZ": -0.3062059078260347,
+      "freeSwivel": 75.71721290750281,
+      "racketAz": -70.18482639073646,
+      "racketEl": 34.33331255290541,
+      "racketRoll": 74.5961620500594,
+      "racketSwivel": 97.98216644786334,
+      "relFwd": 0.3673640365562493,
+      "relLat": 0.20331043501284596,
+      "relZ": 0.9456468780064644,
+      "backToss": 0.1,
+      "tossAz": 5.374778589885828,
+      "apex": 0.3,
+      "contactZ": 1.040923452066178
+     }
+    },
+    {
+     "d": 0.2,
+     "found": true,
+     "margin": 0.10846921134386349,
+     "occ": 0.10846921134386349,
+     "clr": 0.28434101240959836,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.8321036057613611,
+      "py": -1.5765613312698448,
+      "hipH": 0.8060408551695001,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": 10,
+      "twist": -26.141643797202285,
+      "headFlex": 43.73444102897952,
+      "headLat": -15.578593950060982,
+      "fhX": 0.30000000000000004,
+      "fhY": 0.43910830137673496,
+      "fhZ": -0.08774241136461025,
+      "freeSwivel": 38.11803221250612,
+      "racketAz": -70.44293920335406,
+      "racketEl": 37.1124398551826,
+      "racketRoll": -43.33448758425652,
+      "racketSwivel": 102.4163802200051,
+      "relFwd": 0.3368542940774061,
+      "relLat": 0.14570512004772296,
+      "relZ": 1.0471005003522726,
+      "backToss": 0.2,
+      "tossAz": 22.14084549407822,
+      "apex": 0.3,
+      "contactZ": 0.8000560604133419
+     }
+    },
+    {
+     "d": 0.3,
+     "found": true,
+     "margin": 0.10822736701962626,
+     "occ": 0.10822736701962626,
+     "clr": 0.21615138405023776,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.7332636146777567,
+      "py": -1.706710746321556,
+      "hipH": 0.8733412579345192,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": -1.5044417817554372,
+      "twist": -28.823115874354958,
+      "headFlex": 37.267816401456344,
+      "headLat": -15.594448908290563,
+      "fhX": -0.29743524776575814,
+      "fhY": 0.09713911456692687,
+      "fhZ": -0.3678607902306459,
+      "freeSwivel": 18.983764240834596,
+      "racketAz": -30.800092413561714,
+      "racketEl": 39.18838357647938,
+      "racketRoll": 55.073891672564855,
+      "racketSwivel": 110,
+      "relFwd": 0.45146000860247226,
+      "relLat": 0.17586006162093626,
+      "relZ": 0.8792896887601453,
+      "backToss": 0.3,
+      "tossAz": 12.67378886355069,
+      "apex": 0.3,
+      "contactZ": 0.8690901375974134
+     }
+    }
+   ]
+  }
+ ],
+ "sweep_all_common": [
+  {
+   "target": "head",
+   "res": [
+    {
+     "d": 0,
+     "found": false,
+     "margin": -0.09099152641929589,
+     "occ": -0.09099152641929589,
+     "clr": -0.08227592018631474,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -0.890893949971123,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -82.80626409930593,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -9.478436525073882,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.06264797731536276,
+      "fhY": 0.3099845540351852,
+      "fhZ": -0.1138811709342416,
+      "freeSwivel": 0.2856547302309309,
+      "racketAz": -19.700925651054177,
+      "racketEl": 1.9089865956667396,
+      "racketRoll": 32.264671598891994,
+      "racketSwivel": 101.39878925233054,
+      "relFwd": 0.35469995555107725,
+      "relLat": 0.35,
+      "relZ": 1.1108034629316963,
+      "backToss": 0,
+      "tossAz": 26.991565881913992,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.08744439952521073,
+     "occ": -0.08744439952521073,
+     "clr": -0.08693421632195569,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -0.8753185232005158,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -77.60422481533209,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -14.273686005845603,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.1823191878644318,
+      "fhY": -0.2692551460643671,
+      "fhZ": -0.24236116482711317,
+      "freeSwivel": 67.53131884610298,
+      "racketAz": -93.52268505257103,
+      "racketEl": 29.533502651015397,
+      "racketRoll": -4.397936400260363,
+      "racketSwivel": 102.505956313218,
+      "relFwd": 0.386509091037022,
+      "relLat": 0.3443169882382616,
+      "relZ": 1.0372077826774602,
+      "backToss": 0.1,
+      "tossAz": 29.8980339354202,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.2,
+     "found": false,
+     "margin": -0.08397995867714875,
+     "occ": -0.08397995867714875,
+     "clr": -0.07967455562288234,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -0.9951979590769021,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -80.9310150312372,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -15.223168979967022,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.28972494623451206,
+      "fhY": 0.0801877393894837,
+      "fhZ": -0.36528535683825614,
+      "freeSwivel": -20,
+      "racketAz": -11.705569291977184,
+      "racketEl": -10.700750286289509,
+      "racketRoll": -34.62677197263537,
+      "racketSwivel": 85.4006589207969,
+      "relFwd": 0.46574695675867306,
+      "relLat": 0.35,
+      "relZ": 1.1394242886653352,
+      "backToss": 0.2,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.3,
+     "found": false,
+     "margin": -0.08028392554438045,
+     "occ": -0.08028392554438045,
+     "clr": -0.07682484983714227,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -1.036298663936196,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -74.99992114089292,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -21.58931360758036,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.30000000000000004,
+      "fhY": 0.19121802440707136,
+      "fhZ": -0.30884307342290407,
+      "freeSwivel": -15.270936585298195,
+      "racketAz": 0.5445359895967954,
+      "racketEl": -6.841434161798077,
+      "racketRoll": -87.44724297695811,
+      "racketSwivel": 99.86934960901694,
+      "relFwd": 0.45705009546088987,
+      "relLat": 0.35,
+      "relZ": 1.1338252342482216,
+      "backToss": 0.3,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    }
+   ]
+  },
+  {
+   "target": "shoulder",
+   "res": [
+    {
+     "d": 0,
+     "found": false,
+     "margin": -0.036354201585508505,
+     "occ": -0.03635222083928782,
+     "clr": -0.036354201585508505,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.6647403014790936,
+      "py": -1.568622836582002,
+      "hipH": 0.8,
+      "yaw": 60,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": 30,
+      "headFlex": 33.272666179278204,
+      "headLat": -19.88006523751987,
+      "fhX": 0.2447835273489699,
+      "fhY": 0.33136705554747636,
+      "fhZ": -0.25684597971950346,
+      "freeSwivel": 10.344670862747325,
+      "racketAz": 44.05052829810731,
+      "racketEl": 23.63699984771494,
+      "racketRoll": 172.99945371263715,
+      "racketSwivel": 39.86739884372444,
+      "relFwd": 0.27091056512397205,
+      "relLat": -0.10079918820489248,
+      "relZ": 0.9614464059881819,
+      "backToss": 0,
+      "tossAz": -21.590421452479628,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": false,
+     "margin": -0.03638384958014598,
+     "occ": -0.03638344545755071,
+     "clr": -0.03638384958014598,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.664924407081824,
+      "py": -1.570712864287309,
+      "hipH": 0.8,
+      "yaw": 60,
+      "lean": 35,
+      "sideLean": 9.99976836935052,
+      "twist": 30,
+      "headFlex": 33.85952363418009,
+      "headLat": 1.9832796266349284,
+      "fhX": 0.048575867938655315,
+      "fhY": 0.37039729313665337,
+      "fhZ": -0.09002870192601076,
+      "freeSwivel": 48.707737441603925,
+      "racketAz": 127.84582595857466,
+      "racketEl": 50.381797100112024,
+      "racketRoll": 175.99990642158457,
+      "racketSwivel": 9.31642306767569,
+      "relFwd": 0.3564528434496984,
+      "relLat": -0.14817156553052427,
+      "relZ": 0.8577502369881697,
+      "backToss": 0.1,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.2,
+     "found": false,
+     "margin": -0.03651792991068735,
+     "occ": -0.03650700180739904,
+     "clr": -0.03651792991068735,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.6711073009455182,
+      "py": -1.5742265399891515,
+      "hipH": 0.8,
+      "yaw": 60,
+      "lean": 35,
+      "sideLean": 9.980173692907861,
+      "twist": 30,
+      "headFlex": 31.99278516893427,
+      "headLat": 20,
+      "fhX": -0.42642931989165556,
+      "fhY": 0.17239755504785625,
+      "fhZ": -0.27432014570135227,
+      "freeSwivel": -1.5881727703948378,
+      "racketAz": 75.71763776153503,
+      "racketEl": 44.85117183404577,
+      "racketRoll": 166.20896995546593,
+      "racketSwivel": 17.728264652427384,
+      "relFwd": 0.4666591021680875,
+      "relLat": -0.07160491928439233,
+      "relZ": 1.1044336931958674,
+      "backToss": 0.2,
+      "tossAz": -6.276825987709753,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.3,
+     "found": false,
+     "margin": -0.03724791200152413,
+     "occ": -0.03724791200152413,
+     "clr": -0.037190003047024196,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -0.6557458648453214,
+      "py": -1.617963225312538,
+      "hipH": 0.8,
+      "yaw": 60,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": 30,
+      "headFlex": 29.852490606751466,
+      "headLat": 7.001358519341771,
+      "fhX": 0.21135672360674052,
+      "fhY": 0.31994980669705275,
+      "fhZ": -0.20172264847185073,
+      "freeSwivel": 2.1930304645603087,
+      "racketAz": 32.93286466056935,
+      "racketEl": 44.78178527780827,
+      "racketRoll": 177.91232767825062,
+      "racketSwivel": -0.36908036709602854,
+      "relFwd": 0.5697014174347211,
+      "relLat": -0.06594643728737482,
+      "relZ": 1.0074429616544676,
+      "backToss": 0.3,
+      "tossAz": -8.92775231685643,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    }
+   ]
+  },
+  {
+   "target": "torso",
+   "res": [
+    {
+     "d": 0,
+     "found": true,
+     "margin": 0.10041263897210163,
+     "occ": 0.10041263897210163,
+     "clr": 0.1017581895249523,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.6534433969146722,
+      "py": -1.539068008361859,
+      "hipH": 0.8,
+      "yaw": -105,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": -29.93959934344294,
+      "headFlex": 26.8508496919168,
+      "headLat": 4.4699835996625765,
+      "fhX": -0.17136810655019974,
+      "fhY": 0.36517843065108035,
+      "fhZ": -0.09686276971521413,
+      "freeSwivel": 74.1062286811134,
+      "racketAz": -35.64806895597869,
+      "racketEl": -10.64182234531507,
+      "racketRoll": -111.4788923575802,
+      "racketSwivel": 110,
+      "relFwd": 0.29434908649102287,
+      "relLat": 0.2919149579207343,
+      "relZ": 1.0083464374011775,
+      "backToss": 0,
+      "tossAz": 8.323819849170391,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.1,
+     "found": true,
+     "margin": 0.10087227990224858,
+     "occ": 0.10087227990224858,
+     "clr": 0.10266354137805911,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.7007983525589916,
+      "py": -1.5438391303636063,
+      "hipH": 0.8,
+      "yaw": -103.16246808203277,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": -30,
+      "headFlex": 23.165656203232878,
+      "headLat": -8.378899479986114,
+      "fhX": -0.18432067681344527,
+      "fhY": 0.34052928109603964,
+      "fhZ": -0.07354675450845605,
+      "freeSwivel": 47.719658450262074,
+      "racketAz": -83.87521116322739,
+      "racketEl": 60,
+      "racketRoll": -34.8676659195977,
+      "racketSwivel": 60.15967563180341,
+      "relFwd": 0.3814015607544279,
+      "relLat": 0.35,
+      "relZ": 1.0350801275839239,
+      "backToss": 0.1,
+      "tossAz": -30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "d": 0.2,
+     "found": true,
+     "margin": 0.10831573126893887,
+     "occ": 0.10831573126893887,
+     "clr": 0.22659651101950767,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.8548109788313529,
+      "py": -1.4716158550006755,
+      "hipH": 0.8176682493535584,
+      "yaw": -105,
+      "lean": 34.92179087197951,
+      "sideLean": 2.2099681684589694,
+      "twist": -24.43975280574142,
+      "headFlex": 34.90265459269354,
+      "headLat": -11.6467642045328,
+      "fhX": 0.30000000000000004,
+      "fhY": 0.28329400780922487,
+      "fhZ": -0.00007256677777001119,
+      "freeSwivel": 53.08817114122151,
+      "racketAz": -126.53263137714472,
+      "racketEl": 54.08004433958179,
+      "racketRoll": -30.45128779924096,
+      "racketSwivel": 103.3927434149242,
+      "relFwd": 0.3400272539712328,
+      "relLat": 0.15148625528859694,
+      "relZ": 1.0376291578754786,
+      "backToss": 0.2,
+      "tossAz": 19.983210795613694,
+      "apex": 0.3,
+      "contactZ": 0.8165390639315445
+     }
+    },
+    {
+     "d": 0.3,
+     "found": true,
+     "margin": 0.10807195459197534,
+     "occ": 0.10807195459197534,
+     "clr": 0.17180733298955084,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": 0.6751903509699264,
+      "py": -1.5705020820549287,
+      "hipH": 0.865170679343344,
+      "yaw": -105,
+      "lean": 35,
+      "sideLean": -0.12565598654843235,
+      "twist": -28.102488802422208,
+      "headFlex": 32.09538128129507,
+      "headLat": -11.11318307467733,
+      "fhX": -0.3106595962497444,
+      "fhY": 0.23415842621668115,
+      "fhZ": -0.28832038337124327,
+      "freeSwivel": 19.546527664234,
+      "racketAz": -37.90687049608337,
+      "racketEl": 25.30878138832459,
+      "racketRoll": -28.242977181747307,
+      "racketSwivel": 82.19545431675296,
+      "relFwd": 0.4429261414244845,
+      "relLat": 0.17268711641397383,
+      "relZ": 0.874791239156448,
+      "backToss": 0.3,
+      "tossAz": 15.31388525965722,
+      "apex": 0.3,
+      "contactZ": 0.863348177385157
+     }
+    }
+   ]
+  }
+ ],
+ "compare_typical": [
+  {
+   "key": "backhand",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.0017862055223258557,
+     "occ": -0.0017862055223258557,
+     "clr": 0.013143344404734917,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -1.0131067929210738,
+      "py": -1.4,
+      "hipH": 0.8004238766012516,
+      "yaw": -74.4396248621102,
+      "lean": 43,
+      "sideLean": -10,
+      "twist": -15,
+      "headFlex": 45,
+      "headLat": -20,
+      "fhX": -0.41894340766650334,
+      "fhY": 0.02626205351369526,
+      "fhZ": -0.32855071388398716,
+      "freeSwivel": -20,
+      "racketAz": -46.615479042068415,
+      "racketEl": 2.112744493131032,
+      "racketRoll": -7.797383227184866,
+      "racketSwivel": 77.36889026681922,
+      "relFwd": 0.42,
+      "relLat": 0.16999999999999998,
+      "relZ": 1.0379229164158488,
+      "backToss": 0,
+      "tossAz": -21.67688896830544,
+      "apex": 0.3,
+      "contactZ": 1.0300873893298275
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.04970578840380662,
+     "occ": -0.04970578840380662,
+     "clr": -0.04945343861161046,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -1.1,
+      "py": -1.5899999999999999,
+      "hipH": 0.8,
+      "yaw": -100,
+      "lean": 39.584745521065855,
+      "sideLean": -9.290496468415835,
+      "twist": -15,
+      "headFlex": 42.0339072112554,
+      "headLat": -17.844384485220544,
+      "fhX": -0.05858805613935697,
+      "fhY": 0.3011686430217063,
+      "fhZ": -0.12433859962114246,
+      "freeSwivel": -9.42772023640193,
+      "racketAz": -26.664246440144694,
+      "racketEl": -38.65645576969538,
+      "racketRoll": 180,
+      "racketSwivel": 65.67606209765215,
+      "relFwd": 0.42,
+      "relLat": -0.06693523239281421,
+      "relZ": 0.901681759117183,
+      "backToss": 0,
+      "tossAz": 4.831544455578296,
+      "apex": 0.3,
+      "contactZ": 1.0530143316018175
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.012450130580653505,
+     "occ": -0.012028256757546972,
+     "clr": -0.012450130580653505,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": -0.8200000000000001,
+      "py": -1.5899999999999999,
+      "hipH": 0.8663037612551001,
+      "yaw": -100,
+      "lean": 43,
+      "sideLean": 10,
+      "twist": -15,
+      "headFlex": 41.51883734546412,
+      "headLat": 5.786751775744857,
+      "fhX": -0.019184504419889392,
+      "fhY": 0.45000000000000007,
+      "fhZ": 0,
+      "freeSwivel": 17.355477950573636,
+      "racketAz": -107.2270725080767,
+      "racketEl": 60,
+      "racketRoll": -26.00828638616943,
+      "racketSwivel": 78.616599810754,
+      "relFwd": 0.25,
+      "relLat": 0.0539240553385778,
+      "relZ": 0.9518464759659108,
+      "backToss": 0,
+      "tossAz": 12.614709501574474,
+      "apex": 0.3,
+      "contactZ": 0.9445872337276089
+     }
+    }
+   ]
+  },
+  {
+   "key": "middle",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.0029717027163799143,
+     "occ": -0.0029717027163799143,
+     "clr": -0.0015514670930564904,
+     "pose": {
+      "preset": "middle:search-head",
+      "px": -0.4330438535982445,
+      "py": -1.5927073996717402,
+      "hipH": 0.8,
+      "yaw": -57.92088410053563,
+      "lean": 40,
+      "sideLean": -10,
+      "twist": -19.633942504699625,
+      "headFlex": 45,
+      "headLat": -20,
+      "fhX": 0.20841163833440068,
+      "fhY": 0.22715631693824734,
+      "fhZ": -0.21323835707355793,
+      "freeSwivel": -3.129084042424978,
+      "racketAz": -86.22385738454928,
+      "racketEl": -3.4189544250557233,
+      "racketRoll": 43.2291952567648,
+      "racketSwivel": 101.33196657551457,
+      "relFwd": 0.4080688114347866,
+      "relLat": 0.11367128165090899,
+      "relZ": 1.06480326703285,
+      "backToss": 0,
+      "tossAz": 13.187056270172448,
+      "apex": 0.3,
+      "contactZ": 1.07
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.07206221671515395,
+     "occ": -0.07094287689169013,
+     "clr": -0.07206221671515395,
+     "pose": {
+      "preset": "middle:search-shoulder",
+      "px": -0.08413721282077785,
+      "py": -1.75,
+      "hipH": 0.8000488856776765,
+      "yaw": -64.74011409960119,
+      "lean": 39.3212139617407,
+      "sideLean": -10,
+      "twist": -19.898061111312185,
+      "headFlex": 45,
+      "headLat": -20,
+      "fhX": -0.06724097178870758,
+      "fhY": -0.2538372430273672,
+      "fhZ": -0.17580733997589537,
+      "freeSwivel": 77.52724910414669,
+      "racketAz": -107.68296298503813,
+      "racketEl": 58.93864558153095,
+      "racketRoll": 0.20873837994258793,
+      "racketSwivel": 99.48943080198534,
+      "relFwd": 0.37970254613440746,
+      "relLat": -0.06999999999999999,
+      "relZ": 1.0393963396126447,
+      "backToss": 0,
+      "tossAz": 17.074048814847252,
+      "apex": 0.3,
+      "contactZ": 1.028962535217524
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.02000008311327832,
+     "occ": -0.02000008311327832,
+     "clr": -0.003661052423732134,
+     "pose": {
+      "preset": "middle:search-torso",
+      "px": -0.4891375872413024,
+      "py": -1.606739659328711,
+      "hipH": 0.8342505809348324,
+      "yaw": -44.93704185629403,
+      "lean": 39.08716403933508,
+      "sideLean": 5.685559922018369,
+      "twist": 20.148470100078093,
+      "headFlex": 45,
+      "headLat": -5.201339365323481,
+      "fhX": -0.08032126667609446,
+      "fhY": -0.27796436787021384,
+      "fhZ": -0.47892065667939654,
+      "freeSwivel": 51.01223388700123,
+      "racketAz": -113.5567520844337,
+      "racketEl": 54.11072596420588,
+      "racketRoll": -65.39874641607739,
+      "racketSwivel": 97.70713939684583,
+      "relFwd": 0.27305479956516554,
+      "relLat": 0.07561986243076026,
+      "relZ": 0.8697844161953949,
+      "backToss": 0,
+      "tossAz": 22.94411197081849,
+      "apex": 0.3,
+      "contactZ": 0.9472561495083373
+     }
+    }
+   ]
+  },
+  {
+   "key": "forehand",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.0064579989364553355,
+     "occ": -0.0064579989364553355,
+     "clr": -0.0061053147595761074,
+     "pose": {
+      "preset": "forehand:search-head",
+      "px": 0.04999999999999999,
+      "py": -1.6470836607138597,
+      "hipH": 0.8,
+      "yaw": -57.74653966301234,
+      "lean": 40,
+      "sideLean": -10,
+      "twist": -12.931114169510227,
+      "headFlex": 45,
+      "headLat": -20,
+      "fhX": 0.2140523453633152,
+      "fhY": 0.31011277918029934,
+      "fhZ": -0.3114732933463265,
+      "freeSwivel": -10.78637030987277,
+      "racketAz": -61.30376598805431,
+      "racketEl": 44.681614251210064,
+      "racketRoll": 7.462067419461988,
+      "racketSwivel": 79.71283510206891,
+      "relFwd": 0.46405849688146605,
+      "relLat": 0.07817869056967922,
+      "relZ": 1.0781160594573578,
+      "backToss": 0,
+      "tossAz": 10.088042715074934,
+      "apex": 0.3,
+      "contactZ": 1.07
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.06506508090343119,
+     "occ": -0.06506508090343119,
+     "clr": -0.06466245096628469,
+     "pose": {
+      "preset": "forehand:search-shoulder",
+      "px": 0.27505279767703006,
+      "py": -1.7775599663761228,
+      "hipH": 0.800468134297573,
+      "yaw": -84.94201655481064,
+      "lean": 37.87815876697027,
+      "sideLean": -8.835687996790682,
+      "twist": -12.713139079653347,
+      "headFlex": 44.84857996111672,
+      "headLat": -17.113545430603956,
+      "fhX": 0.19002784286452823,
+      "fhY": 0.20085131048178495,
+      "fhZ": -0.11706357976171383,
+      "freeSwivel": -5.6602060456202405,
+      "racketAz": -29.607042327936966,
+      "racketEl": 52.027077387905905,
+      "racketRoll": 26.977331490353095,
+      "racketSwivel": 20.157766447923734,
+      "relFwd": 0.43924284134371144,
+      "relLat": -0.12,
+      "relZ": 0.9289059310733778,
+      "backToss": 0,
+      "tossAz": 23.24488098988774,
+      "apex": 0.3,
+      "contactZ": 1.07
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.01999952754507575,
+     "occ": -0.01999952754507575,
+     "clr": -0.014427535105125264,
+     "pose": {
+      "preset": "forehand:search-torso",
+      "px": 0.0633716343171228,
+      "py": -1.7899999999999998,
+      "hipH": 0.8443218422316545,
+      "yaw": -61.93083167945538,
+      "lean": 37.303860320133694,
+      "sideLean": 8.33536875096867,
+      "twist": 26.861886264510026,
+      "headFlex": 43.87510486037954,
+      "headLat": 16.92940975435714,
+      "fhX": -0.24816651176982918,
+      "fhY": -0.2516595955029405,
+      "fhZ": -0.2837875543789932,
+      "freeSwivel": 37.110300796745015,
+      "racketAz": -135.19283004357806,
+      "racketEl": 42.57872034945723,
+      "racketRoll": 12.181084845564328,
+      "racketSwivel": 105.0698277547906,
+      "relFwd": 0.33,
+      "relLat": 0.059554639613526666,
+      "relZ": 1.0742786735797694,
+      "backToss": 0,
+      "tossAz": 29.53926335283682,
+      "apex": 0.3,
+      "contactZ": 1.0418584061603924
+     }
+    }
+   ]
+  },
+  {
+   "key": "hookVertical",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": true,
+     "margin": 0.012629813120616524,
+     "occ": 0.012629813120616524,
+     "clr": 0.012761498363996027,
+     "pose": {
+      "preset": "hookVertical:search-head",
+      "px": -0.9552552645803858,
+      "py": -1.4860545308666657,
+      "hipH": 0.8187959518799652,
+      "yaw": -102.73694790143638,
+      "lean": 45,
+      "sideLean": -9.557302668532115,
+      "twist": -10,
+      "headFlex": 41.55380307974611,
+      "headLat": -9.115782259697095,
+      "fhX": -0.03004067583839043,
+      "fhY": 0.19841035025035825,
+      "fhZ": -0.07623978879991689,
+      "freeSwivel": 13.63944815208751,
+      "racketAz": -46.345430643090396,
+      "racketEl": 37.800105155137956,
+      "racketRoll": 45.757257142733266,
+      "racketSwivel": 100.72469755774145,
+      "relFwd": 0.6,
+      "relLat": -0.01848929026576713,
+      "relZ": 0.9556806721784992,
+      "backToss": 0,
+      "tossAz": 29.622062376604845,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.05245361676908055,
+     "occ": -0.05245361676908055,
+     "clr": -0.05243909942554695,
+     "pose": {
+      "preset": "hookVertical:search-shoulder",
+      "px": -1.1,
+      "py": -1.5499999999999998,
+      "hipH": 0.8074934800787985,
+      "yaw": -104.91064158692122,
+      "lean": 37.512691513007,
+      "sideLean": -8.042948837318363,
+      "twist": -10,
+      "headFlex": 42.42195682831814,
+      "headLat": 18.712090857289724,
+      "fhX": 0.09537165428070349,
+      "fhY": 0.3486500398969453,
+      "fhZ": -0.3622858546992538,
+      "freeSwivel": -20,
+      "racketAz": -141.62452298186983,
+      "racketEl": 5.564218466205439,
+      "racketRoll": -148.94860474322303,
+      "racketSwivel": 58.00191133794567,
+      "relFwd": 0.4298580532827237,
+      "relLat": -0.01999999999999999,
+      "relZ": 1.0112529043794258,
+      "backToss": 0,
+      "tossAz": -21.33224488708077,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.019999816174552612,
+     "occ": -0.019999816174552612,
+     "clr": -0.0044819994178641916,
+     "pose": {
+      "preset": "hookVertical:search-torso",
+      "px": -0.9869913077014861,
+      "py": -1.452793563995769,
+      "hipH": 0.8159882325840091,
+      "yaw": -84.40657691595413,
+      "lean": 42.482780493389015,
+      "sideLean": -2.697581954891831,
+      "twist": 25.196534858756877,
+      "headFlex": 44.98551289940585,
+      "headLat": 19.119751555283216,
+      "fhX": 0.07948320976869805,
+      "fhY": -0.2704810549544965,
+      "fhZ": -0.47549757370486334,
+      "freeSwivel": -12.125237720963671,
+      "racketAz": -148.3173760256408,
+      "racketEl": 32.453228168789835,
+      "racketRoll": -89.69896690418044,
+      "racketSwivel": 88.43356932957309,
+      "relFwd": 0.36,
+      "relLat": -0.011120306214258285,
+      "relZ": 0.892471290336284,
+      "backToss": 0,
+      "tossAz": -3.809274128994506,
+      "apex": 0.3,
+      "contactZ": 1.0015878404538596
+     }
+    }
+   ]
+  },
+  {
+   "key": "hookBackward",
+   "nominalLegal": false,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.011721383914218212,
+     "occ": -0.011721383914218212,
+     "clr": -0.0009071534084345127,
+     "pose": {
+      "preset": "hookBackward:search-head",
+      "px": -1.0019544559287217,
+      "py": -1.4148821886293728,
+      "hipH": 0.8,
+      "yaw": -76.97044450595894,
+      "lean": 45,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": -19.226444180323238,
+      "fhX": 0.2766056297327275,
+      "fhY": 0.16830752469957422,
+      "fhZ": -0.44259862888367596,
+      "freeSwivel": -4.593318188971782,
+      "racketAz": -19.523688250658836,
+      "racketEl": 16.897355813200335,
+      "racketRoll": 62.422510739144684,
+      "racketSwivel": 109.64044362774712,
+      "relFwd": 0.6,
+      "relLat": 0.12097034077111848,
+      "relZ": 1.0996396302872027,
+      "backToss": 0.2,
+      "tossAz": 29.95021419418572,
+      "apex": 0.3,
+      "contactZ": 0.9866793512878143
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.051041649228893295,
+     "occ": -0.051041649228893295,
+     "clr": -0.0510309653142316,
+     "pose": {
+      "preset": "hookBackward:search-shoulder",
+      "px": -1.0997566490834119,
+      "py": -1.5499999999999998,
+      "hipH": 0.8,
+      "yaw": -104.93265483824852,
+      "lean": 34.49185827003663,
+      "sideLean": -9.20289646041993,
+      "twist": -10,
+      "headFlex": 45,
+      "headLat": 4.492115951631167,
+      "fhX": -0.15111531775837445,
+      "fhY": -0.06342336080459338,
+      "fhZ": -0.2737219451461561,
+      "freeSwivel": -6.161080338545668,
+      "racketAz": -135.73049715621968,
+      "racketEl": -23.433366065374255,
+      "racketRoll": -112.03617713703508,
+      "racketSwivel": 110,
+      "relFwd": 0.5992341386358644,
+      "relLat": -0.01999999999999999,
+      "relZ": 0.9130405701085949,
+      "backToss": 0.2,
+      "tossAz": -6.58712212758023,
+      "apex": 0.3,
+      "contactZ": 1.1
+     }
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.03521207859108978,
+     "occ": 0.03521207859108978,
+     "clr": 0.03523772071522438,
+     "pose": {
+      "preset": "hookBackward:search-torso",
+      "px": -0.7505896610476324,
+      "py": -1.549421861923344,
+      "hipH": 0.8000131990673311,
+      "yaw": -105,
+      "lean": 45,
+      "sideLean": 9.992619445271075,
+      "twist": -10,
+      "headFlex": 43.15597610184752,
+      "headLat": -11.560955295183797,
+      "fhX": -0.01514416171680788,
+      "fhY": 0.44644101841347605,
+      "fhZ": -0.0055877657812178905,
+      "freeSwivel": -14.669222838933354,
+      "racketAz": -94.0146658696055,
+      "racketEl": 58.60928944234287,
+      "racketRoll": -18.29310657534822,
+      "racketSwivel": 55.42297893179574,
+      "relFwd": 0.36,
+      "relLat": 0.1446383716103397,
+      "relZ": 1.0838679605845098,
+      "backToss": 0.2,
+      "tossAz": 5.332308914830925,
+      "apex": 0.3,
+      "contactZ": 0.8684808004134896
+     }
+    }
+   ]
+  }
+ ],
+ "compare_common": [
+  {
+   "key": "backhand",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.10360179994536087,
+     "occ": -0.10360179994536087,
+     "clr": -0.0017103155734028534,
+     "pose": {
+      "preset": "backhand:search-head",
+      "px": -0.8758176319818665,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -66.16413112356251,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -12.443032793811359,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.004880463198599694,
+      "fhY": -0.31619771872697916,
+      "fhZ": -0.4639239566026431,
+      "freeSwivel": 81.43823429527119,
+      "racketAz": -9.93937396985342,
+      "racketEl": -35.45677597956956,
+      "racketRoll": -44.33398569426086,
+      "racketSwivel": 102.42453756492083,
+      "relFwd": 0.2976968234594104,
+      "relLat": 0.16999999999999998,
+      "relZ": 0.9813720040643052,
+      "backToss": 0,
+      "tossAz": 13.99264721670884,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.08528087338100723,
+     "occ": -0.08528087338100723,
+     "clr": -0.08526460315963952,
+     "pose": {
+      "preset": "backhand:search-shoulder",
+      "px": -1.1,
+      "py": -1.5712899245939733,
+      "hipH": 0.8,
+      "yaw": -100,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -15,
+      "headFlex": 35,
+      "headLat": -5.2937663208692705,
+      "fhX": 0.10172888759663168,
+      "fhY": -0.4,
+      "fhZ": -0.32874587983843306,
+      "freeSwivel": 3.137075989239431,
+      "racketAz": -139.7842600939057,
+      "racketEl": -40,
+      "racketRoll": -143.3792107633638,
+      "racketSwivel": 68.45308801596262,
+      "relFwd": 0.3544980538696167,
+      "relLat": -0.035299304741994574,
+      "relZ": 1.0903881831738376,
+      "backToss": 0,
+      "tossAz": -15.581299563454827,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.020000549683382877,
+     "occ": -0.020000549683382877,
+     "clr": -0.0007186014075377355,
+     "pose": {
+      "preset": "backhand:search-torso",
+      "px": -1.054277271746229,
+      "py": -1.4740070058092154,
+      "hipH": 0.8,
+      "yaw": -73.81062511688559,
+      "lean": 34.111224505675565,
+      "sideLean": 4.225923926717005,
+      "twist": 19.803094608635384,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": -0.06724137537133124,
+      "fhY": -0.21578734585229425,
+      "fhZ": -0.22563840142628866,
+      "freeSwivel": 3.8529254583326455,
+      "racketAz": -138.87035700226497,
+      "racketEl": 48.52149138314327,
+      "racketRoll": 20.002615060881794,
+      "racketSwivel": 84.86164151108375,
+      "relFwd": 0.27921122283687294,
+      "relLat": 0.003177023282353919,
+      "relZ": 0.9885322744829675,
+      "backToss": 0,
+      "tossAz": -24.57983144052333,
+      "apex": 0.3,
+      "contactZ": 0.9718492079682338
+     }
+    }
+   ]
+  },
+  {
+   "key": "middle",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.10413984571308789,
+     "occ": -0.10413984571308789,
+     "clr": -0.07047578906625424,
+     "pose": {
+      "preset": "middle:search-head",
+      "px": -0.01910777483557824,
+      "py": -1.5691560581055404,
+      "hipH": 0.8,
+      "yaw": -53.49499407446221,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10.036422796860215,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": -0.19785224535689466,
+      "fhY": -0.2794114467691024,
+      "fhZ": -0.1390659717558153,
+      "freeSwivel": 80.13122326100054,
+      "racketAz": -29.644524556166914,
+      "racketEl": 59.17707264916153,
+      "racketRoll": 9.465695291962703,
+      "racketSwivel": 110,
+      "relFwd": 0.3131027894562805,
+      "relLat": 0.16999999999999998,
+      "relZ": 0.9484206778641759,
+      "backToss": 0,
+      "tossAz": -23.445199998581522,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.09464135500289689,
+     "occ": -0.0946403157355663,
+     "clr": -0.09464135500289689,
+     "pose": {
+      "preset": "middle:search-shoulder",
+      "px": -0.1150804118818764,
+      "py": -1.6758199140098693,
+      "hipH": 0.8,
+      "yaw": -65,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -20,
+      "headFlex": 35,
+      "headLat": -19.792594123286694,
+      "fhX": 0.2656476877208278,
+      "fhY": -0.2968071505676342,
+      "fhZ": -0.2959857693041274,
+      "freeSwivel": 64.90264087026603,
+      "racketAz": -129.9174454706336,
+      "racketEl": 27.84517669358415,
+      "racketRoll": -124.05890084260761,
+      "racketSwivel": 77.66513449112581,
+      "relFwd": 0.3291358712949213,
+      "relLat": -0.06999999999999999,
+      "relZ": 0.8605763169842527,
+      "backToss": 0,
+      "tossAz": -29.799867807624924,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.02000231684176143,
+     "occ": -0.02000231684176143,
+     "clr": -0.019209602187867745,
+     "pose": {
+      "preset": "middle:search-torso",
+      "px": -0.4731198386331243,
+      "py": -1.73368041500341,
+      "hipH": 0.8372792093225785,
+      "yaw": -50.0415537081557,
+      "lean": 35,
+      "sideLean": -8.933920658879602,
+      "twist": -6.536192028257187,
+      "headFlex": 35,
+      "headLat": 9.905724079765893,
+      "fhX": -0.29783077247504325,
+      "fhY": 0.14746707493318478,
+      "fhZ": -0.15104662578429456,
+      "freeSwivel": 26.134616311753618,
+      "racketAz": -125.9058639578401,
+      "racketEl": 30.45354751728098,
+      "racketRoll": -9.651849411487632,
+      "racketSwivel": 25.132029564021174,
+      "relFwd": 0.2652772392430983,
+      "relLat": -0.03574027911031524,
+      "relZ": 1.0725135371219543,
+      "backToss": 0,
+      "tossAz": -23.856083808698568,
+      "apex": 0.3,
+      "contactZ": 0.9837146090307537
+     }
+    }
+   ]
+  },
+  {
+   "key": "forehand",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.10770851073399351,
+     "occ": -0.10770851073399351,
+     "clr": -0.046389566660149054,
+     "pose": {
+      "preset": "forehand:search-head",
+      "px": 0.09358207506192127,
+      "py": -1.5685111928199942,
+      "hipH": 0.8,
+      "yaw": -51.1439873122086,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -5.930301772426507,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": -0.13551055843909765,
+      "fhY": -0.3268568420731418,
+      "fhZ": -0.1986030453146051,
+      "freeSwivel": 73.51015144433228,
+      "racketAz": -83.17471293253536,
+      "racketEl": 39.61607894283604,
+      "racketRoll": 8.026532968609558,
+      "racketSwivel": 104.40648379702553,
+      "relFwd": 0.33,
+      "relLat": 0.12,
+      "relZ": 0.93825441895227,
+      "backToss": 0,
+      "tossAz": -15.258126502699156,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.09575251129703305,
+     "occ": -0.09574988024090908,
+     "clr": -0.09575251129703305,
+     "pose": {
+      "preset": "forehand:search-shoulder",
+      "px": 0.04999999999999999,
+      "py": -1.7335684331729528,
+      "hipH": 0.8,
+      "yaw": -78.63088303969687,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -15,
+      "headFlex": 33.912193280643486,
+      "headLat": -16.009100645187914,
+      "fhX": 0.09492171405637972,
+      "fhY": -0.21087792201995123,
+      "fhZ": -0.3403760821618285,
+      "freeSwivel": -10.483991621346455,
+      "racketAz": -137.246495894781,
+      "racketEl": 56.910016002088994,
+      "racketRoll": 6.008851508129567,
+      "racketSwivel": 110,
+      "relFwd": 0.35270607393901515,
+      "relLat": -0.12,
+      "relZ": 1.0520127135244755,
+      "backToss": 0,
+      "tossAz": 5.545919300801657,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.03457954195404735,
+     "occ": -0.03457954195404735,
+     "clr": 0.0068547207437304365,
+     "pose": {
+      "preset": "forehand:search-torso",
+      "px": 0.32604047544955544,
+      "py": -1.7862686215861039,
+      "hipH": 0.8,
+      "yaw": -54.98405740349226,
+      "lean": 35,
+      "sideLean": -4.876026116074267,
+      "twist": 21.16742167542249,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": 0.22356060418890755,
+      "fhY": -0.1532537606521381,
+      "fhZ": -0.24256890600157816,
+      "freeSwivel": 90,
+      "racketAz": -119.59309622946267,
+      "racketEl": 42.24897906414681,
+      "racketRoll": 71.80051387777564,
+      "racketSwivel": 71.65883840045016,
+      "relFwd": 0.33,
+      "relLat": -0.02076966455763242,
+      "relZ": 1.0252452894590538,
+      "backToss": 0,
+      "tossAz": 25.513445315796147,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    }
+   ]
+  },
+  {
+   "key": "hookVertical",
+   "nominalLegal": true,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.1004587263105838,
+     "occ": -0.1004587263105838,
+     "clr": -0.0767308154895337,
+     "pose": {
+      "preset": "hookVertical:search-head",
+      "px": -0.8768108569990833,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -78.90630295778584,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -5.479299722664877,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.2446513636508033,
+      "fhY": 0.12041239511135982,
+      "fhZ": -0.23611443343446759,
+      "freeSwivel": -19.734107271930387,
+      "racketAz": -7.064623464415263,
+      "racketEl": 0.19226003633835376,
+      "racketRoll": 34.030399383876926,
+      "racketSwivel": 88.36853713705037,
+      "relFwd": 0.36,
+      "relLat": 0.22,
+      "relZ": 0.9530902491218245,
+      "backToss": 0,
+      "tossAz": -18.708529711862788,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.09101555640046977,
+     "occ": -0.09101555640046977,
+     "clr": -0.0910135557747716,
+     "pose": {
+      "preset": "hookVertical:search-shoulder",
+      "px": -1.1,
+      "py": -1.5499999999999998,
+      "hipH": 0.8,
+      "yaw": -103.63385695104088,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 28.48941893136545,
+      "headLat": 19.429687766950288,
+      "fhX": -0.3641523143739226,
+      "fhY": -0.015083447425388419,
+      "fhZ": -0.40644275159490195,
+      "freeSwivel": 19.085753693239567,
+      "racketAz": -150.500274006366,
+      "racketEl": -36.78289272452232,
+      "racketRoll": -107.82433169728507,
+      "racketSwivel": 62.66136710355036,
+      "relFwd": 0.36,
+      "relLat": -0.01016846412516255,
+      "relZ": 1.002038358561848,
+      "backToss": 0,
+      "tossAz": -17.792644110902806,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "torso",
+     "found": false,
+     "margin": -0.05046850081035793,
+     "occ": -0.05046850081035793,
+     "clr": 0.07100841319330231,
+     "pose": {
+      "preset": "hookVertical:search-torso",
+      "px": -0.9994478661267338,
+      "py": -1.5367848340648622,
+      "hipH": 0.8,
+      "yaw": -84.74550062887482,
+      "lean": 35,
+      "sideLean": -5.806216385065062,
+      "twist": 30,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": -0.06570080353952962,
+      "fhY": -0.24980901710771214,
+      "fhZ": -0.4975116911208561,
+      "freeSwivel": 22.262089163242877,
+      "racketAz": -122.81289303338508,
+      "racketEl": 32.44406737644212,
+      "racketRoll": -36.4727128090596,
+      "racketSwivel": 86.74171338085257,
+      "relFwd": 0.36,
+      "relLat": -0.016047468054249628,
+      "relZ": 1.1197431789917034,
+      "backToss": 0,
+      "tossAz": -26.17218128091076,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    }
+   ]
+  },
+  {
+   "key": "hookBackward",
+   "nominalLegal": false,
+   "res": [
+    {
+     "target": "head",
+     "found": false,
+     "margin": -0.09301270382203375,
+     "occ": -0.09301270382203375,
+     "clr": -0.06477921020732717,
+     "pose": {
+      "preset": "hookBackward:search-head",
+      "px": -0.8790306895877851,
+      "py": -1.4,
+      "hipH": 0.8,
+      "yaw": -79.82734772531202,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -9.96601987816686,
+      "headFlex": 35,
+      "headLat": -20,
+      "fhX": 0.20391062131707516,
+      "fhY": 0.14166472350612003,
+      "fhZ": -0.2983092524179694,
+      "freeSwivel": 14.638373922914283,
+      "racketAz": -133.12739809102675,
+      "racketEl": 20.687884224999387,
+      "racketRoll": -53.582540082990676,
+      "racketSwivel": 84.26824459853013,
+      "relFwd": 0.5141049080090984,
+      "relLat": 0.22,
+      "relZ": 1.07063056282635,
+      "backToss": 0.2,
+      "tossAz": 30,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "shoulder",
+     "found": false,
+     "margin": -0.09058384719824622,
+     "occ": -0.09058384719824622,
+     "clr": -0.09053441415938784,
+     "pose": {
+      "preset": "hookBackward:search-shoulder",
+      "px": -1.0890935423709318,
+      "py": -1.5436432854725282,
+      "hipH": 0.8,
+      "yaw": -90.310346250533,
+      "lean": 35,
+      "sideLean": -10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": 9.217176703778641,
+      "fhX": -0.23191113440479566,
+      "fhY": -0.16557132267913727,
+      "fhZ": -0.1724311168497235,
+      "freeSwivel": -18.33427742213704,
+      "racketAz": -153.1310853639771,
+      "racketEl": 39.191721690763586,
+      "racketRoll": -62.111763135438395,
+      "racketSwivel": 73.67083269165784,
+      "relFwd": 0.4876503301614857,
+      "relLat": -0.01999999999999999,
+      "relZ": 0.9529647898257703,
+      "backToss": 0.2,
+      "tossAz": 16.198486301224065,
+      "apex": 0.3,
+      "contactZ": 1
+     }
+    },
+    {
+     "target": "torso",
+     "found": true,
+     "margin": 0.0020851819841304527,
+     "occ": 0.002089448192907176,
+     "clr": 0.0020851819841304527,
+     "pose": {
+      "preset": "hookBackward:search-torso",
+      "px": -0.75,
+      "py": -1.5499999999999998,
+      "hipH": 0.8104005901617655,
+      "yaw": -105,
+      "lean": 35,
+      "sideLean": 10,
+      "twist": -10,
+      "headFlex": 35,
+      "headLat": 20,
+      "fhX": 0.09030992077386746,
+      "fhY": 0.43700717632613495,
+      "fhZ": -0.13668804700288423,
+      "freeSwivel": -11.691992587378188,
+      "racketAz": -172.05027391886023,
+      "racketEl": 21.374631805355186,
+      "racketRoll": -116.13874164489883,
+      "racketSwivel": 103.50393462596026,
+      "relFwd": 0.360008482964474,
+      "relLat": 0.07544293165322426,
+      "relZ": 1.0568518909367663,
+      "backToss": 0.2,
+      "tossAz": 5.582657968345373,
+      "apex": 0.3,
+      "contactZ": 0.8717737726057406
+     }
+    }
+   ]
+  }
+ ],
+ "stance": [
+  {
+   "name": "typical",
+   "torso": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.7205,
+     -1.6128,
+     0.8162
+    ],
+    "ball": [
+     0.9318,
+     -1.8267,
+     1.0413
+    ],
+    "releasePoint": [
+     1.0399,
+     -1.8245,
+     0.9137
+    ],
+    "freeHand": [
+     1.2583,
+     -1.7758,
+     0.7316
+    ],
+    "freeElbow": [
+     1.2893,
+     -1.504,
+     0.9539
+    ],
+    "freeShoulder": [
+     1.1009,
+     -1.5436,
+     1.1969
+    ],
+    "head": [
+     1.1786,
+     -1.8293,
+     1.2769
+    ],
+    "torsoYaw": -90,
+    "torsoLean": 35.08,
+    "headLean": 45,
+    "headLateral": 10.11,
+    "backwardToss": 0.108,
+    "tossLaunchAngleDeg": 5.85,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1266,
+    "deltaBallMinusFreeHand_m": -0.0619,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.72055,
+     "py": -1.6128,
+     "hipH": 0.81623,
+     "yaw": -90,
+     "lean": 35.07516,
+     "sideLean": 10,
+     "twist": -30,
+     "headFlex": 45,
+     "headLat": 10.10731,
+     "fhX": -0.01163,
+     "fhY": 0.41976,
+     "fhZ": -0.20633,
+     "freeSwivel": 80.62401,
+     "racketAz": -72.89021,
+     "racketEl": 29.84977,
+     "racketRoll": 29.50355,
+     "racketSwivel": 109.32933,
+     "relFwd": 0.31931,
+     "relLat": 0.21166,
+     "relZ": 0.91371,
+     "backToss": 0.10805,
+     "tossAz": 1.1839,
+     "apex": 0.3,
+     "contactZ": 1.0413
+    }
+   },
+   "torsoInside": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.4628,
+     -1.7953,
+     0.8012
+    ],
+    "ball": [
+     0.6927,
+     -1.9957,
+     0.9849
+    ],
+    "releasePoint": [
+     0.7137,
+     -1.9836,
+     1.15
+    ],
+    "freeHand": [
+     0.9511,
+     -2.1827,
+     0.845
+    ],
+    "freeElbow": [
+     1.0363,
+     -1.845,
+     0.8998
+    ],
+    "freeShoulder": [
+     0.8934,
+     -1.6574,
+     1.101
+    ],
+    "head": [
+     1.0353,
+     -1.8664,
+     1.1696
+    ],
+    "torsoYaw": -90,
+    "torsoLean": 45,
+    "headLean": 45,
+    "headLateral": -10.83,
+    "backwardToss": 0.0243,
+    "tossLaunchAngleDeg": 1.03,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.117,
+    "deltaBallMinusFreeHand_m": -0.2438,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.46278,
+     "py": -1.79526,
+     "hipH": 0.80118,
+     "yaw": -90,
+     "lean": 45,
+     "sideLean": 2.49498,
+     "twist": -30,
+     "headFlex": 45,
+     "headLat": -10.83105,
+     "fhX": 0.2684,
+     "fhY": 0.41756,
+     "fhZ": -0.09512,
+     "freeSwivel": 54.48204,
+     "racketAz": -157.56057,
+     "racketEl": -12.30297,
+     "racketRoll": -75.36486,
+     "racketSwivel": 98.87015,
+     "relFwd": 0.25096,
+     "relLat": 0.18834,
+     "relZ": 1.15,
+     "backToss": 0.02428,
+     "tossAz": 30,
+     "apex": 0.3,
+     "contactZ": 0.98486
+    }
+   },
+   "head": {
+    "preset": "backhand:search-head",
+    "serverPosition": [
+     -0.4024,
+     -1.5725,
+     0.8022
+    ],
+    "ball": [
+     -0.95,
+     -1.5224,
+     1.0995
+    ],
+    "releasePoint": [
+     -0.95,
+     -1.5224,
+     1.005
+    ],
+    "freeHand": [
+     -0.5804,
+     -1.7191,
+     1.2114
+    ],
+    "freeElbow": [
+     -0.9211,
+     -1.6719,
+     1.1344
+    ],
+    "freeShoulder": [
+     -0.705,
+     -1.4778,
+     1.2424
+    ],
+    "head": [
+     -0.8467,
+     -1.1983,
+     1.1574
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 45,
+    "headLean": 44.5,
+    "headLateral": 20,
+    "backwardToss": 0,
+    "tossLaunchAngleDeg": 0,
+    "leftEyeVisibility": "BLOCKED BY head",
+    "rightEyeVisibility": "BLOCKED BY head",
+    "hiddenBy": [
+     "head"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0754,
+    "deltaBallMinusFreeHand_m": -0.08,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-head",
+     "px": -0.40239,
+     "py": -1.57252,
+     "hipH": 0.80216,
+     "yaw": 60,
+     "lean": 45,
+     "sideLean": 10,
+     "twist": 30,
+     "headFlex": 44.49928,
+     "headLat": 20,
+     "fhX": -0.16645,
+     "fhY": 0.01955,
+     "fhZ": -0.16793,
+     "freeSwivel": 73.69525,
+     "racketAz": 108.32689,
+     "racketEl": 59.88557,
+     "racketRoll": 135.97157,
+     "racketSwivel": 13.70432,
+     "relFwd": 0.4993,
+     "relLat": -0.23039,
+     "relZ": 1.00503,
+     "backToss": 0,
+     "tossAz": -12.98148,
+     "apex": 0.3,
+     "contactZ": 1.0995
+    }
+   },
+   "shoulder": {
+    "preset": "backhand:search-shoulder",
+    "serverPosition": [
+     -0.5421,
+     -1.5722,
+     0.8056
+    ],
+    "ball": [
+     -0.9497,
+     -1.5262,
+     1.0534
+    ],
+    "releasePoint": [
+     -1.0226,
+     -1.5174,
+     0.9369
+    ],
+    "freeHand": [
+     -1.0453,
+     -2.1326,
+     0.898
+    ],
+    "freeElbow": [
+     -0.9118,
+     -1.8457,
+     1.0531
+    ],
+    "freeShoulder": [
+     -0.8855,
+     -1.5892,
+     1.2253
+    ],
+    "head": [
+     -1.0793,
+     -1.4429,
+     1.2039
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 45,
+    "headLean": 45,
+    "headLateral": -18.25,
+    "backwardToss": 0.0734,
+    "tossLaunchAngleDeg": 3.93,
+    "leftEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "rightEyeVisibility": "BLOCKED BY racket shoulder (deltoid)",
+    "hiddenBy": [
+     "shoulder",
+     "racketArm"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0444,
+    "deltaBallMinusFreeHand_m": -0.6235,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulder",
+     "px": -0.54215,
+     "py": -1.57216,
+     "hipH": 0.80563,
+     "yaw": 60,
+     "lean": 45,
+     "sideLean": -2.97322,
+     "twist": 30,
+     "headFlex": 45,
+     "headLat": -18.25213,
+     "fhX": -0.3609,
+     "fhY": 0.33948,
+     "fhZ": -0.26713,
+     "freeSwivel": 65.47965,
+     "racketAz": 78.21009,
+     "racketEl": 55.48656,
+     "racketRoll": 153.74806,
+     "racketSwivel": -5.5372,
+     "relFwd": 0.44346,
+     "relLat": -0.19279,
+     "relZ": 0.93692,
+     "backToss": 0.07342,
+     "tossAz": 23.12272,
+     "apex": 0.3,
+     "contactZ": 1.05338
+    }
+   },
+   "margins": [
+    0.1062248692876132,
+    0.09700662248926406,
+    0.05536670707521065,
+    0.02440849711498323
+   ]
+  },
+  {
+   "name": "common",
+   "torso": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.716,
+     -1.6906,
+     0.8
+    ],
+    "ball": [
+     0.9368,
+     -1.9958,
+     1
+    ],
+    "releasePoint": [
+     1.0252,
+     -1.9962,
+     1.0826
+    ],
+    "freeHand": [
+     1.1183,
+     -2.0279,
+     0.8518
+    ],
+    "freeElbow": [
+     1.2711,
+     -1.725,
+     0.9474
+    ],
+    "freeShoulder": [
+     1.0958,
+     -1.6214,
+     1.1812
+    ],
+    "head": [
+     1.2095,
+     -1.8285,
+     1.2792
+    ],
+    "torsoYaw": -90,
+    "torsoLean": 35,
+    "headLean": 34.85,
+    "headLateral": -14.85,
+    "backwardToss": 0.0884,
+    "tossLaunchAngleDeg": 3.96,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1181,
+    "deltaBallMinusFreeHand_m": -0.0895,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.71596,
+     "py": -1.69063,
+     "hipH": 0.8,
+     "yaw": -90,
+     "lean": 35,
+     "sideLean": 10,
+     "twist": -30,
+     "headFlex": 34.84623,
+     "headLat": -14.85208,
+     "fhX": 0.19807,
+     "fhY": 0.37511,
+     "fhZ": -0.15327,
+     "freeSwivel": 61.84237,
+     "racketAz": -64.44995,
+     "racketEl": 47.99684,
+     "racketRoll": -0.24888,
+     "racketSwivel": 106.70351,
+     "relFwd": 0.30925,
+     "relLat": 0.30561,
+     "relZ": 1.08257,
+     "backToss": 0.08844,
+     "tossAz": -0.26733,
+     "apex": 0.3,
+     "contactZ": 1
+    }
+   },
+   "torsoInside": {
+    "preset": "backhand:search-torso",
+    "serverPosition": [
+     0.5533,
+     -1.6761,
+     0.8049
+    ],
+    "ball": [
+     0.7478,
+     -1.9097,
+     0.987
+    ],
+    "releasePoint": [
+     0.8033,
+     -1.8783,
+     1.1306
+    ],
+    "freeHand": [
+     0.8925,
+     -1.9251,
+     0.7699
+    ],
+    "freeElbow": [
+     0.9542,
+     -1.5937,
+     0.873
+    ],
+    "freeShoulder": [
+     0.9296,
+     -1.5702,
+     1.1811
+    ],
+    "head": [
+     1.0388,
+     -1.8024,
+     1.3006
+    ],
+    "torsoYaw": -90,
+    "torsoLean": 35,
+    "headLean": 35,
+    "headLateral": -3.04,
+    "backwardToss": 0.0637,
+    "tossLaunchAngleDeg": 2.74,
+    "leftEyeVisibility": "BLOCKED BY torso",
+    "rightEyeVisibility": "BLOCKED BY torso",
+    "hiddenBy": [
+     "torso"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.1065,
+    "deltaBallMinusFreeHand_m": -0.0681,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-torso",
+     "px": 0.55329,
+     "py": -1.67609,
+     "hipH": 0.80494,
+     "yaw": -90,
+     "lean": 35,
+     "sideLean": 6.01271,
+     "twist": -30,
+     "headFlex": 35,
+     "headLat": -3.03899,
+     "fhX": 0.15882,
+     "fhY": 0.32636,
+     "fhZ": -0.29683,
+     "freeSwivel": 9.40202,
+     "racketAz": -80.25405,
+     "racketEl": 10.47576,
+     "racketRoll": -28.93244,
+     "racketSwivel": 95.90261,
+     "relFwd": 0.25,
+     "relLat": 0.20225,
+     "relZ": 1.13064,
+     "backToss": 0.06373,
+     "tossAz": 29.49672,
+     "apex": 0.3,
+     "contactZ": 0.98701
+    }
+   },
+   "head": {
+    "preset": "backhand:search-head",
+    "serverPosition": [
+     -1.0178,
+     -1.4,
+     0.8
+    ],
+    "ball": [
+     -0.6944,
+     -1.8292,
+     1
+    ],
+    "releasePoint": [
+     -0.4841,
+     -1.6152,
+     1.1466
+    ],
+    "freeHand": [
+     -0.7285,
+     -1.5634,
+     0.9023
+    ],
+    "freeElbow": [
+     -0.7697,
+     -1.2143,
+     0.8767
+    ],
+    "freeShoulder": [
+     -0.7719,
+     -1.0641,
+     1.1479
+    ],
+    "head": [
+     -0.5768,
+     -1.1372,
+     1.273
+    ],
+    "torsoYaw": -74.5,
+    "torsoLean": 35,
+    "headLean": 35,
+    "headLateral": -20,
+    "backwardToss": 0.3,
+    "tossLaunchAngleDeg": 12.69,
+    "leftEyeVisibility": "BLOCKED BY racket forearm",
+    "rightEyeVisibility": "BLOCKED BY racket forearm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.0596,
+    "deltaBallMinusFreeHand_m": 0.2419,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-head",
+     "px": -1.0178,
+     "py": -1.4,
+     "hipH": 0.8,
+     "yaw": -74.49746,
+     "lean": 35,
+     "sideLean": -10,
+     "twist": -21.58931,
+     "headFlex": 35,
+     "headLat": -20,
+     "fhX": 0.29731,
+     "fhY": 0.20495,
+     "fhZ": -0.31708,
+     "freeSwivel": -3.67114,
+     "racketAz": 1.737,
+     "racketEl": -7.01218,
+     "racketRoll": -95.80264,
+     "racketSwivel": 100.36422,
+     "relFwd": 0.45672,
+     "relLat": 0.35,
+     "relZ": 1.14665,
+     "backToss": 0.3,
+     "tossAz": 30,
+     "apex": 0.3,
+     "contactZ": 1
+    }
+   },
+   "shoulder": {
+    "preset": "backhand:search-shoulder",
+    "serverPosition": [
+     -0.6666,
+     -1.5688,
+     0.8
+    ],
+    "ball": [
+     -0.9498,
+     -1.5191,
+     1
+    ],
+    "releasePoint": [
+     -1.0495,
+     -1.5191,
+     0.9058
+    ],
+    "freeHand": [
+     -1.1817,
+     -1.7226,
+     1.0471
+    ],
+    "freeElbow": [
+     -0.832,
+     -1.6803,
+     1.0339
+    ],
+    "freeShoulder": [
+     -0.8989,
+     -1.5147,
+     1.2873
+    ],
+    "head": [
+     -1.0576,
+     -1.2747,
+     1.3113
+    ],
+    "torsoYaw": 60,
+    "torsoLean": 35,
+    "headLean": 33.65,
+    "headLateral": -0.64,
+    "backwardToss": 0.0997,
+    "tossLaunchAngleDeg": 5.2,
+    "leftEyeVisibility": "BLOCKED BY racket upper arm",
+    "rightEyeVisibility": "BLOCKED BY racket upper arm",
+    "hiddenBy": [
+     "racketArm"
+    ],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": -0.0163,
+    "deltaBallMinusFreeHand_m": -0.25,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-shoulder",
+     "px": -0.66664,
+     "py": -1.56884,
+     "hipH": 0.8,
+     "yaw": 60,
+     "lean": 35,
+     "sideLean": 10,
+     "twist": 30,
+     "headFlex": 33.65435,
+     "headLat": -0.63532,
+     "fhX": -0.10529,
+     "fhY": 0.28555,
+     "fhZ": -0.20487,
+     "freeSwivel": 49.1052,
+     "racketAz": 58.75084,
+     "racketEl": 57.94921,
+     "racketRoll": 157.27793,
+     "racketSwivel": 11.21297,
+     "relFwd": 0.35645,
+     "relLat": -0.14838,
+     "relZ": 0.90578,
+     "backToss": 0.09974,
+     "tossAz": 30,
+     "apex": 0.3,
+     "contactZ": 1
+    }
+   },
+   "margins": [
+    0.09792847003247189,
+    0.0861482207352575,
+    -0.08017741009558364,
+    -0.036343610145356524
+   ]
+  }
+ ],
+ "pendulum": [
+  {
+   "label": "standard pendulum racket path",
+   "margin": -0.020000574683998934,
+   "found": false,
+   "closest": [
+    [
+     "torso",
+     -0.020000574683998934
+    ],
+    [
+     "racket",
+     -0.06911896337925219
+    ]
+   ],
+   "pose": {
+    "preset": "backhand:search-anyBody",
+    "serverPosition": [
+     -0.7811,
+     -1.7229,
+     0.818
+    ],
+    "ball": [
+     -0.6167,
+     -1.6222,
+     1.0164
+    ],
+    "releasePoint": [
+     -0.4501,
+     -1.5588,
+     1.0379
+    ],
+    "freeHand": [
+     -1.1737,
+     -1.4563,
+     0.9907
+    ],
+    "freeElbow": [
+     -0.8219,
+     -1.4775,
+     0.9822
+    ],
+    "freeShoulder": [
+     -0.7003,
+     -1.4214,
+     1.2617
+    ],
+    "head": [
+     -0.5266,
+     -1.5341,
+     1.4314
+    ],
+    "torsoYaw": -65,
+    "torsoLean": 15.06,
+    "headLean": 42.43,
+    "headLateral": -8.71,
+    "backwardToss": 0.1783,
+    "tossLaunchAngleDeg": 8.31,
+    "leftEyeVisibility": "VISIBLE",
+    "rightEyeVisibility": "VISIBLE",
+    "hiddenBy": [],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": 0.0009,
+    "deltaBallMinusFreeHand_m": 0.0644,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-anyBody",
+     "px": -0.78108,
+     "py": -1.72285,
+     "hipH": 0.81801,
+     "yaw": -65.00143,
+     "lean": 15.06385,
+     "sideLean": -8.2626,
+     "twist": -25.07169,
+     "headFlex": 42.42794,
+     "headLat": -8.71047,
+     "fhX": -0.03982,
+     "fhY": -0.32662,
+     "fhZ": -0.33655,
+     "freeSwivel": -15.59997,
+     "racketAz": -119.73646,
+     "racketEl": 25.93566,
+     "racketRoll": -6.72863,
+     "racketSwivel": 55.72229,
+     "relFwd": 0.36935,
+     "relLat": -0.00884,
+     "relZ": 1.0379,
+     "backToss": 0.17831,
+     "tossAz": -4.14,
+     "apex": 0.3,
+     "contactZ": 1.01643
+    }
+   }
+  },
+  {
+   "label": "wider racket path (blade more from the side/behind)",
+   "margin": 0.03733175270428998,
+   "found": true,
+   "closest": [
+    [
+     "racketArm",
+     0.03733175270428998
+    ],
+    [
+     "racket",
+     0.009246097904362548
+    ]
+   ],
+   "pose": {
+    "preset": "backhand:search-anyBody",
+    "serverPosition": [
+     -1.1,
+     -1.6236,
+     0.8236
+    ],
+    "ball": [
+     -0.95,
+     -1.5779,
+     0.8
+    ],
+    "releasePoint": [
+     -0.7933,
+     -1.39,
+     0.8675
+    ],
+    "freeHand": [
+     -1.5098,
+     -1.4124,
+     1.0411
+    ],
+    "freeElbow": [
+     -1.2659,
+     -1.1616,
+     1.0843
+    ],
+    "freeShoulder": [
+     -1.0587,
+     -1.3077,
+     1.2627
+    ],
+    "head": [
+     -0.8148,
+     -1.3559,
+     1.4057
+    ],
+    "torsoYaw": -65.03,
+    "torsoLean": 21.61,
+    "headLean": 37.33,
+    "headLateral": -0.95,
+    "backwardToss": 0.2446,
+    "tossLaunchAngleDeg": 10.95,
+    "leftEyeVisibility": "BLOCKED BY racket forearm",
+    "rightEyeVisibility": "BLOCKED BY racket forearm",
+    "hiddenBy": [
+     "racketArm",
+     "racket"
+    ],
+    "freeArmLegal": true,
+    "freeArmMinClearance_m": 0.0697,
+    "deltaBallMinusFreeHand_m": 0.0554,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-anyBody",
+     "px": -1.1,
+     "py": -1.62355,
+     "hipH": 0.82359,
+     "yaw": -65.03067,
+     "lean": 21.61203,
+     "sideLean": -9.78141,
+     "twist": 0.92289,
+     "headFlex": 37.32662,
+     "headLat": -0.95482,
+     "fhX": -0.1867,
+     "fhY": -0.26108,
+     "fhZ": -0.30423,
+     "freeSwivel": 68.36548,
+     "racketAz": -141.67372,
+     "racketEl": -30,
+     "racketRoll": 81.85146,
+     "racketSwivel": 103.45117,
+     "relFwd": 0.37658,
+     "relLat": -0.08224,
+     "relZ": 0.86755,
+     "backToss": 0.24462,
+     "tossAz": 25.20996,
+     "apex": 0.3,
+     "contactZ": 0.8
+    }
+   }
+  },
+  {
+   "label": "for contrast: shoulder line free to turn away (twist ±30° on top of the stance)",
+   "margin": -0.01984108638843233,
+   "found": false,
+   "closest": [
+    [
+     "torso",
+     -0.01984108638843233
+    ],
+    [
+     "racket",
+     -0.06911896337925225
+    ]
+   ],
+   "pose": {
+    "preset": "backhand:search-anyBody",
+    "serverPosition": [
+     -1.0854,
+     -1.6563,
+     0.8
+    ],
+    "ball": [
+     -0.8733,
+     -1.725,
+     1.0905
+    ],
+    "releasePoint": [
+     -0.7937,
+     -1.7377,
+     1.0518
+    ],
+    "freeHand": [
+     -0.7249,
+     -1.5985,
+     0.974
+    ],
+    "freeElbow": [
+     -1.0539,
+     -1.4787,
+     1.0148
+    ],
+    "freeShoulder": [
+     -0.9239,
+     -1.5041,
+     1.295
+    ],
+    "head": [
+     -0.7648,
+     -1.6811,
+     1.4047
+    ],
+    "torsoYaw": -71.22,
+    "torsoLean": 13.47,
+    "headLean": 44.84,
+    "headLateral": -10.75,
+    "backwardToss": 0.0807,
+    "tossLaunchAngleDeg": 3.98,
+    "leftEyeVisibility": "VISIBLE",
+    "rightEyeVisibility": "VISIBLE",
+    "hiddenBy": [],
+    "freeArmLegal": false,
+    "freeArmMinClearance_m": 0.0002,
+    "deltaBallMinusFreeHand_m": 0.1457,
+    "settings": {
+     "recvX": 0,
+     "recvDist": 0.55,
+     "eyeH": 1.45,
+     "ipd": 0.063,
+     "criterion": "both",
+     "wholeBall": false,
+     "halfSpan": 0.9149999999999999,
+     "floor": "hull",
+     "margin": 0.02
+    },
+    "params": {
+     "preset": "backhand:search-anyBody",
+     "px": -1.08541,
+     "py": -1.6563,
+     "hipH": 0.8,
+     "yaw": -71.22223,
+     "lean": 13.46654,
+     "sideLean": 8.1717,
+     "twist": -25.99783,
+     "headFlex": 44.8393,
+     "headLat": -10.75119,
+     "fhX": 0.05281,
+     "fhY": 0.1996,
+     "fhZ": -0.26524,
+     "freeSwivel": -10.45266,
+     "racketAz": -119.31018,
+     "racketEl": 10.50828,
+     "racketRoll": -20.59719,
+     "racketSwivel": 96.07906,
+     "relFwd": 0.25,
+     "relLat": 0.17096,
+     "relZ": 1.05184,
+     "backToss": 0.08068,
+     "tossAz": -27.85315,
+     "apex": 0.3,
+     "contactZ": 1.09053
+    }
+   }
+  }
+ ]
+}
