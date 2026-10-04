@@ -4,6 +4,10 @@
 
 所有判定都来自解析几何（半空间、射线/胶囊体/椭球体求交、到凸多面体的精确有符号距离），没有任何 AI / CV 判定；每个 “遮挡/合法” 结论都能还原成一条明确的几何关系。
 
+在线使用：[GitHub Pages](https://readandchedan.github.io/ittf-hidden-serve/) · [Sites](https://ittf-hidden-serve.sonny-cid.chatgpt.site)。
+
+GitHub Pages 在每次推送到 `main` 后自动检查、构建并发布。项目无需后端；`npm run build` 生成的 `dist/` 可用于其他静态托管。
+
 ```bash
 npm install
 npm run dev          # http://localhost:5173
@@ -883,4 +887,3 @@ Preset E（回抛 20 cm）原样，接收者视角、击球瞬间：free 上臂�
 ### 一句话
 
 在本模型的现实范围内，free arm 严格遵守 2.6.5 之后仍然可以挡住球，而且不止头一种：**持拍上臂最稳健**（反手类站位，常见低发球范围内也成立）；**躯干余量最大，但需要上半身背对接发球员、在端线后半米左右击球**；**头与持拍侧肩需要反手站位 + 深弯腰 + 击球点 ≥ ~1.05 m**，常见低发球范围内 *No counterexample was found within the modeled parameter range*；**free-side 肩基本被 2.6.5 连带排除**；**传统 pendulum 贴身发球**用标准拍路时没有找到反例，只有放宽拍路、把击球压到极低（0.80 m）时持拍前臂才挡得住。回抛不是必要条件：它在钩手站位里扩大了躯干遮挡、缩小了头遮挡、对肩没有帮助，并且让 2.6.5 本身更难满足。
-
