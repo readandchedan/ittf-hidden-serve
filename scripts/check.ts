@@ -1,5 +1,6 @@
 // Self-check of the geometry core: `npm run check`. Fails loudly (assert) if any invariant breaks.
 import assert from 'node:assert/strict';
+import { L, lang, setLang } from '../src/i18n';
 import { DIM } from '../src/body';
 import {
   boxDepth, dist, inVolume, lerp, makeVolume, NET_TOP, occlusion, pointClearance, POST_OUT, rng, sdSegment, sdVolume, segmentHitsVolume,
@@ -99,4 +100,9 @@ for (const { pose } of Object.values(PRESETS)) {
   }
 }
 
-console.log('geometry self-check passed');
+assert.equal(lang, 'zh', 'each visit starts in Chinese');
+assert.equal(L('English', '中文'), '中文');
+setLang('en');
+assert.equal(L('English', '中文'), 'English');
+setLang('zh');
+console.log('geometry and language self-check passed');

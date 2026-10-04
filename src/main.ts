@@ -621,6 +621,23 @@ function applyStatic() {
   document.title = L('Hidden Serve Geometry', '发球遮挡几何实验');
   const set = (id: string, en: string, zh: string) => ($(id).textContent = L(en, zh));
   set('brand', 'Hidden-serve geometry lab', '发球遮挡几何实验');
+  set('about', 'Rules & purpose', '规则与目标');
+  set('intro-title', 'What does this simulator test?', '这个模拟器在验证什么？');
+  set('intro-question', 'Can the ball still be hidden by other body parts after the free arm has left the required space?',
+    '非持拍臂完全移出规定空间后，球还能被身体其他部位挡住吗？');
+  set('intro-arm-title', '2.6.5 · Remove the entire free arm and hand', '2.6.5 · 整个非持拍臂及手必须退出');
+  set('intro-arm', 'As soon as the ball is tossed, the entire non-racket arm and hand must be removed from the space between the ball and the net. Moving only the hand is not enough.',
+    '球一抛出，整个非持拍臂（上臂、前臂）及手就必须移出球与球网之间的规定空间。只移开手掌还不够。');
+  set('intro-space', 'In this model, the space looks triangular from above, joining the ball to both ends of the net. It is a 3D volume that includes the net’s unlimited upward extension, shown in red.',
+    '本模型中，这个空间俯视呈三角形，由球和球网两端界定；实际是包含球网无限向上延伸的三维空间，在图中以红色表示。');
+  set('intro-visibility-title', '2.6.4 · The ball must remain visible to the receiver', '2.6.4 · 球必须始终对接发球员可见');
+  set('intro-visibility', 'From the start of service until contact, the server, doubles partner, and anything they wear or carry must not hide the ball from the receiver. Clearing the free arm does not automatically satisfy this separate requirement.',
+    '从发球开始到击球，发球员、双打搭档及其穿戴或携带的物品都不能遮住接发球员看球的视线。非持拍臂退出空间，不代表头、躯干或持拍臂也不会遮挡球。');
+  set('intro-model', 'This independent geometric model is based on ITTF Laws 2.6.4 and 2.6.5, with adjustable boundary and visibility assumptions. It is not an official ITTF ruling. The initial view checks contact; use the timeline and whole-toss search to examine the motion.',
+    '本工具依据 ITTF 2.6.4 / 2.6.5 建立可检查的几何模型，空间边界与可见性判据可调，并非 ITTF 官方判罚工具。初始画面检查击球瞬间；可结合时间轴和全过程搜索查看发球过程。');
+  set('intro-source', 'Read ITTF Statutes 2026 · Laws 2.6.4 / 2.6.5', '查看 ITTF 2026 规则原文 · 2.6.4 / 2.6.5');
+  set('intro-start', 'Explore the simulator', '开始探索');
+  set('intro-lang', '中文', 'English');
   set('reset', '↺ Reset', '↺ 重置');
   $('reset').title = L('Back to the default pose (backhand corner, game position)', '恢复默认姿态（反手位、比赛站位）');
   set('tl0', 'release', '出手'); set('tl1', 'contact', '击球');
@@ -653,10 +670,14 @@ function applyLanguage() {
 }
 $('reset').onclick = () => loadPose({ ...PRESETS.backhand.pose }, null, 'backhand');
 $('lang').onclick = () => { setLang(lang === 'zh' ? 'en' : 'zh'); applyLanguage(); };
+$('intro-lang').onclick = $('lang').onclick;
+const intro = $('intro-dlg') as HTMLDialogElement;
+$('about').onclick = () => intro.showModal();
 
 applyStatic();
 buildGui();
 renderPresets();
 update();
 render();
+intro.showModal();
 Object.assign(window, { S, update, loadPose, poseJSON, setView, cam, controls, applyLanguage, setLang }); // console access for reproducibility

@@ -1,10 +1,9 @@
 // English ⇄ 中文. `L(en, zh)` for inline text, `tr(en)` for labels defined elsewhere (parts, presets, controls),
-// `trIssue` for pose-check messages. The chosen language is a per-viewer convenience kept in localStorage.
+// `trIssue` for pose-check messages. Each visit starts in Chinese; switching applies to the current page.
 export type Lang = 'en' | 'zh';
-export let lang: Lang = (() => { try { return localStorage.getItem('lang') === 'zh' ? 'zh' : 'en'; } catch { return 'en'; } })();
+export let lang: Lang = 'zh';
 export function setLang(l: Lang) {
   lang = l;
-  try { localStorage.setItem('lang', l); } catch { /* private mode: ignore */ }
 }
 export const L = (en: string, zh: string) => (lang === 'zh' ? zh : en);
 
